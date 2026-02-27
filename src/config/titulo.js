@@ -1,1 +1,1 @@
-module.exports = 'Titulo del componente formativo'
+module.exports = 'Buenas Prácticas de Manufactura en la Cocina Colombiana'

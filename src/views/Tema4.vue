@@ -43,7 +43,7 @@
           span Etapas del manejo higiénico de los alimentos
 
         figure.mb-4
-          img(src='@/assets/curso/temas/tema4/img03.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
+          img(src='@/assets/curso/temas/tema4/img03.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
           img(src='@/assets/curso/temas/tema4/img04.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
 
         figcaption 
@@ -60,7 +60,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-6.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
-                  img(src="@/assets/curso/temas/tema4/img06.svg", alt="Cocinero trabajando")
+                  img(src="@/assets/curso/temas/tema4/img06.png", alt="Cocinero trabajando")
               .col-lg-8(data-aos="fade-left")
                 .bg-color-14.p-4
                   p.mb-0 En conclusión, identificar y aplicar los procedimientos para el manejo higiénico de los alimentos permite desarrollar una actitud preventiva, profesional y responsable frente a la manipulación de materias primas. Este conocimiento se convierte en una herramienta esencial para asegurar que la calidad, el sabor y la seguridad vayan siempre de la mano en la práctica gastronómica.
@@ -293,7 +293,7 @@
             .row.mb-0.justify-content-center.align-items-center
               .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
                 figure
-                  img(src="@/assets/curso/temas/tema4/img25.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/temas/tema4/img25.png", data-aos="zoom-in")
               .col-lg-9
                 p.mb-0(data-aos="fade-right") Asimismo, es fundamental identificar que los procesos térmicos no solo incluyen la cocción, sino también el mantenimiento en caliente y el enfriamiento seguro. Los alimentos listos para servir deben conservarse a temperaturas superiores a 60 °C para evitar la proliferación bacteriana. De igual manera, cuando se requiere enfriar preparaciones como sopas, sancochos o guisos, este proceso debe realizarse rápidamente, pasando de 60 °C a 21 °C en un máximo de dos horas y luego a 4 °C en un tiempo no mayor a cuatro horas, evitando la llamada “zona de peligro” (entre 5 °C y 60 °C).
 
@@ -538,7 +538,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-2.col-md-6.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema4/img43.svg", alt="Guía de referencia").mx-auto
+              img(src="@/assets/curso/temas/tema4/img43.png", alt="Guía de referencia").mx-auto
           .col-lg-10
             p.mb-0 Los equipos complejos, como picadoras de carne, licuadoras industriales o batidoras deben poder desmontarse fácilmente mediante herramientas sencillas, con el fin de realizar una limpieza profunda de todas sus partes. Esta característica es fundamental para evitar que restos de alimentos se queden atrapados en zonas internas y se conviertan en focos de contaminación. La imposibilidad de desmontar un equipo constituye una limitación sanitaria importante, incluso si el equipo funciona correctamente desde el punto de vista mecánico.
 

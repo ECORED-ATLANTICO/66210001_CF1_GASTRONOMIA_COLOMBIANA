@@ -13,7 +13,7 @@
         .row.justify-content-center.align-items-center
           .col-12.col-md-12.col-lg-2.col-md-4.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img01.svg", alt="Chef en cocina")
+              img(src="@/assets/curso/temas/tema2/img01.png", alt="Chef en cocina")
           .col-lg-10
             p.mb-0 Una vez identificado el marco legal que regula la inocuidad alimentaria, el siguiente paso consiste en comprender la esencia, el propósito y el alcance de las Buenas Prácticas de Manufactura (BPM), así como reconocer los principales peligros que estas buscan prevenir y controlar. Este capítulo se orienta a que el aprendiz identifique con claridad qué son las BPM, en qué contextos se aplican y por qué constituyen un eje fundamental dentro de cualquier sistema de calidad e higiene en la preparación de alimentos.
 
@@ -68,7 +68,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-3.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img06.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema2/img06.png", data-aos="zoom-in")
           .col-lg-9
             p.mb-0(data-aos="fade-right") Desde una perspectiva operativa, las BPM tienen varios objetivos específicos, entre los cuales se destacan: garantizar condiciones higiénicas adecuadas en las áreas de preparación, disminuir la presencia de microorganismos patógenos, controlar los factores ambientales que favorecen la contaminación, estandarizar los procedimientos de trabajo y fortalecer la capacitación del personal manipulador. Estos objetivos permiten que la inocuidad alimentaria sea un componente permanente del proceso gastronómico y no una medida ocasional. Para identificar sus principios fundamentales, las BPM pueden desglosarse en cuatro pilares básicos.
 
@@ -172,7 +172,7 @@
                 .row.justify-content-center.align-items-center
                   .col-lg-3.mb-3.mb-lg-0
                     figure
-                      img(src="@/assets/curso/temas/tema2/img14.svg", data-aos="zoom-in")
+                      img(src="@/assets/curso/temas/tema2/img14.png", data-aos="zoom-in")
                   .col-lg-9
                     p.mb-0(data-aos="fade-left") Identificar este amplio ámbito de aplicación permite al aprendiz comprender que las BPM son universales, pero al mismo tiempo flexibles y adaptables a cada realidad operativa. Su implementación no depende exclusivamente de contar con equipos sofisticados, sino de adoptar hábitos correctos, aplicar procedimientos básicos de limpieza y desinfección, organizar adecuadamente los espacios y asumir una actitud responsable frente a la salud del consumidor.
 
@@ -295,7 +295,7 @@
           h5 Figura 3.
           span Identificación de los tipos de contaminación
         figure.mb-0
-          img(src="@/assets/curso/temas/tema2/img22.svg", alt="Identificación de los tipos de contaminación").d-none.d-lg-block.d-md-block
+          img(src="@/assets/curso/temas/tema2/img22.png", alt="Identificación de los tipos de contaminación").d-none.d-lg-block.d-md-block
           img(src="@/assets/curso/temas/tema2/img22m.png", alt="Identificación de los tipos de contaminación").d-block.d-lg-none.d-md-none
         .bg-color-2.p-3
           p.mb-0.text-small Nota. SENA, 2026.

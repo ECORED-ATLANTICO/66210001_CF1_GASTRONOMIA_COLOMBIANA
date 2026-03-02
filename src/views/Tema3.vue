@@ -26,8 +26,8 @@
             b Figura 4. 
             span Buenas practivas de un chef
         figure.mb-4
-          img.d-none.d-lg-block.d-md-block(src='@/assets/curso/temas/tema3/img04.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto
-          img.d-lg-none.d-md-none(src='@/assets/curso/temas/tema3/img05.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto
+          img.d-none.d-lg-block.d-md-block(src='@/assets/curso/temas/tema3/img04.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto
+          img.d-lg-none.d-md-none(src='@/assets/curso/temas/tema3/img05.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto
 
         figcaption 
           b Nota: 
@@ -90,7 +90,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-2.col-md-4.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema3/img11.svg", alt="Icono perfil manipulador")
+              img(src="@/assets/curso/temas/tema3/img11.png", alt="Icono perfil manipulador")
           .col-lg-10
             p.mb-0 El perfil básico de un manipulador de alimentos se construye sobre dos pilares fundamentales: el conocimiento y el estado de salud. Ambos elementos son indispensables para garantizar la inocuidad de los alimentos y prevenir enfermedades transmitidas por alimentos (ETA). Identificar a un personal idóneo no solo implica evaluar su experiencia práctica en cocina, sino también verificar que posee la formación sanitaria necesaria para desempeñar sus funciones de manera segura y responsable.
 
@@ -209,7 +209,7 @@
             //- span Buenas practivas de un chef
         figure.mb-4
           img(src='@/assets/curso/temas/tema3/img25.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
-          img(src='@/assets/curso/temas/tema3/img26.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
+          img(src='@/assets/curso/temas/tema3/img26m.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
 
         figcaption 
           b Nota: 
@@ -267,7 +267,7 @@
             b Figura 6. 
             span Conductas no permitidas en la cocina
         figure.mb-4
-          img(src='@/assets/curso/temas/tema3/img31.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
+          img(src='@/assets/curso/temas/tema3/img31.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
           img(src='@/assets/curso/temas/tema3/img32.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
 
         figcaption 

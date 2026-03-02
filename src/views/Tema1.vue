@@ -298,7 +298,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-md-6.col-lg-2.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/tema1/img22.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema1/img22.png", data-aos="zoom-in")
       .col-lg-10
         p.mb-0(data-aos="fade-right") Las normas de inocuidad alimentaria solo adquieren sentido cuando existen entidades encargadas de velar por su cumplimiento, ya que, sin vigilancia, los lineamientos legales serían meros documentos sin efecto práctico. En Colombia, la vigilancia y el control sanitario de los alimentos se organiza como un sistema jerárquico y compartido entre una autoridad nacional y las autoridades sanitarias locales, garantizando la cobertura en todo el territorio y el cumplimiento tanto de normas generales como de regulaciones específicas.
     
@@ -331,7 +331,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema1/img26.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema1/img26.png", data-aos="zoom-in")
           .col-lg-8
             p.mb-0(data-aos="fade-right") Por su parte, la vigilancia directa de los establecimientos —restaurantes, panaderías, <em>catering</em> y otros servicios de alimentos— recae sobre las Secretarías de Salud Departamentales, Distritales y Municipales. Estas autoridades locales son responsables de realizar inspecciones sanitarias, verificar la correcta implementación de las Buenas Prácticas de Manufactura (BPM) y los lineamientos del HACCP, otorgar o negar la Licencia Sanitaria de Funcionamiento, y aplicar sanciones en caso de incumplimiento del Decreto 3075 de 1997 y normas complementarias. Esta división de competencias permite que el control sea más cercano al lugar donde se manipulan los alimentos y que la supervisión se adapte a las condiciones locales de cada municipio o distrito.
         
@@ -347,8 +347,8 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-10
         .row.align-items-center.bg-color-9.p-4
-          .col-lg-auto
-            img.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/img28.svg", style="max-width: 90px").mx-auto
+          .col-lg-2
+            img.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/img28.png").mx-auto
           .col-lg
             p.mb-0 Comprender esta estructura jerárquica permite a los establecimientos dirigir correctamente trámites, entender competencias institucionales y asumir responsabilidades frente a la autoridad correspondiente. Además, fortalece la cultura de cumplimiento, porque los manipuladores y propietarios saben quién supervisa cada aspecto de su operación y qué estándares deben mantener para garantizar la inocuidad de los alimentos, proteger la salud del consumidor y asegurar la continuidad del negocio.
 
@@ -432,7 +432,7 @@
         .row.mb-0.justify-content-center.align-items-center
           .col-12.col-md-6.col-lg-2.mb-3.mb-lg-0.order-2.order-md-1.order-lg-1
             figure
-              img(src="@/assets/curso/temas/tema1/img33.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema1/img33.png", data-aos="zoom-in")
           .col-lg-10.order-1.order-md-2.order-lg-2
             p.mb-0(data-aos="fade-right") El <em>Codex Alimentarius</em> se convierte en un aliado estratégico para Colombia, no solo como referente técnico, sino como un puente que conecta la producción nacional con los estándares internacionales de inocuidad. Su adopción facilita la exportación de alimentos, fortalece la modernización de los procesos gastronómicos e industriales y asegura que las prácticas aplicadas en los establecimientos cumplan criterios globales de calidad y seguridad. Además, promueve la actualización constante de la normativa local frente a los avances científicos y tecnológicos, incrementando la competitividad del país y reforzando la confianza del consumidor. En este sentido, el Codex no es únicamente un conjunto de normas: es una herramienta clave que orienta el comercio seguro, protege la salud pública y posiciona a Colombia dentro de un marco internacional de excelencia en inocuidad alimentaria.
 

@@ -51,7 +51,7 @@
   background-position: left 50% !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: #12263F !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
@@ -67,7 +67,7 @@ figcaption
 // Títulos
 .titulo-principal.color-acento-contenido
   .titulo-principal__numero span
-    color: white !important
+    color: #12263F !important
 
 // Banner Interno
 .banner-interno__titulo__icono i
@@ -112,6 +112,8 @@ figcaption
 .bg-color-white
   background-color: white !important
   border: 1px solid $lightest-gray
+.bg-color-18
+  background-color: #AAE5D3
 
 .bg-color-5
   background-color: #FFEDEF
@@ -217,9 +219,9 @@ figcaption
 
 // Tabs A
 .tabs-a__tab
-  background-color: #F1F6F9
+  background-color: #E8F1FE
 .tabs-a.color-acento-botones .tabs-a__tab__selected
-  background-color: #FFD256
+  background-color: #1C6DDB
 .tabs-a__content-item
   display: flex
   height: 100%
@@ -253,16 +255,21 @@ figcaption
         width: 55%
 
 // Tabs C
+.tabs-c__tab
+  border-bottom: 4px solid #E6D062
+  background-color: #FFF5C4 !important
 .tabs-c.color-primario .tabs-c__tab--active
-  border-bottom-color: #6F88DA !important
+  border-bottom-color: #2079F3 !important
 .tabs-c.color-primario .tabs-c__tab--active:before
-  border-top-color: #6F88DA !important
+  border-top-color: #2079F3 !important
 .tabs-c__content-item
-  background-color: #F6F6F6
+  background-color: #E8F1FE
   // background-image: url("../assets/curso/bg3.png") !important
   background-size: cover
 .tabs-c__header
   margin-bottom: 0
+.tabs-c__tab--active
+  background-color: transparent !important
 
 // Acordion
 .acordion
@@ -407,6 +414,9 @@ a, button, div
 
 .bg-color-9
   background-color: #FFE1CB
+  &.cajon
+    &::before
+      background-color: #FFB57D
 
 .bg-color-14
   background-color: #FFFDF0
@@ -418,9 +428,19 @@ a, button, div
   background-color: #C5CFF0
 
 .tarjeta.color-acento-botones--borde
-  background-color: #E2E7F7
+  background-color: #E8F1FE
   color: #000
-  border: solid 4px #E2E7F7 !important
+  border: solid 4px #E8F1FE !important
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before
+  background-color: #1C6DDB !important
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected:hover
+  background-color: #BBD6FC !important
+
+.tabs-a.color-acento-botones .tabs-a__tab:hover
+  background-color: #BBD6FC !important
+  color: #000 !important
 
   //////////////CUSTON SLYDER-A////////
 .slyder-a__bullets__item
@@ -489,14 +509,14 @@ a, button, div
 
 // ---- Subtitulos ----- //
 .subtitle
-  // background: #F1F3FB url('../assets/curso/temas/img02.png')
+  background: #F1F3FB url('../assets/curso/temas/tema3/titulo.png')
   background-size: cover
   background-position: right
   border-top-right-radius: 20px
   border-bottom-right-radius: 20px
   display: inline-block
-  padding: 10px 20px 10px 20px
-  padding-right: 40px
+  padding: 10px 20px 10px 45px
+  padding-right: 50px
   position: relative
 
   .image
@@ -504,3 +524,17 @@ a, button, div
     width: 20px
     top: 0px
     right: -8px
+
+.tarjeta .azul
+  .acordion .tarjeta
+    background-color: #AAE5D3 !important
+
+.acordion .tarjeta .acordion__contenido
+  padding-left: 0px !important
+.acordion__activo
+  background-color: #E8F1FE !important
+.acordion__accion__btn--b
+  background-color: #2079F3 !important
+  border: 1px solid #2079F3 !important
+.acordion__accion__btn--a i, .acordion__accion__btn--b i
+  color: #fff

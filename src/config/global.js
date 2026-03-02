@@ -6,14 +6,14 @@ export default {
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
-      // {
-      //   clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      // },
-      // {
-      //   clases: ['banner-principal-decorativo-2'],
-      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      // },
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
     ],
   },
   menuPrincipal: {
@@ -60,7 +60,7 @@ export default {
           },
           {
             numero: '1.5',
-            titulo: 'Codex Alimentarius como referente internacional',
+            titulo: '<em>Codex Alimentarius</em> como referente internacional',
             hash: 't_1_5',
           },
         ],
@@ -237,7 +237,7 @@ export default {
         'Transferencia de peligros (Ej.: bacterias) de un alimento, superficie o persona a otro alimento. Puede ser directa (contacto) o indirecta (por utensilios o manos).',
     },
     {
-      termino: 'Codex Alimentarius',
+      termino: '<em>Codex Alimentarius</em>',
       significado:
         'Programa internacional que establece normas y directrices para proteger la salud del consumidor y garantizar prácticas justas en el comercio de alimentos.',
     },
@@ -321,12 +321,13 @@ export default {
     },
     {
       referencia:
-        'FAO & OMS. (1993). Código de Prácticas de Higiene para los Alimentos Precocinados y Cocidos Utilizados en los Servicios de Comidas para Colectividades (CAC/RCP 39-1993). Codex Alimentarius.',
+        'FAO & OMS. (1993). Código de Prácticas de Higiene para los Alimentos Precocinados y Cocidos Utilizados en los Servicios de Comidas para Colectividades (CAC/RCP 39-1993). <em>Codex Alimentarius</em>.',
       link:
         'https://workspace.fao.org/sites/codex/Standards/CAC+RCP+39-1993/CXP_039s.pdf',
     },
     {
-      referencia: 'FAO & OMS. (2023). Acerca del Codex. Codex Alimentarius.',
+      referencia:
+        'FAO & OMS. (2023). Acerca del Codex. <em>Codex Alimentarius</em>.',
       link: 'http://www.fao.org/fao-who-codexalimentarius/about-codex/es/',
     },
     {

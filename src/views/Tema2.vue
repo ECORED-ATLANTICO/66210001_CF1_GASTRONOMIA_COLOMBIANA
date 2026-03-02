@@ -11,7 +11,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-2.col-md-4.mb-4.mb-lg-0
+          .col-12.col-md-12.col-lg-2.col-md-4.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema2/img01.svg", alt="Chef en cocina")
           .col-lg-10
@@ -26,7 +26,7 @@
           img(src="@/assets/curso/temas/tema2/img02.svg", alt="Infografía sobre BPM").d-none.d-lg-block.d-md-block
           img(src="@/assets/curso/temas/tema2/img02m.svg", alt="Infografía sobre BPM").d-block.d-lg-none.d-md-none
         .bg-color-2.p-3
-          p.mb-0.text-small Nota. Adaptado de la Ley 9 de 1978, Decreto 3075 de 1997 y lineamientos del Codex Alimentarius sobre BPM y HACCP.
+          p.mb-0.text-small Nota. Adaptado de la Ley 9 de 1978, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
 
     
     .row.justify-content-center.mb-0
@@ -113,7 +113,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center.bg-color-14
-          .col-lg-2.ps-0.mb-3.mb-lg-0
+          .col-12.col-md-6.col-lg-2.ps-0.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema2/img10.png", data-aos="zoom-in")
           .col-lg-10
@@ -122,12 +122,13 @@
 
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10
-        p.mb-0 Esto implica que la inocuidad alimentaria no depende del tipo de negocio, sino del hecho de que exista manipulación de alimentos. Por tanto, tanto una empresa industrial como un pequeño negocio familiar tienen la misma responsabilidad frente a la salud del consumidor. La diferencia radica en la magnitud de los procesos, el volumen de producción y los riesgos particulares asociados a cada entorno de trabajo. En el contexto colombiano, las BPM son exigibles en una amplia variedad de escenarios gastronómicos y comerciales, entre los cuales se incluyen:
+        p.mb-3 Esto implica que la inocuidad alimentaria no depende del tipo de negocio, sino del hecho de que exista manipulación de alimentos. Por tanto, tanto una empresa industrial como un pequeño negocio familiar tienen la misma responsabilidad frente a la salud del consumidor. La diferencia radica en la magnitud de los procesos, el volumen de producción y los riesgos particulares asociados a cada entorno de trabajo. 
+        p.mb-0 En el contexto colombiano, las BPM son exigibles en una amplia variedad de escenarios gastronómicos y comerciales, entre los cuales se incluyen:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-md-8.col-lg-3.mb-3.mb-lg-0
+          .col-md-6.col-lg-3.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema2/img11.png", data-aos="zoom-in")
           .col-lg-9
@@ -142,18 +143,18 @@
                 p Donde se preparan grandes volúmenes de alimentos destinados a poblaciones vulnerables. En estos espacios, el cumplimiento de las BPM adquiere una importancia aún mayor, ya que cualquier falla puede afectar a un número significativo de personas.
               div(titulo="Plazas de mercado y puestos callejeros").p-4
                 p Cuya implementación de las BPM representa un reto considerable debido a las condiciones ambientales, el acceso limitado a servicios básicos y la exposición constante al polvo, los insectos y la manipulación directa por parte del público. Aun así, estos establecimientos también están sujetos al cumplimiento de la normativa sanitaria.
-              div(titulo="Servicios de catering y food trucks").p-4
+              div(titulo="Servicios de <em>catering</em> y <em>food trucks</em>").p-4
                 p Que deben garantizar la inocuidad durante el transporte, la conservación y la distribución de los alimentos, controlando especialmente la temperatura y el tiempo de exposición de los productos preparados.
             
     .container
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-4
         .col-md-12.col-lg-12
           .row.justify-content-center.align-items-center.bg-color-5
             .col-lg-4.mb-3.mb-lg-0.ps-0
               figure
                 img(src="@/assets/curso/temas/tema2/img12.png", data-aos="zoom-in")
             .col-lg-8
-              .row.align-items-center.p-4
+              .row.align-items-center.p-3.p-lg-4
                 .col-12.col-lg-auto.mb-4.mb-lg-2
                   img.d-lg-flex.d-none(src="@/assets/curso/temas/tema2/img13.svg").mx-auto
                 .col-12.col-lg-12
@@ -163,7 +164,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.mb-0.justify-content-center.align-items-center
-          .col-lg-10.mb-3.mb-lg-0
+          .col-lg-9.mb-3.mb-lg-0
             p.mb-3(data-aos="fade-right") Asimismo, en una cocina institucional el riesgo puede incrementarse por la cantidad de alimentos preparados simultáneamente y por los tiempos prolongados de almacenamiento, mientras que en un restaurante pequeño los peligros se asocian con la falta de espacio, la improvisación de procesos y el uso compartido de utensilios para diferentes tipos de alimentos.
           
             .row.justify-content-center
@@ -175,7 +176,7 @@
                   .col-lg-9
                     p.mb-0(data-aos="fade-left") Identificar este amplio ámbito de aplicación permite al aprendiz comprender que las BPM son universales, pero al mismo tiempo flexibles y adaptables a cada realidad operativa. Su implementación no depende exclusivamente de contar con equipos sofisticados, sino de adoptar hábitos correctos, aplicar procedimientos básicos de limpieza y desinfección, organizar adecuadamente los espacios y asumir una actitud responsable frente a la salud del consumidor.
 
-          .col-lg-2
+          .col-12.col-md-6.col-lg-3
             figure
               img(src="@/assets/curso/temas/tema2/img15.png", data-aos="zoom-in").mx-auto
 
@@ -194,23 +195,51 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10.mb-4
         .row.justify-content-center.align-items-center
-          .col-lg-3.mb-3.mb-lg-0
+          .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema2/img16.svg", data-aos="zoom-in")
           .col-lg-9
             p.mb-0(data-aos="fade-right") El corazón de la prevención de Enfermedades Transmitidas por Alimentos (ETA) está en saber a qué nos enfrentamos. Un peligro alimentario se define como cualquier agente biológico, químico o físico presente en un alimento con el potencial de causar un efecto adverso sobre la salud del consumidor. Identificar estos peligros no solo es un requisito legal, sino una habilidad fundamental para cualquier profesional de la gastronomía que busque garantizar inocuidad y calidad en sus preparaciones.
 
-      .col-md-12.col-lg-10
-        p.mb-5(data-aos="fade-right") Para poder identificar y clasificar estos peligros de manera efectiva en el contexto de una cocina colombiana, es útil organizarlos según:
+      .col-md-12.col-lg-10.mb-0
+        p.mb-0(data-aos="fade-right") Para poder identificar y clasificar estos peligros de manera efectiva en el contexto de una cocina colombiana, es útil organizarlos según:
 
     .row.justify-content-center.mb-5
+      .col-md-12.col-lg-10
+        .row.justify-content-center
+          .col-md-6.col-lg-4.mb-4.mb-lg-0
+            .tarjeta.bg-fondo-2.p-4.h-100
+              .row.justify-content-center.mb-3
+                .col-4
+                  figure
+                    img(src="@/assets/curso/temas/tema2/img17.svg", alt="Icono")
+              p.text-center <b>Su naturaleza</b>: biológicos, químicos o físicos.
+        
+          .col-md-6.col-lg-4.mb-4.mb-lg-0
+            .tarjeta.bg-fondo-2.p-4.h-100
+              .row.justify-content-center.mb-3
+                .col-4
+                  figure
+                    img(src="@/assets/curso/temas/tema2/img18.svg", alt="Icono")
+              p.text-center <b>Sus fuentes más comunes</b>: ingredientes, procesos de manipulación, utensilios o ambiente.
+              
+          .col-md-6.col-lg-4.mb-4.mb-lg-0
+            .tarjeta.bg-fondo-2.p-4.h-100
+              .row.justify-content-center.mb-3
+                .col-4
+                  figure
+                    img(src="@/assets/curso/temas/tema2/img19.svg", alt="Icono")
+              p.text-center <b>Las medidas básicas para controlarlos</b>: prácticas preventivas que permitan minimizar riesgos y asegurar la inocuidad de los alimentos.
+        
+
+    .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4.
           span Clasificación de peligros biológicos, químicos y físicos
         .tabla-a.color-acento-contenido
           table
-            caption Nota. Adaptado de Código Internacional Recomendado de Prácticas – Principios Generales de Higiene de los Alimentos (CAC/RCP 39-1993), por la Codex Alimentarius (1993), y del Decreto 3075 (1997).
+            caption Nota. Adaptado de Código Internacional Recomendado de Prácticas – Principios Generales de Higiene de los Alimentos (CAC/RCP 39-1993), por la <em>Codex Alimentarius</em> (1993), y del Decreto 3075 (1997).
             thead
               tr
                 th Tipo de peligro
@@ -253,7 +282,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-2.mb-3.mb-lg-0
+          .col-12.col-md-6.col-lg-2.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema2/img21.svg", data-aos="zoom-in")
           .col-lg-10
@@ -261,7 +290,7 @@
             p.mb-0(data-aos="fade-left") Este tipo de contaminación ocurre principalmente por dos vías: directa e indirecta.
 
     .row.justify-content-center.mb-5
-      .col-md-12.col-lg-10
+      .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 3.
           span Identificación de los tipos de contaminación
@@ -279,11 +308,11 @@
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-12
         .row.justify-content-center.align-items-center
-          .col-lg-3.mb-3.mb-lg-0
+          .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema2/img23.png", data-aos="zoom-in")
           .col-lg-9
-            p.mb-3(data-aos="fade-left") El Código Internacional del Codex señala de forma enfática en una nota de Punto Crítico de Control (PCC) que "es esencial desinfectar minuciosamente todo el equipo y utensilios utilizados para los alimentos crudos, antes de ser empleados para los alimentos cocinados y precocinados" (FAO & OMS, 1993, Secc. IV). Esta recomendación resalta la importancia de interrumpir las vías de transmisión de los peligros mediante procedimientos estandarizados de limpieza y desinfección.
+            p.mb-3(data-aos="fade-left") El Código Internacional del <em>Codex</em> señala de forma enfática en una nota de Punto Crítico de Control (PCC) que "es esencial desinfectar minuciosamente todo el equipo y utensilios utilizados para los alimentos crudos, antes de ser empleados para los alimentos cocinados y precocinados" (FAO & OMS, 1993, Secc. IV). Esta recomendación resalta la importancia de interrumpir las vías de transmisión de los peligros mediante procedimientos estandarizados de limpieza y desinfección.
 
             .row.justify-content-center.mb-0
               .col-md-12.col-lg-12

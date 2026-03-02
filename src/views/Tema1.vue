@@ -73,10 +73,10 @@
     .row.justify-content-center
       .col-md-12.col-lg-10
         .row.mb-5.justify-content-center.align-items-center
-          .col-lg-3.mb-3.mb-lg-0
+          .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-md-2.order-lg-1
             figure
               img(src="@/assets/curso/temas/tema1/img09.png", data-aos="zoom-in")
-          .col-lg-9
+          .col-lg-9.order-md-1.order-lg-2
             p.mb-3(data-aos="fade-right") En el contexto colombiano, donde la gastronomía representa un pilar cultural, social y económico, el cumplimiento de estas normas no solo protege la salud de los comensales, sino que se convierte en un factor estratégico de competitividad y sostenibilidad. Los establecimientos que demuestran adherencia a la normativa sanitaria generan confianza en sus clientes, fortalecen su reputación, promueven la fidelización y reducen significativamente el riesgo de sanciones legales, que pueden ir desde multas y cierres temporales hasta la cancelación definitiva del funcionamiento por parte de las autoridades sanitarias competentes.
             p.mb-0(data-aos="fade-right") La tabla a continuación resume el marco normativo en Colombia en materia de inocuidad:
 
@@ -89,7 +89,7 @@
             span Marco normativo para la inocuidad en Colombia
         .tabla-a.color-acento-contenido
           table
-            caption Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del Codex Alimentarius sobre BPM y HACCP.
+            caption Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
             thead
               tr
                 th Elementos claves
@@ -98,25 +98,22 @@
                 th Aplicación en la cocina profesional
             tbody
               tr
-                td <b>Base legal.</b>
+                td Base legal.
                 td Fundamento del sistema sanitario colombiano.
                 td Ley 9 de 1979.
                 td(rowspan="3")
-                  ul
+                  ul.lista-ul.lista-ul--circle
                     li Planificación del menú.
                     li Selección de proveedores.
                     li Manipulación y almacenamiento.
               tr
-                td <b>Regulación sanitaria.</b>
+                td Regulación sanitaria.
                 td Condiciones higiénico-sanitarias para establecimientos.
                 td Decreto 3075 de 1997.
               tr
-                td <b>Normas técnicas.</b>
+                td Normas técnicas.
                 td Estándares internacionales para prevenir riesgos biológicos, químicos y físicos.
-                td
-                  ul
-                    li BPM (Buenas Prácticas de Manufactura)
-                    li HACCP (Análisis de Peligros y Puntos Críticos de Control).
+                td BPM (Buenas Prácticas de Manufactura) <br> HACCP (Análisis de Peligros y Puntos Críticos de Control).
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
@@ -125,7 +122,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img10.png", data-aos="zoom-in")
           .col-lg-8
-            .row.align-items-center.p-4
+            .row.align-items-center.p-3.p-lg-4
               .col-12.col-lg-auto.mb-4.mb-lg-2
                 img.d-lg-flex.d-none(src="@/assets/curso/temas/tema1/img11.svg").mx-auto
               .col-12.col-lg-12
@@ -139,7 +136,7 @@
       .row.justify-content-center.mb-0
         .col-md-12.col-lg-10
           .row.justify-content-center.align-items-center.bg-color-14
-            .col-lg-3.mb-3.mb-lg-0
+            .col-md-6.col-lg-3.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/temas/tema1/img12.png", data-aos="zoom-in")
             .col-lg-9
@@ -148,35 +145,35 @@
     separador
     
     .row.justify-content-center
-      .col-md-12.col-lg-10
+      .col-md-12.col-lg-12
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 1.2 Ley 9 de 1979 como base del Código Sanitario Nacional 
 
     .row.justify-content-center
-      .col-md-12.col-lg-10
+      .col-md-12.col-lg-12
         img(src="@/assets/curso/temas/tema1/img13.png", alt="Imagen decorativa")
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
             .banner-text.TEXTO Para comprender el origen y la estructura de la regulación sanitaria actual en Colombia, es indispensable remitirse a la Ley 9 de 1979, conocida como el Código Sanitario Nacional. Esta ley, promulgada por el Congreso de la República de Colombia, constituye la norma marco que establece las disposiciones generales sobre salubridad pública en todo el territorio nacional (Congreso de Colombia, 1979). Su promulgación representó un hito en la consolidación de un marco legal moderno orientado a proteger la salud de los ciudadanos y a regular la intervención estatal en materia sanitaria.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-3.mb-3.mb-lg-0.ps-0
+          .col-12.col-md-6.col-lg-2.mb-3.mb-lg-0.ps-0.order-md-2.order-lg-1
             figure
-              img(src="@/assets/curso/temas/tema1/img14.svg", data-aos="zoom-in")
-          .col-lg-9
+              img(src="@/assets/curso/temas/tema1/img14.svg", data-aos="zoom-in").mx-auto
+          .col-lg-10.order-md-1.order-lg-2
             p.mb-0(data-aos="fade-right") La relevancia de la Ley 9 de 1979 se mantiene vigente, más de cuatro décadas después, porque estableció las competencias y facultades del Estado para regular todos los aspectos relacionados con la salud pública. En particular, su Título V aborda los aspectos sanitarios relacionados con los alimentos, definiendo principios de higiene, prevención de enfermedades y control sanitario de los productos alimenticios. Aunque esta ley no detalla procedimientos técnicos específicos, su importancia radica en que autoriza al Gobierno Nacional, a través del Ministerio de Salud y Protección Social, para expedir reglamentos, decretos y resoluciones más detalladas y operativos, que sí contienen los lineamientos técnicos necesarios para garantizar la inocuidad alimentaria.
 
     .row.justify-content-center.mb-0
-      .col-md-12.col-lg-12
+      .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 
             b Tabla 2. 
             span Comparativa del marco legal sanitario en Colombia
         .tabla-a.color-acento-contenido
           table
-            caption Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del Codex Alimentarius sobre BPM y HACCP.
+            caption Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
             thead
               tr
                 th Aspecto
@@ -221,50 +218,50 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-md-12.col-lg-12
           .row.justify-content-center.align-items-center
-            .col-lg-2.mb-3.mb-lg-0.ps-0
+            .col-12.col-md-6.col-lg-2.mb-3.mb-lg-0.ps-0
               figure
                 img(src="@/assets/curso/temas/tema1/img15.png", data-aos="zoom-in")
             .col-lg-10
               p.mb-4(data-aos="fade-right") Si la Ley 9 de 1979 constituye la base general de la regulación sanitaria en Colombia, el Decreto 3075 de 1997 representa el “manual de procedimiento” obligatorio para cualquier establecimiento donde se fabriquen, manipulen o comercialicen alimentos. Este decreto, expedido por el Ministerio de Salud y Protección Social, reglamenta de manera específica las Buenas Prácticas de Manufactura (BPM) en el país, traduciendo los principios generales de la ley en requisitos operativos concretos y verificables (Ministerio de Salud, 1997).
-              p.bg-color-9.p-4(data-aos="fade-right") La importancia del Decreto 3075 de 1997 radica en que establece las condiciones sanitarias mínimas que deben cumplir los establecimientos y el personal manipulador para garantizar la inocuidad de los alimentos. En esencia, define qué se considera “buena práctica” en cada etapa del proceso alimentario, desde la recepción de materias primas hasta el servicio al consumidor. Este enfoque preventivo busca evitar la contaminación de los alimentos y, con ello, proteger la salud pública.
+              p.bg-color-9.p-4(data-aos="fade-right") El objetivo principal del Decreto 3075 de 1997 es establecer las condiciones sanitarias mínimas que deben cumplir los establecimientos de alimentos, incluyendo fábricas, restaurantes, expendios, servicios de <em>catering</em>, panaderías y cualquier otro lugar donde se manipulen productos alimenticios. De esta manera, la ley general se convierte en norma práctica, orientando las acciones diarias de los manipuladores de alimentos y sirviendo como referente directo para inspecciones sanitarias. Entre los aspectos concretos que regula el decreto se incluyen:
 
     .bg-full-width.bg-fondo-5.tarjeta.mb-5
-      .p-4.px-lg-2
+      .p-3.px-lg-2
         SlyderA(tipo="b").bg-color-white.p-3.p-lg-4.tarjeta
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               p.mb-0 <b>Infraestructura y mantenimiento:</b> especifica cómo deben ser los pisos, paredes y techos, sistemas de ventilación, iluminación y áreas de circulación para garantizar un ambiente higiénico.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img17.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/temas/tema1/img17.png', alt='Imagen de acompañamiento', style="max-width: 450px;").mx-auto
 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               p.mb-0 <b>Almacenamiento de alimentos:</b> establece criterios sobre la rotulación, la separación de alimentos crudos y cocidos, la conservación a temperaturas seguras y la prevención de contaminación cruzada.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img18.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/temas/tema1/img18.png', alt='Imagen de acompañamiento', style="max-width: 450px;").mx-auto
           
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               p.mb-0 <b>Higiene y prácticas del personal:</b> define la correcta práctica de lavado de manos, uso de uniformes, protección de heridas y protocolos para manipuladores enfermos o con síntomas de enfermedades transmisibles por alimentos.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img19.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/temas/tema1/img19.png', alt='Imagen de acompañamiento', style="max-width: 450px;").mx-auto
           
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               p.mb-0 <b>Control de plagas y residuos:</b> describe métodos de prevención y manejo de plagas, así como la disposición adecuada de residuos sólidos y líquidos, evitando riesgos de contaminación ambiental o alimentaria.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img20.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/temas/tema1/img20.png', alt='Imagen de acompañamiento', style="max-width: 450px;").mx-auto
 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               p.mb-0 <b>Equipos y utensilios:</b> regula la limpieza, desinfección y mantenimiento de utensilios, tablas de corte, maquinaria y superficies de contacto con alimentos, asegurando que sean seguros y fáciles de higienizar.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img21.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/temas/tema1/img21.png', alt='Imagen de acompañamiento', style="max-width: 450px;").mx-auto
 
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10
@@ -273,9 +270,9 @@
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-3.mb-3.mb-lg-0
+          .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema1/img34.png", data-aos="zoom-in")
+              img.d-lg-flex.d-none(src="@/assets/curso/temas/tema1/img34.png", data-aos="zoom-in")
           .col-lg-9
             .row.mb-5.justify-content-center.align-items-center.bg-color-11.p-4
               .col-lg.mb-3.mb-lg-0
@@ -285,7 +282,7 @@
                   img.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/img35.svg", data-aos="zoom-in")
 
             .row.mb-0.justify-content-center.align-items-center
-              .col-lg-3.mb-3.mb-lg-0
+              .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
                 figure
                   img(src="@/assets/curso/temas/tema1/img36.png", data-aos="zoom-in")
               .col-lg-9
@@ -299,7 +296,7 @@
           h2 1.4 Rol del INVIMA y las autoridades sanitarias locales en la vigilancia
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-2.mb-3.mb-lg-0
+      .col-12.col-md-6.col-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/temas/tema1/img22.svg", data-aos="zoom-in")
       .col-lg-10
@@ -317,7 +314,7 @@
 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
-              p.mb-0 Su labor es fundamental para garantizar que los productos que llegan al mercado cumplan con los estándares de calidad, inocuidad y etiquetado establecidos por la normativa nacional y los lineamientos internacionales, como los del Codex Alimentarius.
+              p.mb-0 Su labor es fundamental para garantizar que los productos que llegan al mercado cumplan con los estándares de calidad, inocuidad y etiquetado establecidos por la normativa nacional y los lineamientos internacionales, como los del <em>Codex Alimentarius</em>.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img24.png', alt='Imagen de acompañamiento',  style="width: 500px;").mx-auto
@@ -336,7 +333,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img26.svg", data-aos="zoom-in")
           .col-lg-8
-            p.mb-0(data-aos="fade-right") Por su parte, la vigilancia directa de los establecimientos —restaurantes, panaderías, catering y otros servicios de alimentos— recae sobre las Secretarías de Salud Departamentales, Distritales y Municipales. Estas autoridades locales son responsables de realizar inspecciones sanitarias, verificar la correcta implementación de las Buenas Prácticas de Manufactura (BPM) y los lineamientos del HACCP, otorgar o negar la Licencia Sanitaria de Funcionamiento, y aplicar sanciones en caso de incumplimiento del Decreto 3075 de 1997 y normas complementarias. Esta división de competencias permite que el control sea más cercano al lugar donde se manipulan los alimentos y que la supervisión se adapte a las condiciones locales de cada municipio o distrito.
+            p.mb-0(data-aos="fade-right") Por su parte, la vigilancia directa de los establecimientos —restaurantes, panaderías, <em>catering</em> y otros servicios de alimentos— recae sobre las Secretarías de Salud Departamentales, Distritales y Municipales. Estas autoridades locales son responsables de realizar inspecciones sanitarias, verificar la correcta implementación de las Buenas Prácticas de Manufactura (BPM) y los lineamientos del HACCP, otorgar o negar la Licencia Sanitaria de Funcionamiento, y aplicar sanciones en caso de incumplimiento del Decreto 3075 de 1997 y normas complementarias. Esta división de competencias permite que el control sea más cercano al lugar donde se manipulan los alimentos y que la supervisión se adapte a las condiciones locales de cada municipio o distrito.
         
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
@@ -360,21 +357,21 @@
     .row.justify-content-center
       .col-md-12.col-lg-12
         #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 1.5 Codex Alimentarius como referente internacional
+          h2 1.5 <em>Codex Alimentarius</em> como referente internacional
 
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
         .row.justify-content-center.align-items-center
-          .col-lg-2.mb-3.mb-lg-0
+          .col-12.col-md-6.col-lg-2.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema1/img29.png", data-aos="zoom-in")
+              img.d-lg-flex.d-none(src="@/assets/curso/temas/tema1/img29.png", data-aos="zoom-in")
           .col-lg-10
-            p.mb-2(data-aos="fade-right") El marco normativo colombiano en materia de seguridad alimentaria no se construyó de manera aislada, sino que se fundamenta en criterios científicos y técnicos ampliamente reconocidos a nivel internacional. Uno de los pilares más importantes de esta normativa es el Codex Alimentarius, un programa conjunto de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) y la Organización Mundial de la Salud (OMS), cuyo objetivo es desarrollar normas, directrices y códigos de práctica alimentaria armonizados globalmente (FAO & OMS, 2023).
+            p.mb-2(data-aos="fade-right") El marco normativo colombiano en materia de seguridad alimentaria no se construyó de manera aislada, sino que se fundamenta en criterios científicos y técnicos ampliamente reconocidos a nivel internacional. Uno de los pilares más importantes de esta normativa es el <em>Codex Alimentarius</em>, un programa conjunto de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) y la Organización Mundial de la Salud (OMS), cuyo objetivo es desarrollar normas, directrices y códigos de práctica alimentaria armonizados globalmente (FAO & OMS, 2023).
 
             .row.mb-0.justify-content-center.align-items-center.bg-color-11.p-4
               .col-lg.mb-3.mb-lg-0
-                p.mb-0(data-aos="fade-right") El Codex Alimentarius surge como respuesta a la necesidad de proteger la salud de los consumidores y garantizar prácticas equitativas en el comercio internacional de alimentos. Sus normas no solo establecen límites máximos de contaminantes y aditivos, sino que también proporcionan lineamientos sobre etiquetado, higiene, procesamiento y almacenamiento de alimentos. Esto convierte al Codex en un referente técnico y científico que influye directamente en la formulación de políticas y regulaciones nacionales.
+                p.mb-0(data-aos="fade-right") El <em>Codex Alimentarius</em> surge como respuesta a la necesidad de proteger la salud de los consumidores y garantizar prácticas equitativas en el comercio internacional de alimentos. Sus normas no solo establecen límites máximos de contaminantes y aditivos, sino que también proporcionan lineamientos sobre etiquetado, higiene, procesamiento y almacenamiento de alimentos. Esto convierte al <em>Codex</em> en un referente técnico y científico que influye directamente en la formulación de políticas y regulaciones nacionales.
               .col-auto.col-lg-2
                 figure
                   img.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/img30.svg", data-aos="zoom-in")
@@ -387,19 +384,19 @@
               figure
                 img(src="@/assets/curso/temas/tema1/img31.png", data-aos="zoom-in")
             .col-lg-8
-              .row.align-items-center.p-4
+              .row.align-items-center.p-3.p-lg-4
                 .col-12.col-lg-auto.mb-4.mb-lg-2
                   img.d-lg-flex.d-none(src="@/assets/curso/temas/tema1/img32.svg").mx-auto
                 .col-12.col-lg-12
-                  p.mb-3 Colombia, como país miembro del Codex, adopta muchas de estas recomendaciones como base para fortalecer su legislación sanitaria nacional. Aunque el Codex no tiene fuerza de ley en el país, sus principios se incorporan en normas y resoluciones emitidas por entidades como el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA) y el Ministerio de Salud y Protección Social. Por ejemplo, conceptos clave como el Análisis de Peligros y Puntos Críticos de Control (HACCP) y las Buenas Prácticas de Manufactura (BPM) tienen su origen en los lineamientos del Codex, y su implementación en Colombia garantiza un estándar mínimo de inocuidad alimentaria.
-                  p.mb-0 En la tabla a continuación se describe el papel preponderante del Codex Alimentarius en la normativa sanitaria colombiana:
+                  p.mb-3 Colombia, como país miembro del <em>Codex</em>, adopta muchas de estas recomendaciones como base para fortalecer su legislación sanitaria nacional. Aunque el Codex no tiene fuerza de ley en el país, sus principios se incorporan en normas y resoluciones emitidas por entidades como el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA) y el Ministerio de Salud y Protección Social. Por ejemplo, conceptos clave como el Análisis de Peligros y Puntos Críticos de Control (HACCP) y las Buenas Prácticas de Manufactura (BPM) tienen su origen en los lineamientos del <em>Codex</em>, y su implementación en Colombia garantiza un estándar mínimo de inocuidad alimentaria.
+                  p.mb-0 En la tabla a continuación se describe el papel preponderante del <em>Codex Alimentarius</em> en la normativa sanitaria colombiana:
 
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 
             b Tabla 3. 
-            span Rol de Codex Alimentarius en la normativa sanitaria colombiana
+            span Rol de <em>Codex Alimentarius</em> en la normativa sanitaria colombiana
         .tabla-a.color-acento-contenido
           table
             caption Fuente: SENA 2026
@@ -409,8 +406,8 @@
                 th Descripción
             tbody
               tr
-                td <b>Fundamento del Codex.</b>
-                td El Codex Alimentarius es un programa conjunto de la FAO y la OMS que desarrolla normas, directrices y códigos de práctica alimentaria reconocidos internacionalmente. Sirve como base científica para armonizar estándares de inocuidad y comercio de alimentos entre países.
+                td <b>Fundamento del <em>Codex</em>.</b>
+                td El <em>Codex Alimentarius</em> es un programa conjunto de la FAO y la OMS que desarrolla normas, directrices y códigos de práctica alimentaria reconocidos internacionalmente. Sirve como base científica para armonizar estándares de inocuidad y comercio de alimentos entre países.
               tr
                 td <b>Propósito principal.</b>
                 td Proteger la salud del consumidor y garantizar prácticas justas en el comercio internacional. Incluye límites de contaminantes, aditivos, lineamientos de higiene, etiquetado, procesamiento y almacenamiento de alimentos.
@@ -428,16 +425,16 @@
                 td La adopción de los principios del Codex permite que la gastronomía nacional se alinee con estándares internacionales, fortalezca la confianza del consumidor y mantenga prácticas actualizadas frente a nuevos avances científicos y tecnológicos.
               tr
                 td <b>Importancia estratégica.</b>
-                td El Codex actúa como un puente entre las regulaciones nacionales y el contexto global, fortaleciendo la salud pública, el comercio alimentario y la competitividad del país en el mercado internacional.
+                td El <em>Codex</em> actúa como un puente entre las regulaciones nacionales y el contexto global, fortaleciendo la salud pública, el comercio alimentario y la competitividad del país en el mercado internacional.
 
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
         .row.mb-0.justify-content-center.align-items-center
-          .col-lg-2.mb-3.mb-lg-0
+          .col-12.col-md-6.col-lg-2.mb-3.mb-lg-0.order-2.order-md-1.order-lg-1
             figure
               img(src="@/assets/curso/temas/tema1/img33.svg", data-aos="zoom-in")
-          .col-lg-10
-            p.mb-0(data-aos="fade-right") El Codex Alimentarius se convierte en un aliado estratégico para Colombia, no solo como referente técnico, sino como un puente que conecta la producción nacional con los estándares internacionales de inocuidad. Su adopción facilita la exportación de alimentos, fortalece la modernización de los procesos gastronómicos e industriales y asegura que las prácticas aplicadas en los establecimientos cumplan criterios globales de calidad y seguridad. Además, promueve la actualización constante de la normativa local frente a los avances científicos y tecnológicos, incrementando la competitividad del país y reforzando la confianza del consumidor. En este sentido, el Codex no es únicamente un conjunto de normas: es una herramienta clave que orienta el comercio seguro, protege la salud pública y posiciona a Colombia dentro de un marco internacional de excelencia en inocuidad alimentaria.
+          .col-lg-10.order-1.order-md-2.order-lg-2
+            p.mb-0(data-aos="fade-right") El <em>Codex Alimentarius</em> se convierte en un aliado estratégico para Colombia, no solo como referente técnico, sino como un puente que conecta la producción nacional con los estándares internacionales de inocuidad. Su adopción facilita la exportación de alimentos, fortalece la modernización de los procesos gastronómicos e industriales y asegura que las prácticas aplicadas en los establecimientos cumplan criterios globales de calidad y seguridad. Además, promueve la actualización constante de la normativa local frente a los avances científicos y tecnológicos, incrementando la competitividad del país y reforzando la confianza del consumidor. En este sentido, el Codex no es únicamente un conjunto de normas: es una herramienta clave que orienta el comercio seguro, protege la salud pública y posiciona a Colombia dentro de un marco internacional de excelencia en inocuidad alimentaria.
 
 </template>
 

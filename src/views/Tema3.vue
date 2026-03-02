@@ -17,7 +17,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
-        p.mb-0 Este apartado busca que el aprendiz identifique claramente el perfil, las prácticas obligatorias y las conductas prohibidas del personal manipulador, desarrollando una visión crítica frente a los comportamientos que garantizan la seguridad alimentaria y aquellos que representan un riesgo.
+        p.mb-0 Este apartado busca que el aprendiz identifique claramente el perfil, las prácticas obligatorias y las conductas prohibidas del personal manipulador, desarrollando una visión crítica frente a los comportamientos que garantizan la seguridad alimentaria y aquellos que representan un riesgo para la salud pública.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10(data-aos="zoom-in-down")
@@ -26,7 +26,8 @@
             b Figura 4. 
             span Buenas practivas de un chef
         figure.mb-4
-          img(src='@/assets/curso/temas/tema3/img02.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto
+          img.d-none.d-lg-block.d-md-block(src='@/assets/curso/temas/tema3/img04.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto
+          img.d-lg-none.d-md-none(src='@/assets/curso/temas/tema3/img05.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto
 
         figcaption 
           b Nota: 
@@ -38,37 +39,37 @@
         TabsA.color-primario
           .tarjeta.color-acento-botones--borde.p-4(titulo="Higiene personal")
             .row.justify-content-center.align-items-center
-              .col-md-8.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img06.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/temas/tema3/img06.svg", data-aos="zoom-in", style="max-width: 100px;").mx-auto
               .col-lg-9.order-lg-2
                 p.mb-0 El manipulador debe mantener higiene estricta durante toda la jornada. Esto implica lavado frecuente y correcto de manos, uñas cortas y limpias, cabello recogido y cubierto, y evitar joyas o accesorios que puedan contaminar los alimentos.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Uso del uniforme")
             .row.justify-content-center
-              .col-md-8.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img07.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/temas/tema3/img07.svg", data-aos="zoom-in", style="max-width: 100px;").mx-auto
               .col-lg-9.order-lg-2
                 p.mb-0 El uniforme es una barrera de protección entre el manipulador y los alimentos. Debe estar limpio, en buen estado y usarse solo en el área de trabajo. Incluye bata o chaqueta, pantalón, gorro, tapabocas cuando sea necesario y calzado cerrado. No debe utilizarse fuera del establecimiento para evitar transportar microorganismos.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Estado de salud")
             .row.justify-content-center.align-items-center
-              .col-md-8.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img08.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/temas/tema3/img08.svg", data-aos="zoom-in", style="max-width: 100px;").mx-auto
               .col-lg-9.order-lg-2
                 p.mb-0 El manipulador debe estar en óptimas condiciones y no trabajar si presenta enfermedades gastrointestinales, infecciones respiratorias con fiebre o lesiones visibles. Debe reportar cualquier síntoma que represente riesgo para el consumidor.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Conductas prohibidas")
             .row.justify-content-center.align-items-center
-              .col-md-8.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img09.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/temas/tema3/img09.svg", data-aos="zoom-in", style="max-width: 100px;").mx-auto
               .col-lg-9.order-lg-2
                 p.mb-0 En el área de preparación no se debe comer, fumar, mascar chicle, toser o estornudar sobre los alimentos, hablar en exceso ni usar el celular, ya que aumenta el riesgo de contaminación.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Responsabilidad y cultura sanitaria")
             .row.justify-content-center.align-items-center
-              .col-md-8.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img10.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/temas/tema3/img10.svg", data-aos="zoom-in", style="max-width: 100px;").mx-auto
               .col-lg-9.order-lg-2
                 p.mb-0 La higiene no es solo una norma, sino una práctica de prevención y responsabilidad social. Su cumplimiento protege al consumidor, al establecimiento y al trabajador, y se fortalece mediante capacitación y supervisión continua.
 
@@ -101,48 +102,42 @@
               .col-4
                 figure
                   img(src="@/assets/curso/temas/tema3/img12.svg", alt="Icono")
-            h4.text-center Perfil del manipulador de alimentos
-            p.text-center El perfil del manipulador no se limita a habilidades técnicas. Se fundamenta en la formación en higiene, el buen estado de salud y la responsabilidad ética, elementos esenciales para garantizar la inocuidad alimentaria.
+            p.mb-0.text-center <b>Perfil del manipulador de alimentos</b>: el perfil del manipulador no se limita a habilidades técnicas. Se fundamenta en la formación en higiene, el buen estado de salud y la responsabilidad ética, elementos esenciales para garantizar la inocuidad alimentaria.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
               .col-4
                 figure
                   img(src="@/assets/curso/temas/tema3/img13.svg", alt="Icono")
-            h4.text-center Pilar 1 - Capacitación en BPM
-            p.text-center La formación en BPM es obligatoria según el Decreto 3075. Todo manipulador debe recibir formación permanente en higiene y seguridad alimentaria, incluyendo lavado de manos, uso del uniforme, manejo higiénico, limpieza y prevención de la contaminación cruzada.
+            p.mb-0.text-center <b>Pilar 1 - Capacitación en BPM</b>: la formación en BPM es obligatoria según el Decreto 3075. Todo manipulador debe recibir formación permanente en higiene y seguridad alimentaria, incluyendo lavado de manos, uso del uniforme, manejo higiénico, limpieza y prevención de la contaminación cruzada.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
               .col-4
                 figure
                   img(src="@/assets/curso/temas/tema3/img14.svg", alt="Icono")
-            h4.text-center Formación continua y certificada
-            p.text-center La capacitación en BPM no es una charla inicial, sino un proceso continuo y verificable mediante certificados o registros institucionales. Un trabajador puede tener habilidades culinarias, pero sin formación certificada su perfil sanitario es incompleto.
+            p.mb-0.text-center <b>Formación continua y certificada</b>: la capacitación en BPM no es una charla inicial, sino un proceso continuo y verificable mediante certificados o registros institucionales. Un trabajador puede tener habilidades culinarias, pero sin formación certificada su perfil sanitario es incompleto.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
               .col-4
                 figure
                   img(src="@/assets/curso/temas/tema3/img15.svg", alt="Icono")
-            h4.text-center Pilar 2 - Estado de salud
-            p.text-center No puede manipular alimentos quien padezca o sea portador de enfermedades transmisibles por alimentos, conforme a lineamientos de la FAO y la Organización Mundial de la Salud. Esta medida protege al consumidor y el trabajador.
+            p.mb-0.text-center <b>Pilar 2 - Estado de salud</b>: no puede manipular alimentos quien padezca o sea portador de enfermedades transmisibles por alimentos, conforme a lineamientos de la FAO y la Organización Mundial de la Salud. Esta medida protege al consumidor y el trabajador.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
               .col-4
                 figure
                   img(src="@/assets/curso/temas/tema3/img16.svg", alt="Icono")
-            h4.text-center Condiciones que inhabilitan
-            p.text-center Incluyen trastornos gastrointestinales como diarrea y vómito, infecciones respiratorias con fiebre, lesiones cutáneas infectadas y el estado de portador de microorganismos patógenos como Salmonella typhi, ya que pueden facilitar la contaminación de los alimentos.
+            p.mb-0.text-center <b>Condiciones que inhabilitan</b>: incluyen trastornos gastrointestinales como diarrea y vómito, infecciones respiratorias con fiebre, lesiones cutáneas infectadas y el estado de portador de microorganismos patógenos como Salmonella typhi, ya que pueden facilitar la contaminación de los alimentos.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
               .col-4
                 figure
                   img(src="@/assets/curso/temas/tema3/img17.svg", alt="Icono")
-            h4.text-center Responsabilidad y compromiso sanitario
-            p.text-center La obligación de informar cualquier síntoma es personal e intransferible. El perfil del manipulador se consolida cuando el conocimiento certificado y el buen estado de salud se acompañan de ética y responsabilidad, garantizando alimentos seguros y de calidad.
+            p.mb-0.text-center <b>Responsabilidad y compromiso sanitario</b>: la obligación de informar cualquier síntoma es personal e intransferible. El perfil del manipulador se consolida cuando el conocimiento certificado y el buen estado de salud se acompañan de ética y responsabilidad, garantizando alimentos seguros y de calidad.
     
     separador
 
@@ -153,7 +148,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
-        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.bloque-texto-g--inverso.bg-color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img18.png')})`}"
           )
@@ -167,7 +162,7 @@
           span Protocolo de lavado de manos: 5 momentos obligatorios
         .tabla-a.color-acento-contenido
           table
-            caption Nota. Adaptado del Codex Alimentarius.
+            caption Nota. Adaptado del <em>Codex Alimentarius</em>.
             thead
               tr
                 th Momento
@@ -181,7 +176,7 @@
               tr
                 td <b>Después de usar el baño.</b>
                 td Tras cualquier visita al sanitario, sin excepción.
-                td Es la medida principal para prevenir la contaminación fecal-oral, eliminando patógenos intestinales como E. coli o Norovirus.
+                td Es la medida principal para prevenir la contaminación fecal-oral, eliminando patógenos intestinales como <em>E. coli</em> o <em>Norovirus</em>.
               tr
                 td <b>Después de manipular alimentos crudos.</b>
                 td Tras cortar pollo para un ajiaco, limpiar pescado para un viudo, o manipular carne cruda para una parrillada.
@@ -193,7 +188,7 @@
               tr
                 td <b>Después de tocarse el cabello, rostro o boca.</b>
                 td Al ajustarse la cofia, rascarse, estornudar cubriéndose con el brazo, o después de comer.
-                td Reduce la transferencia de la flora bacteriana natural de la piel, cabello y mucosas (como Staphylococcus aureus) a los alimentos.
+                td Reduce la transferencia de la flora bacteriana natural de la piel, cabello y mucosas (como <em>Staphylococcus aureus</em>) a los alimentos.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
@@ -238,18 +233,18 @@
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-9
+          .col-lg-9.mb-3.mb-lg-0
             .row.mb-4.justify-content-center.align-items-center
-              .col-lg-3.mb-3.mb-lg-0
+              .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1.order-md-2
                 figure
                   img(src="@/assets/curso/temas/tema3/img29.png", data-aos="zoom-in")
-              .col-lg-9
+              .col-lg-9.order-lg-2.order-md-1
                 p.mb-0(data-aos="fade-right") Comprender la importancia de estos cinco momentos y del lavado correcto permite que los aprendices de cocina internalicen la inocuidad como un hábito diario, más allá de la teoría. Además, refuerza la cultura de prevención, ya que cada paso tiene un propósito específico: proteger la salud del consumidor, reducir la proliferación de microorganismos y asegurar que los alimentos se manipulen bajo condiciones seguras, higiénicas y profesionales.
 
             .cajon.bg-color-9.p-4
               p.mb-0(data-aos="fade-right") En resumen, los cinco momentos del lavado de manos no son meras recomendaciones, sino un pilar de la seguridad alimentaria, cuya correcta aplicación distingue a un manipulador responsable de un riesgo potencial, garantizando que la práctica diaria en la cocina cumpla con los estándares legales y técnicos de BPM y HACCP.
                 
-          .col-lg-3.mb-3.mb-lg-0
+          .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema3/img30.png", data-aos="zoom-in")
 
@@ -279,7 +274,7 @@
           b Nota: 
           | SENA, 2026      
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
           .col-lg-2.col-md-4.mb-4.mb-lg-0
@@ -365,7 +360,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-3.col-md-6.mb-4.mb-lg-0
+          .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0
              figure
                img(src="@/assets/curso/temas/tema3/img40.png", alt="Visitante en planta")
           .col-lg-9
@@ -396,33 +391,29 @@
               .p-4.px-lg-2
                 SlyderA(tipo="b").bg-color-white.p-3.p-lg-4.tarjeta
                   .row.justify-content-center.align-items-center.p-2
-                    .col-md-8.col-lg-2.mb-0.mb-lg-0
+                    .col-md-8.col-lg-2.mb-3.mb-lg-0
                       figure
                         img(src="@/assets/curso/temas/tema3/img42.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
                     .col-lg-10.mb-4.mb-lg-0
-                      h4 Protección de la inocuidad de los alimentos
-                      p.mb-0 Evitando la introducción de contaminantes externos.
+                      p.mb-0 <b>Protección de la inocuidad de los alimentos,</b> evitando la introducción de contaminantes externos.
                   .row.justify-content-center.align-items-center.p-2
-                    .col-md-8.col-lg-2.mb-0.mb-lg-0
+                    .col-md-8.col-lg-2.mb-3.mb-lg-0
                       figure
                         img(src="@/assets/curso/temas/tema3/img43.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
                     .col-lg-10.mb-4.mb-lg-0
-                      h4 Reducción de riesgos de contaminación
-                      p.mb-0 Evitando la introducción de contaminantes externos.
+                      p.mb-0 <b>Refuerzo de la disciplina operativa del personal,</b> al establecer reglas claras sobre quién y cómo puede ingresar al área de producción.
                   .row.justify-content-center.align-items-center.p-2
-                    .col-md-8.col-lg-2.mb-0.mb-lg-0
+                    .col-md-8.col-lg-2.mb-3.mb-lg-0
                       figure
                         img(src="@/assets/curso/temas/tema3/img44.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
                     .col-lg-10.mb-4.mb-lg-0
-                      h4 Protección de la inocuidad de los alimentos
-                      p.mb-0 Evitando la introducción de contaminantes externos.
+                      p.mb-0 <b>Consolidación de la cultura de responsabilidad y seguridad</b> frente a la salud del consumidor.
                   .row.justify-content-center.align-items-center.p-2
-                    .col-md-8.col-lg-2.mb-0.mb-lg-0
+                    .col-md-8.col-lg-2.mb-3.mb-lg-0
                       figure
                         img(src="@/assets/curso/temas/tema3/img45.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
                     .col-lg-10.mb-4.mb-lg-0
-                      h4 Protección de la inocuidad de los alimentos
-                      p.mb-0 Evitando la introducción de contaminantes externos.
+                      p.mb-0 <b>Prevención de accidentes y riesgos laborales</b>, asegurando que los visitantes comprendan y respeten las normas de seguridad.
               
     .row.justify-content-center
       .col-md-12.col-lg-10

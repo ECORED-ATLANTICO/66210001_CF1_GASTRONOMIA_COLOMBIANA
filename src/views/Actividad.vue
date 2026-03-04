@@ -52,7 +52,7 @@ export default {
           id: 2,
           texto:
             'El INVIMA es la entidad que realiza las inspecciones sanitarias de rutina a todos los restaurantes del país.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -75,7 +75,7 @@ export default {
           id: 3,
           texto:
             'Un peligro biológico puede ser un fragmento de vidrio dentro de un alimento.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -98,7 +98,7 @@ export default {
           id: 4,
           texto:
             'Las BPM son de aplicación obligatoria solo en grandes fábricas de alimentos, no en pequeñas fondas o puestos callejeros.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -121,7 +121,7 @@ export default {
           id: 5,
           texto:
             'En una cocina, es aceptable que las paredes sean de material poroso como yeso, siempre que estén pintadas.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -144,7 +144,7 @@ export default {
           id: 6,
           texto:
             'La mejor forma de descongelar un lomo de cerdo para un asado es sacarlo del congelador y dejarlo en la mesada de la cocina durante varias horas.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -167,7 +167,7 @@ export default {
           id: 7,
           texto:
             'Un manipulador de alimentos con un leve resfriado, pero sin fiebre, puede trabajar normalmente en la cocina.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -190,7 +190,7 @@ export default {
           id: 8,
           texto:
             ' El lavado de manos correcto debe incluir el uso de jabón, el frotado por 20 segundos y el secado con toallas de papel desechables.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -213,7 +213,7 @@ export default {
           id: 9,
           texto:
             'El principio de almacenamiento "Primero en Entrar, Primero en Salir" (PEPS) ayuda a prevenir el vencimiento y desperdicio de alimentos.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -236,7 +236,7 @@ export default {
           id: 10,
           texto:
             'Es correcto usar la misma tabla de picar para cebolla y para pollo crudo, si se lava con agua y jabón entre usos.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -259,7 +259,7 @@ export default {
           id: 11,
           texto:
             'La temperatura interna segura para cocinar pollo y asegurar la destrucción de patógenos es de 74°C.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -328,7 +328,7 @@ export default {
           id: 14,
           texto:
             'El programa de Control Integrado de Plagas (CIP) se basa principalmente en la aplicación periódica de insecticidas por parte del personal de cocina.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -351,7 +351,7 @@ export default {
           id: 15,
           texto:
             'La limpieza y la desinfección son procesos diferentes; la limpieza remueve la suciedad y la desinfección reduce los microorganismos',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -374,7 +374,7 @@ export default {
           id: 16,
           texto:
             'Los residuos orgánicos (cáscaras, huesos) y los inorgánicos (plásticos, vidrios) pueden mezclarse en el mismo recipiente para facilitar la recolección.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -397,7 +397,7 @@ export default {
           id: 17,
           texto:
             'El Código Sanitario Nacional (Ley 9 de 1979) es la norma de mayor jerarquía en materia de salubridad de alimentos en Colombia.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -420,7 +420,7 @@ export default {
           id: 18,
           texto:
             'Es obligatorio que los manipuladores de alimentos usen guantes de látex en todo momento durante la preparación de alimentos',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {

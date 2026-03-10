@@ -11,20 +11,21 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-12.col-md-12.col-lg-2.col-md-4.mb-4.mb-lg-0
+          .col-12.col-md-8.col-lg-2.col-md-4.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img01.png", alt="Chef en cocina")
+              img(src="@/assets/curso/tema2/img01.png", alt="Chef en cocina")
           .col-lg-10
             p.mb-0 Una vez identificado el marco legal que regula la inocuidad alimentaria, el siguiente paso consiste en comprender la esencia, el propósito y el alcance de las Buenas Prácticas de Manufactura (BPM), así como reconocer los principales peligros que estas buscan prevenir y controlar. Este capítulo se orienta a que el aprendiz identifique con claridad qué son las BPM, en qué contextos se aplican y por qué constituyen un eje fundamental dentro de cualquier sistema de calidad e higiene en la preparación de alimentos.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
+          h5 
+            b Figura 1.
           span Marco normativo para la inocuidad en Colombia
         figure.mb-0
-          img(src="@/assets/curso/temas/tema2/img02.svg", alt="Infografía sobre BPM").d-none.d-lg-block.d-md-block
-          img(src="@/assets/curso/temas/tema2/img02m.svg", alt="Infografía sobre BPM").d-block.d-lg-none.d-md-none
+          img(src="@/assets/curso/tema2/img02.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-none.d-lg-block.d-md-block
+          img(src="@/assets/curso/tema2/img02m.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-block.d-lg-none.d-md-none
         .bg-color-2.p-3
           p.mb-0.text-small Nota. Adaptado de la Ley 9 de 1978, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
 
@@ -34,7 +35,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-4.col-md-6.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img03.png", alt="Persona cocinando")
+              img(src="@/assets/curso/tema2/img03.png", alt="Persona cocinando")
           .col-lg-8
             p.mb-4 En este sentido, comprender los fundamentos de las BPM no solo implica conocer una lista de normas, sino asumir una actitud responsable frente al proceso de elaboración de alimentos. Cada acción cotidiana, desde lavarse las manos hasta almacenar correctamente un producto, forma parte de un sistema integrado de control sanitario. De esta manera, las BPM se convierten en una herramienta esencial para proteger la salud pública, mejorar la calidad del servicio gastronómico y fortalecer la confianza del consumidor.
             .bg-color-9.p-4
@@ -49,7 +50,7 @@
 
     .row.justify-content-center
       .col-md-12.col-lg-12
-        img(src="@/assets/curso/temas/tema2/img04.png", alt="Imagen decorativa")
+        img(src="@/assets/curso/tema2/img04.png", alt="")
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
             .banner-text.p-4 Las Buenas Prácticas de Manufactura (BPM) pueden identificarse como un sistema de gestión preventiva que establece las condiciones operativas y ambientales básicas necesarias para garantizar la producción y manipulación de alimentos inocuos. No se trata de una lista de tareas aisladas ni de acciones improvisadas, sino de un conjunto organizado de principios interconectados que orientan el trabajo diario dentro de cualquier establecimiento de alimentos. Su finalidad principal es prevenir la contaminación en todas las etapas del proceso productivo, desde la recepción de materias primas hasta el servicio final al consumidor.
@@ -61,25 +62,26 @@
             p.mb-0 El objetivo central de las BPM es reducir al mínimo los riesgos asociados a las Enfermedades Transmitidas por Alimentos (ETA), protegiendo la salud pública y asegurando que los productos alimenticios cumplan con estándares mínimos de calidad e higiene. Además, las BPM buscan promover una cultura de prevención, donde cada manipulador comprenda que su comportamiento influye directamente en la seguridad del alimento. De esta manera, no solo se persigue el cumplimiento normativo, sino también la adopción de hábitos responsables y sostenibles dentro del entorno laboral.
           .col-auto.col-lg-3
             figure
-              img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/img05.svg", data-aos="zoom-in")
+              img.d-none.d-lg-flex(src="@/assets/curso/tema2/img05.svg", data-aos="zoom-in")
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-3.mb-3.mb-lg-0
+          .col-md-8.col-lg-3.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img06.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/img06.png", data-aos="zoom-in")
           .col-lg-9
             p.mb-0(data-aos="fade-right") Desde una perspectiva operativa, las BPM tienen varios objetivos específicos, entre los cuales se destacan: garantizar condiciones higiénicas adecuadas en las áreas de preparación, disminuir la presencia de microorganismos patógenos, controlar los factores ambientales que favorecen la contaminación, estandarizar los procedimientos de trabajo y fortalecer la capacitación del personal manipulador. Estos objetivos permiten que la inocuidad alimentaria sea un componente permanente del proceso gastronómico y no una medida ocasional. Para identificar sus principios fundamentales, las BPM pueden desglosarse en cuatro pilares básicos.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
+          h5 
+            b Figura 2.
           span Pilares básicos de las Buenas Prácticas de Manufactura (BPM)
         figure.mb-0
-          img(src="@/assets/curso/temas/tema2/img07.svg", alt="Pilares básicos de las BPM").d-none.d-lg-block.d-md-block
-          img(src="@/assets/curso/temas/tema2/img07m.svg", alt="Infografía sobre BPM").d-block.d-lg-none.d-md-none
+          img(src="@/assets/curso/tema2/img07.svg", alt="Higiene personal. Abarca aspectos como el estado de salud, el lavado correcto de manos, el uso adecuado del uniforme y los hábitos de aseo personal. Este pilar reconoce que el manipulador es una de las principales fuentes potenciales de contaminación y, por tanto, requiere control permanente. Higiene del ambiente y las instalaciones. Identifica al adecuado diseño y mantenimiento de la cocina, incluyendo la limpieza y desinfección de sus áreas, así como condiciones seguras de ventilación, iluminación y agua potable. Un ambiente limpio y ordenado disminuye el riesgo de microorganismos y plagas. Higiene de los equipos y utensilios. Garantiza que las herramientas utilizadas en la preparación de los alimentos no se conviertan en fuentes de contaminación. Esto implica seleccionar materiales adecuados, aplicar rutinas de limpieza y desinfección, y verificar que los equipos se encuentren en buen estado de funcionamiento. Higiene de los procesos. Dimensiona que los procedimientos correctos para recibir, almacenar, preparar, cocinar y servir los alimentos. Incluye el control de temperaturas, la correcta rotulación de productos, la separación entre alimentos crudos y cocidos, y la aplicación de métodos seguros de cocción y conservación.").d-none.d-lg-block.d-md-block
+          img(src="@/assets/curso/tema2/img07m.svg", alt="Higiene personal. Abarca aspectos como el estado de salud, el lavado correcto de manos, el uso adecuado del uniforme y los hábitos de aseo personal. Este pilar reconoce que el manipulador es una de las principales fuentes potenciales de contaminación y, por tanto, requiere control permanente. Higiene del ambiente y las instalaciones. Identifica al adecuado diseño y mantenimiento de la cocina, incluyendo la limpieza y desinfección de sus áreas, así como condiciones seguras de ventilación, iluminación y agua potable. Un ambiente limpio y ordenado disminuye el riesgo de microorganismos y plagas. Higiene de los equipos y utensilios. Garantiza que las herramientas utilizadas en la preparación de los alimentos no se conviertan en fuentes de contaminación. Esto implica seleccionar materiales adecuados, aplicar rutinas de limpieza y desinfección, y verificar que los equipos se encuentren en buen estado de funcionamiento. Higiene de los procesos. Dimensiona que los procedimientos correctos para recibir, almacenar, preparar, cocinar y servir los alimentos. Incluye el control de temperaturas, la correcta rotulación de productos, la separación entre alimentos crudos y cocidos, y la aplicación de métodos seguros de cocción y conservación.").d-block.d-lg-none.d-md-none
         .bg-color-2.p-3
           p.mb-0.text-small Nota. SENA, 2026.
 
@@ -91,14 +93,14 @@
             p.mb-0 Un ejemplo claro en una cocina colombiana es la preparación de un ajiaco santafereño. Las BPM exigen que quien manipule el pollo crudo tenga las manos y uñas limpias (higiene del personal), que la mesa donde se pica esté elaborada con material liso y lavable (higiene de instalaciones), que las ollas y cuchillos estén perfectamente limpios y desinfectados (higiene de equipos), y que el pollo se almacene refrigerado hasta su uso y se cocine completamente a la temperatura adecuada (higiene en los procesos).
           .col-auto.col-lg-3
             figure
-              img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/img08.svg", data-aos="zoom-in")
+              img.d-none.d-lg-flex(src="@/assets/curso/tema2/img08.svg", data-aos="zoom-in")
 
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-4.mb-3.mb-lg-0
+          .col-md-10.col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img09.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/img09.png", data-aos="zoom-in")
           .col-lg-8
             p.mb-4(data-aos="fade-left") Identificar estos pilares permite comprender que la preparación de un plato no es solo la aplicación de una receta culinaria, sino una secuencia organizada de pasos en la que cada acción debe estar protegida frente a riesgos sanitarios. De este modo, las BPM se convierten en una herramienta integral que articula conocimiento técnico, responsabilidad personal y compromiso con la salud del consumidor.
             p.mb-0(data-aos="fade-left") Finalmente, entender el concepto, los objetivos y los principios de las BPM fortalece la capacidad del aprendiz para aplicar criterios preventivos en su práctica diaria. Esto contribuye a una manipulación segura de los alimentos, a la reducción de incidentes sanitarios y al fortalecimiento de una gastronomía profesional basada en la calidad, la higiene y la confianza del público.
@@ -115,7 +117,7 @@
         .row.justify-content-center.align-items-center.bg-color-14
           .col-12.col-md-6.col-lg-2.ps-0.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img10.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/img10.png", data-aos="zoom-in")
           .col-lg-10
             .p-4
               p.mb-0 Un error frecuente es considerar que las Buenas Prácticas de Manufactura (BPM) son exclusivas de las grandes industrias alimentarias. Sin embargo, identificar correctamente su ámbito de aplicación es fundamental para comprender que estas normas son de cumplimiento obligatorio en todo lugar donde se manipulen alimentos destinados al consumo humano, sin importar su tamaño, nivel tecnológico o grado de formalidad. El Decreto 3075 de 1997 establece de manera explícita que las BPM deben aplicarse en fábricas, establecimientos, expendios, transporte, distribución, almacenamiento y comercialización de alimentos (Ministerio de Salud, 1997, Art. 2).
@@ -130,7 +132,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.col-lg-3.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img11.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/img11.png", data-aos="zoom-in")
           .col-lg-9
             AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-18")
               div(titulo="Restaurantes y fondas").p-4
@@ -152,11 +154,11 @@
           .row.justify-content-center.align-items-center.bg-color-5
             .col-lg-4.mb-3.mb-lg-0.ps-0
               figure
-                img(src="@/assets/curso/temas/tema2/img12.png", data-aos="zoom-in")
+                img(src="@/assets/curso/tema2/img12.png", data-aos="zoom-in")
             .col-lg-8
               .row.align-items-center.p-3.p-lg-4
                 .col-12.col-lg-auto.mb-4.mb-lg-2
-                  img.d-lg-flex.d-none(src="@/assets/curso/temas/tema2/img13.svg").mx-auto
+                  img.d-lg-flex.d-none(src="@/assets/curso/tema2/img13.svg").mx-auto
                 .col-12.col-lg-12
                   p.mb-0 La diferencia entre estos establecimientos no radica en la obligatoriedad de las BPM, sino en la escala de operación y en los riesgos específicos asociados a cada tipo de actividad. Por ejemplo, en una fábrica de arepas los principales peligros pueden estar relacionados con la calidad de la materia prima, el proceso de molienda, la cocción y el envasado del producto final. En contraste, en un puesto callejero de empanadas los riesgos críticos suelen concentrarse en la contaminación cruzada en la mesa de trabajo, el control adecuado de la temperatura del aceite, la higiene del manipulador y la protección del alimento frente al polvo, los insectos y la exposición ambiental.
 
@@ -170,15 +172,15 @@
             .row.justify-content-center
               .col-md-12.col-lg-12
                 .row.justify-content-center.align-items-center
-                  .col-lg-3.mb-3.mb-lg-0
+                  .col-md-8.col-lg-3.mb-3.mb-lg-0
                     figure
-                      img(src="@/assets/curso/temas/tema2/img14.png", data-aos="zoom-in")
+                      img(src="@/assets/curso/tema2/img14.png", data-aos="zoom-in")
                   .col-lg-9
                     p.mb-0(data-aos="fade-left") Identificar este amplio ámbito de aplicación permite al aprendiz comprender que las BPM son universales, pero al mismo tiempo flexibles y adaptables a cada realidad operativa. Su implementación no depende exclusivamente de contar con equipos sofisticados, sino de adoptar hábitos correctos, aplicar procedimientos básicos de limpieza y desinfección, organizar adecuadamente los espacios y asumir una actitud responsable frente a la salud del consumidor.
 
           .col-12.col-md-6.col-lg-3
             figure
-              img(src="@/assets/curso/temas/tema2/img15.png", data-aos="zoom-in").mx-auto
+              img(src="@/assets/curso/tema2/img15.png", data-aos="zoom-in").mx-auto
 
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
@@ -197,7 +199,7 @@
         .row.justify-content-center.align-items-center
           .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img16.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/img16.svg", data-aos="zoom-in")
           .col-lg-9
             p.mb-0(data-aos="fade-right") El corazón de la prevención de Enfermedades Transmitidas por Alimentos (ETA) está en saber a qué nos enfrentamos. Un peligro alimentario se define como cualquier agente biológico, químico o físico presente en un alimento con el potencial de causar un efecto adverso sobre la salud del consumidor. Identificar estos peligros no solo es un requisito legal, sino una habilidad fundamental para cualquier profesional de la gastronomía que busque garantizar inocuidad y calidad en sus preparaciones.
 
@@ -210,25 +212,25 @@
           .col-md-6.col-lg-4.mb-4.mb-lg-0
             .tarjeta.bg-fondo-2.p-4.h-100
               .row.justify-content-center.mb-3
-                .col-4
+                .col-5.col-md-6.col-lg-8.col-xl-6
                   figure
-                    img(src="@/assets/curso/temas/tema2/img17.svg", alt="Icono")
+                    img(src="@/assets/curso/tema2/img17.svg", alt="Icono")
               p.text-center <b>Su naturaleza</b>: biológicos, químicos o físicos.
         
           .col-md-6.col-lg-4.mb-4.mb-lg-0
             .tarjeta.bg-fondo-2.p-4.h-100
               .row.justify-content-center.mb-3
-                .col-4
+                .col-5.col-md-6.col-lg-8.col-xl-6
                   figure
-                    img(src="@/assets/curso/temas/tema2/img18.svg", alt="Icono")
+                    img(src="@/assets/curso/tema2/img18.svg", alt="Icono")
               p.text-center <b>Sus fuentes más comunes</b>: ingredientes, procesos de manipulación, utensilios o ambiente.
               
           .col-md-6.col-lg-4.mb-4.mb-lg-0
             .tarjeta.bg-fondo-2.p-4.h-100
               .row.justify-content-center.mb-3
-                .col-4
+                .col-5.col-md-6.col-lg-8.col-xl-6
                   figure
-                    img(src="@/assets/curso/temas/tema2/img19.svg", alt="Icono")
+                    img(src="@/assets/curso/tema2/img19.svg", alt="Icono")
               p.text-center <b>Las medidas básicas para controlarlos</b>: prácticas preventivas que permitan minimizar riesgos y asegurar la inocuidad de los alimentos.
         
 
@@ -272,9 +274,9 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
-        .bloque-texto-g.bg-color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.bloque-texto-g--inverso.bg-color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img20.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/img20.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 La contaminación cruzada es el proceso mediante el cual un peligro, principalmente de tipo biológico (bacterias, virus u otros microorganismos), se transfiere de un alimento, superficie, equipo o persona hacia otro alimento que se encuentra en condiciones seguras. Este fenómeno representa una de las principales causas de enfermedades transmitidas por alimentos (ETA) y constituye un riesgo constante en los procesos de preparación, almacenamiento y servicio de alimentos. Por esta razón, su identificación y control es una competencia fundamental dentro de las Buenas Prácticas de Manufactura (BPM).
@@ -284,7 +286,7 @@
         .row.justify-content-center.align-items-center
           .col-12.col-md-6.col-lg-2.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img21.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/img21.svg", data-aos="zoom-in")
           .col-lg-10
             p.mb-3(data-aos="fade-left") La contaminación cruzada se produce cuando no existen barreras adecuadas entre alimentos crudos y alimentos listos para el consumo, o cuando no se aplican correctamente los procedimientos de higiene y desinfección. Estas transferencias pueden ocurrir de manera inmediata o progresiva, generando riesgos invisibles para el consumidor, ya que los alimentos contaminados no siempre presentan cambios visibles en su color, olor o textura.
             p.mb-0(data-aos="fade-left") Este tipo de contaminación ocurre principalmente por dos vías: directa e indirecta.
@@ -292,11 +294,12 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
+          h5 
+            b Figura 3.
           span Identificación de los tipos de contaminación
         figure.mb-0
-          img(src="@/assets/curso/temas/tema2/img22.png", alt="Identificación de los tipos de contaminación").d-none.d-lg-block.d-md-block
-          img(src="@/assets/curso/temas/tema2/img22m.png", alt="Identificación de los tipos de contaminación").d-block.d-lg-none.d-md-none
+          img(src="@/assets/curso/tema2/img22.png", alt="Identificación de los tipos de contaminación").d-none.d-lg-block.d-md-block
+          img(src="@/assets/curso/tema2/img22m.png", alt="Identificación de los tipos de contaminación").d-block.d-lg-none.d-md-none
         .bg-color-2.p-3
           p.mb-0.text-small Nota. SENA, 2026.
 
@@ -310,7 +313,7 @@
         .row.justify-content-center.align-items-center
           .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img23.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/img23.png", data-aos="zoom-in")
           .col-lg-9
             p.mb-3(data-aos="fade-left") El Código Internacional del <em>Codex</em> señala de forma enfática en una nota de Punto Crítico de Control (PCC) que "es esencial desinfectar minuciosamente todo el equipo y utensilios utilizados para los alimentos crudos, antes de ser empleados para los alimentos cocinados y precocinados" (FAO & OMS, 1993, Secc. IV). Esta recomendación resalta la importancia de interrumpir las vías de transmisión de los peligros mediante procedimientos estandarizados de limpieza y desinfección.
 
@@ -321,7 +324,7 @@
                     p.mb-0 Identificar la contaminación cruzada implica reconocer estas vías de transferencia y aplicar medidas preventivas como el uso de tablas y cuchillos diferenciados por colores, la separación física de alimentos crudos y cocidos, la limpieza constante de superficies de trabajo y la correcta secuencia de las actividades en cocina. Por ejemplo, se recomienda preparar primero los alimentos que se consumen crudos y, posteriormente, aquellos que requieren cocción, reduciendo así el riesgo de transferencia de microorganismos. Estas acciones fortalecen la seguridad alimentaria y garantizan la protección de la salud del consumidor.
                   .col-auto.col-lg-3
                     figure
-                      img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/img24.svg", data-aos="zoom-in")
+                      img.d-none.d-lg-flex(src="@/assets/curso/tema2/img24.svg", data-aos="zoom-in")
 
 </template>
 

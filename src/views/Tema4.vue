@@ -14,7 +14,7 @@
             p.mb-0 La correcta manipulación de alimentos constituye uno de los pilares fundamentales de la seguridad alimentaria. Aplicar procedimientos adecuados en cada etapa del proceso, desde la recepción hasta el servicio, permite prevenir la contaminación y proteger la salud del consumidor. Este apartado aborda los lineamientos básicos que deben seguir los manipuladores para garantizar prácticas seguras, responsables y acordes con la normativa sanitaria vigente.
           .col-auto.col-lg-3
             figure
-              img.d-none.d-lg-flex(src="@/assets/curso/temas/tema4/img01.svg", data-aos="zoom-in")
+              img.d-none.d-lg-flex(src="@/assets/curso/tema4/img01.svg", data-aos="zoom-in")
 
     separador
 
@@ -28,7 +28,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-3.col-md-6.mb-4.mb-lg-0(data-aos="fade-right")
              figure
-               img(src="@/assets/curso/temas/tema4/img02.png", alt="Pollo asado")
+               img(src="@/assets/curso/tema4/img02.png", alt="Pollo asado")
           .col-lg-9(data-aos="fade-left")
             p.mb-0 Las materias primas se transforman en un plato final a través de una serie de pasos críticos en los cuales los peligros pueden introducirse o ser controlados. Cada etapa del proceso representa un punto sensible dentro de la cadena de inocuidad, ya que una falla mínima puede comprometer la seguridad del alimento. Por ello, este capítulo orienta al aprendiz a identificar los procedimientos correctos que deben aplicarse en cada fase del recorrido del alimento dentro de la cocina: desde el momento en que ingresa al establecimiento hasta su disposición final como residuo.
 
@@ -39,12 +39,13 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 7.
+          h5 
+            b Figura 7.
           span Etapas del manejo higiénico de los alimentos
 
         figure.mb-4
-          img(src='@/assets/curso/temas/tema4/img03.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
-          img(src='@/assets/curso/temas/tema4/img04.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
+          img(src='@/assets/curso/tema4/img03.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
+          img(src='@/assets/curso/tema4/img04.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
 
         figcaption 
           b Nota: 
@@ -60,14 +61,14 @@
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-6.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
-                  img(src="@/assets/curso/temas/tema4/img06.png", alt="Cocinero trabajando")
+                  img(src="@/assets/curso/tema4/img06.png", alt="Cocinero trabajando")
               .col-lg-8(data-aos="fade-left")
                 .bg-color-14.p-4
                   p.mb-0 En conclusión, identificar y aplicar los procedimientos para el manejo higiénico de los alimentos permite desarrollar una actitud preventiva, profesional y responsable frente a la manipulación de materias primas. Este conocimiento se convierte en una herramienta esencial para asegurar que la calidad, el sabor y la seguridad vayan siempre de la mano en la práctica gastronómica.
 
           .col-12.col-md-5.col-lg-3.mb-3.mb-lg-0
             figure
-              img.d-none.d-md-flex.d-lg-flex(src="@/assets/curso/temas/tema4/img05.png", data-aos="zoom-in")
+              img.d-none.d-md-flex.d-lg-flex(src="@/assets/curso/tema4/img05.png", data-aos="zoom-in")
 
     separador
 
@@ -78,7 +79,7 @@
 
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-secundario.p-3.p-sm-4.p-md-5.mb-4.mb-lg-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img08.png')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/tema4/img08.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p La seguridad de un plato comienza incluso antes de que el alimento entre a la cocina. Identificar una recepción segura implica reconocer que este es uno de los puntos más críticos del proceso, ya que en esta etapa se decide si una materia prima es apta o no para ser utilizada. El personal designado para esta tarea debe contar con capacitación básica en Buenas Prácticas de Manufactura y realizar una inspección tanto sensorial como documental, con el fin de detectar cualquier desviación que represente un riesgo sanitario.
@@ -90,7 +91,7 @@
         .row.justify-content-center.align-items-center
           .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema4/img09.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema4/img09.png", data-aos="zoom-in")
           .col-lg-9
             AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-18")
               div(titulo="Temperatura").p-4
@@ -110,21 +111,21 @@
               p.mb-0 #[b Separación para evitar la contaminación cruzada:] se debe identificar que los alimentos crudos, especialmente carnes, aves y pescados, se almacenan en los estantes inferiores de los refrigeradores, mientras que los alimentos cocidos o listos para el consumo, como quesos, ensaladas preparadas o postres, se ubican en los estantes superiores. Idealmente, estos grupos deben almacenarse en refrigeradores distintos. Nunca se deben colocar alimentos crudos encima de alimentos listos para consumir, ya que los jugos o líquidos de descongelación pueden contaminar otros productos.
             .col-md-8.col-lg-5.mb-0.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img10.png", alt="Acompañamiento").mx-auto
+                img(src="@/assets/curso/tema4/img10.png", alt="Acompañamiento").mx-auto
           
           .row.justify-content-center.align-items-center
             .col-lg-7.mb-4.mb-lg-0
               p.mb-0 #[b Clasificación y rotación de productos:] los alimentos deben organizarse por tipo (cárnicos, lácteos, frutas, verduras, secos) y por fecha de ingreso, aplicando el principio PEPS (primero en entrar, primero en salir). Esto evita el vencimiento de productos y reduce el riesgo de utilizar materias primas en mal estado.
             .col-md-8.col-lg-5.mb-0.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img11.png", alt="Acompañamiento").mx-auto
+                img(src="@/assets/curso/tema4/img11.png", alt="Acompañamiento").mx-auto
         
           .row.justify-content-center.align-items-center
             .col-lg-7.mb-4.mb-lg-0
               p.mb-0 #[b Condiciones del área de almacenamiento:] las bodegas y refrigeradores deben estar limpios, ventilados, con pisos y paredes lavables, libres de plagas y con una iluminación adecuada. Los alimentos nunca deben colocarse directamente en el piso, sino sobre estanterías elevadas al menos 15 cm. Asimismo, se deben utilizar recipientes limpios, rotulados y con tapa para proteger los productos del polvo y la contaminación ambiental.
             .col-md-6.col-lg-5.mb-0.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img12.png", alt="Acompañamiento").mx-auto
+                img(src="@/assets/curso/tema4/img12.png", alt="Acompañamiento").mx-auto
         
     .row.justify-content-center
       .col-md-12.col-lg-10(data-aos="fade-up")
@@ -145,16 +146,16 @@
             .row.mb-4.justify-content-center.align-items-center
               .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
                 figure
-                  img(src="@/assets/curso/temas/tema4/img13.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/tema4/img13.svg", data-aos="zoom-in")
               .col-lg-9
                 p.mb-0(data-aos="fade-right") La zona de preparación de alimentos, especialmente los mesones y superficies de trabajo, constituye el principal punto crítico donde puede ocurrir la contaminación cruzada. En este espacio convergen materias primas crudas, alimentos listos para el consumo, utensilios, manos del manipulador y el ambiente, lo que lo convierte en un verdadero "campo de batalla" contra los agentes contaminantes. Identificar y aplicar medidas preventivas en esta etapa es fundamental para garantizar la inocuidad del producto final y reducir el riesgo de Enfermedades Transmitidas por Alimentos (ETA).
 
-            .bg-color-9.p-4
+            .bg-color-5.p-4
               p.mb-0(data-aos="fade-right") Una de las estrategias más eficaces y fácilmente identificables es la implementación de un Sistema de Código de Colores para utensilios, en especial para tablas de picar y cuchillos. Este sistema traduce el principio abstracto de separación en una acción visual y práctica que evita errores humanos. Cada color se asigna a un tipo específico de alimento: por ejemplo, rojo para carnes rojas crudas, amarillo para aves, azul para pescados y mariscos, verde para frutas y verduras, y blanco para alimentos cocidos o listos para consumir. De esta forma, el aprendiz puede identificar de inmediato qué utensilio utilizar y evitar que un cuchillo que cortó pollo crudo se use luego para picar cebolla destinada a una ensalada fresca.
                 
           .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
             figure
-              img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img14.png", data-aos="zoom-in")
+              img.d-lg-flex.d-none(src="@/assets/curso/tema4/img14.png", data-aos="zoom-in")
 
 
 
@@ -164,49 +165,49 @@
           .row.justify-content-center.align-items-center.p-2
             .col-md-8.col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img15.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
+                img(src="@/assets/curso/tema4/img15.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
             .col-lg-10.mb-4.mb-lg-0
               p.mb-0(data-aos="fade-right") Además del código de colores, es indispensable establecer una secuencia lógica de preparación. Los alimentos listos para el consumo deben prepararse primero, seguidos por los alimentos que requieren cocción y, por último, las materias primas crudas. Esta organización temporal minimiza la posibilidad de que microorganismos presentes en carnes o pescados contaminen preparaciones que no recibirán tratamiento térmico posterior. Por ejemplo, en la elaboración de un almuerzo típico colombiano con arroz, ensalada y carne guisada, la ensalada debe prepararse antes de manipular la carne cruda.
 
           .row.justify-content-center.align-items-center.p-2
             .col-md-8.col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img16.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
+                img(src="@/assets/curso/tema4/img16.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
             .col-lg-10.mb-4.mb-lg-0
               p.mb-0(data-aos="fade-right") El control de la higiene de manos es otra barrera crítica. El manipulador debe lavarse y desinfectarse las manos cada vez que cambia de actividad: después de tocar carne cruda, después de manipular residuos, después de usar el baño y antes de trabajar con alimentos cocidos o listos para servir. Identificar un manipulador que corta pollo y luego toma una arepa sin lavarse las manos es reconocer una falla directa en las BPM.
             
           .row.justify-content-center.align-items-center.p-2
             .col-md-8.col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img17.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
+                img(src="@/assets/curso/tema4/img17.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
             .col-lg-10.mb-4.mb-lg-0
               p.mb-0(data-aos="fade-right") Asimismo, se deben aplicar procedimientos estrictos de limpieza y desinfección de superficies entre tareas. No basta con retirar los restos visibles de alimento; es necesario usar detergente y un desinfectante aprobado para uso alimentario, respetando el tiempo de contacto indicado. Una tabla aparentemente limpia puede seguir albergando bacterias si solo se enjuaga con agua.
 
           .row.justify-content-center.align-items-center.p-2
             .col-md-8.col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img18.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
+                img(src="@/assets/curso/tema4/img18.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
             .col-lg-10.mb-4.mb-lg-0
               p.mb-0(data-aos="fade-right") La correcta separación física de áreas también contribuye a la prevención. Siempre que sea posible, se deben diferenciar zonas para manipulación de alimentos crudos y zonas para alimentos cocidos o listos para consumo. En cocinas pequeñas donde esto no es viable, se debe trabajar por turnos y con limpieza intermedia obligatoria. Identificar una cocina donde se preparan simultáneamente carnes crudas y ensaladas en el mismo mesón sin desinfección intermedia es señalar un alto riesgo sanitario.
 
           .row.justify-content-center.align-items-center.p-2
             .col-md-8.col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img19.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
+                img(src="@/assets/curso/tema4/img19.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
             .col-lg-10.mb-4.mb-lg-0
               p.mb-0(data-aos="fade-right") Otra medida clave es el uso adecuado de recipientes y envases. Los alimentos crudos deben mantenerse en contenedores cerrados, rotulados y ubicados en estantes inferiores del refrigerador, evitando que sus jugos goteen sobre alimentos cocidos. Esta acción simple previene una de las formas más comunes de contaminación cruzada indirecta.
 
           .row.justify-content-center.align-items-center.p-2
             .col-md-8.col-lg-2.mb-0.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img20.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
+                img(src="@/assets/curso/tema4/img20.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
             .col-lg-10.mb-4.mb-lg-0
               p.mb-0(data-aos="fade-right") Finalmente, la capacitación continua del personal es una medida preventiva transversal. Las normas solo son efectivas si el manipulador comprende por qué existen. Identificar los peligros invisibles —bacterias, virus y parásitos— ayuda a transformar hábitos. Cuando un trabajador entiende que un simple cuchillo mal lavado puede transmitir Salmonella o E. coli a una ensalada, el cumplimiento deja de ser una obligación externa y se convierte en una responsabilidad personal.
 
           .row.justify-content-center.align-items-center.p-2
             .col-md-8.col-lg-2.mb-0.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img21.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
+                img(src="@/assets/curso/tema4/img21.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
             .col-lg-10.mb-4.mb-lg-0
               p.mb-0(data-aos="fade-right") En síntesis, prevenir la contaminación cruzada durante la preparación implica combinar herramientas visuales como el código de colores, procedimientos claros de trabajo, higiene rigurosa de manos y superficies, separación de áreas y educación permanente del personal. Reconocer y aplicar estas medidas convierte la cocina en un entorno controlado donde cada acción protege al consumidor y refuerza la cultura de inocuidad alimentaria.
 
@@ -258,7 +259,7 @@
             p.mb-0 Identificar y aplicar este sistema permite crear una barrera visual poderosa. En una cocina donde se prepara una bandeja paisa, por ejemplo, el cocinero debería identificar qué necesita la tabla roja para la carne molida cruda, la verde para el aguacate y el tomate de la ensalada, y la blanca para el chorizo ya cocido y el chicharrón. Usar la misma tabla para todas estas tareas, incluso lavándola entre usos, multiplica el riesgo de error y contaminación. El sistema de colores transforma un protocolo complejo en una acción simple y verificable a simple vista, un principio clave para las BPM.
           .col-auto.col-lg-3
             figure
-              img.d-none.d-lg-flex(src="@/assets/curso/temas/tema4/img22.svg", data-aos="zoom-in")
+              img.d-none.d-lg-flex(src="@/assets/curso/tema4/img22.svg", data-aos="zoom-in")
 
     separador
 
@@ -274,11 +275,11 @@
           .row.justify-content-center.align-items-center.bg-color-5
             .col-lg-5.mb-3.mb-lg-0.ps-0
               figure
-                img(src="@/assets/curso/temas/tema4/img23.png", data-aos="zoom-in")
+                img(src="@/assets/curso/tema4/img23.png", data-aos="zoom-in")
             .col-lg-7
               .row.align-items-center.p-4
                 .col-12.col-lg-auto.mb-4.mb-lg-2
-                  img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img24.svg").mx-auto
+                  img.d-lg-flex.d-none(src="@/assets/curso/tema4/img24.svg").mx-auto
                 .col-12.col-lg-12
                   p.mb-0 El control de la temperatura es la herramienta más poderosa para destruir microorganismos patógenos o impedir su multiplicación en los alimentos. Identificar los métodos seguros y los parámetros críticos en cada etapa del proceso térmico es una habilidad técnica esencial para todo manipulador de alimentos. No basta con saber que se debe "cocinar bien"; es necesario reconocer los valores numéricos que marcan la diferencia entre un alimento inocuo y uno que representa un riesgo para la salud del consumidor.
 
@@ -293,30 +294,30 @@
             .row.mb-0.justify-content-center.align-items-center
               .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
                 figure
-                  img(src="@/assets/curso/temas/tema4/img25.png", data-aos="zoom-in")
+                  img(src="@/assets/curso/tema4/img25.png", data-aos="zoom-in")
               .col-lg-9
                 p.mb-0(data-aos="fade-right") Asimismo, es fundamental identificar que los procesos térmicos no solo incluyen la cocción, sino también el mantenimiento en caliente y el enfriamiento seguro. Los alimentos listos para servir deben conservarse a temperaturas superiores a 60 °C para evitar la proliferación bacteriana. De igual manera, cuando se requiere enfriar preparaciones como sopas, sancochos o guisos, este proceso debe realizarse rápidamente, pasando de 60 °C a 21 °C en un máximo de dos horas y luego a 4 °C en un tiempo no mayor a cuatro horas, evitando la llamada “zona de peligro” (entre 5 °C y 60 °C).
 
           .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema4/img26.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema4/img26.png", data-aos="zoom-in")
 
     
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
         .row.justify-content-center
-          .col-md-6.col-lg-6.mb-4.mb-lg-0
-            .tarjeta-c.color-primario.h-100.d-flex.flex-column
+          .col-md-12.col-lg-6.mb-4.mb-lg-0
+            .tarjeta-c.h-100.d-flex.flex-column
               figure
-                img(src="@/assets/curso/temas/tema4/img27.png", alt="Carne a la parrilla")
-              .bg-color-11.p-4.flex-grow-1
+                img(src="@/assets/curso/tema4/img27.png", alt="Carne a la parrilla")
+              .bg-color-97.p-4.flex-grow-1
                 p.mb-0 El uso correcto de procesos térmicos también implica evitar prácticas riesgosas como descongelar alimentos a temperatura ambiente, recalentar varias veces la misma preparación o mantener comidas tibias por largos periodos. Identificar estas conductas como inadecuadas permite prevenir la multiplicación de microorganismos y la producción de toxinas que no se destruyen con el calor.
 
-          .col-md-6.col-lg-6.mb-4.mb-lg-0
-            .tarjeta-c.color-primario.h-100.d-flex.flex-column
+          .col-md-12.col-lg-6.mb-4.mb-lg-0
+            .tarjeta-c.h-100.d-flex.flex-column
               figure
-                img(src="@/assets/curso/temas/tema4/img28.png", alt="Procesos térmicos")
-              .bg-color-11.p-4.flex-grow-1
+                img(src="@/assets/curso/tema4/img28.png", alt="Procesos térmicos")
+              .bg-color-97.p-4.flex-grow-1
                 p.mb-0 En consecuencia, aplicar métodos seguros para los procesos térmicos significa controlar tiempos y temperaturas en cada fase: cocción, conservación, recalentamiento y enfriamiento. Esta identificación consciente convierte la temperatura en una barrera protectora fundamental dentro de las Buenas Prácticas de Manufactura, garantizando que los platos tradicionales de la cocina colombiana no solo conserven su sabor, sino también su seguridad sanitaria.
     
     .row.justify-content-center.mb-5
@@ -381,20 +382,20 @@
             p.mb-0 Por ejemplo, al preparar un postre de natillas a base de huevo, se debe reconocer que la mezcla necesita alcanzar 71°C para garantizar la eliminación de bacterias peligrosas como Salmonella. Sin este conocimiento, incluso un producto que parezca listo podría representar un riesgo grave para la salud del consumidor. De igual manera, prácticas tradicionales como dejar un gran perol de sancocho caliente sobre la mesada toda la noche para que se enfríe por sí solo se identifican como peligrosas mediante la tabla de temperaturas y tiempos, ya que el alimento permanecería horas en la "zona de peligro" (5°C a 60°C), donde los microorganismos patógenos pueden multiplicarse rápidamente.
           .col-lg-3.col-md-6.order-1.order-lg-2.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema4/img29.png", alt="Consumo seguro").mx-auto
+              img(src="@/assets/curso/tema4/img29.png", alt="Consumo seguro").mx-auto
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
           .col-lg-2.col-md-6.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema4/img30.svg", alt="Guía de referencia").mx-auto
+              img(src="@/assets/curso/tema4/img30.svg", alt="Guía de referencia").mx-auto
           .col-lg-10
             p.mb-0 La tabla, en este contexto, actúa como una guía de referencia rápida y confiable que permite al manipulador de alimentos aplicar controles técnicos exigidos por las Buenas Prácticas de Manufactura (BPM). No solo orienta sobre la temperatura mínima de cocción, sino también sobre tiempos máximos de conservación, enfriamiento rápido, refrigeración y congelación, asegurando que cada alimento se manipule de manera segura desde su preparación hasta el servicio.
     
     .row.justify-content-center
       .col-md-12.col-lg-12
-        img(src="@/assets/curso/temas/tema4/img31.png", alt="Imagen decorativa")
+        img(src="@/assets/curso/tema4/img31.png", alt="")
         .row.justify-content-center.align-items-center.z-2
           .col-lg-10(data-aos="fade-up")
             .banner-text.TEXTO Además, el uso constante de estos valores fortalece la disciplina profesional del manipulador, fomenta la prevención de ETA y contribuye a la cultura de inocuidad en la cocina. Los aprendices aprenden a identificar riesgos concretos y a implementar medidas correctivas antes de que un alimento represente un peligro, integrando la prevención científica en la rutina diaria. En otras palabras, la tabla convierte la experiencia culinaria en un proceso controlado, confiable y seguro, donde la tradición y la creatividad se combinan con la responsabilidad y la técnica, garantizando que cada plato servido cumpla con los estándares de calidad e inocuidad que exige la normativa sanitaria.
@@ -411,7 +412,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-2.col-md-6.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema4/img32.svg", alt="Residuos orgánicos")
+              img(src="@/assets/curso/tema4/img32.svg", alt="Residuos orgánicos")
 
           .col-lg-10.mb-0.mb-lg-0
             p.mb-2 La gestión de residuos sólidos forma parte esencial del sistema de higiene y saneamiento en los establecimientos de alimentos. La labor en la cocina no concluye únicamente con el plato servido al consumidor, sino con la correcta disposición de los desechos generados durante la preparación, el almacenamiento y el consumo de los alimentos. Identificar un manejo adecuado de los residuos permite cerrar el ciclo higiénico de producción, reducir la proliferación de microorganismos y prevenir la presencia de plagas como roedores, moscas y cucarachas, las cuales representan un alto riesgo de contaminación.
@@ -424,7 +425,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src="@/assets/curso/temas/tema4/img33.svg", alt="Residuos orgánicos", style="width: 70px").mx-auto
+                  img(src="@/assets/curso/tema4/img33.svg", alt="Residuos orgánicos", style="width: 70px").mx-auto
               .col-lg-10.mb-0.mb-md-0
                 p Son aquellos de origen biológico y biodegradable. Incluyen restos de comida como cáscaras de yuca y plátano, residuos de frutas y verduras, huesos y espinas de pescado, sobras de preparaciones, así como alimentos vencidos o en mal estado. Debido a su composición, estos residuos se descomponen rápidamente, producen malos olores y se convierten en un foco atractivo para insectos y animales vectores de enfermedades. Por esta razón, requieren un manejo inmediato, recipientes cerrados y una recolección frecuente.
               
@@ -432,7 +433,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src="@/assets/curso/temas/tema4/img34.svg", alt="Residuos inorgánicos", style="width: 70px").mx-auto
+                  img(src="@/assets/curso/tema4/img34.svg", alt="Residuos inorgánicos", style="width: 70px").mx-auto
               .col-lg-10.mb-0.mb-md-0
                 p Son materiales que no se degradan fácilmente en el ambiente. Comprenden envases de plástico, latas, botellas de vidrio, empaques de cartón, Tetra Pak, bolsas plásticas, papel film, guantes desechables y otros materiales de un solo uso. Aunque no generan descomposición rápida como los residuos orgánicos, pueden convertirse en fuentes de contaminación física si no se almacenan correctamente y pueden facilitar la acumulación 
               
@@ -443,7 +444,7 @@
           .col-lg-5.col-md-12.mb-4.mb-lg-0
             .row.align-items-center
               .col-12.col-lg-auto.mb-4.mb-lg-2
-                img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img35.svg").mx-auto
+                img.d-lg-flex.d-none(src="@/assets/curso/tema4/img35.svg").mx-auto
               .col-12.col-lg-12
                 p.mb-0 La segregación en la fuente constituye el primer paso para una gestión adecuada de los residuos. El aprendiz debe identificar que dentro de la cocina deben existir recipientes diferenciados para cada tipo de residuo, claramente señalizados mediante colores o rótulos visibles. Estos recipientes deben contar con tapa accionada por pedal, lo cual evita el contacto directo con las manos, y deben estar provistos de bolsas plásticas resistentes en su interior. Bajo ninguna circunstancia se deben mezclar los residuos orgánicos con los inorgánicos, ya que esto dificulta su manejo, aumenta el riesgo sanitario y favorece la proliferación de microorganismos.
 
@@ -472,7 +473,7 @@
       .col-md-12.col-lg-12
         .bloque-texto-g.bloque-texto-g--inverso.bg-color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img36.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema4/img36.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Los equipos y utensilios constituyen una extensión directa de las manos del manipulador de alimentos, ya que entran en contacto constante con las materias primas y los productos terminados. Por esta razón, identificar cuáles son adecuados implica evaluar no solo su funcionalidad, sino también sus materiales de fabricación y su diseño higiénico. Una selección inadecuada de estos elementos puede convertirse en una fuente permanente de contaminación física, química o biológica.
@@ -485,7 +486,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-2.col-md-6.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema4/img37.svg", alt="Guía de referencia").mx-auto
+              img(src="@/assets/curso/tema4/img37.svg", alt="Guía de referencia").mx-auto
           .col-lg-10
             p.mb-0 Otros materiales aceptables son ciertos plásticos de uso alimentario, como el policarbonato y el polipropileno, siempre que estén certificados para contacto con alimentos. Estos materiales son livianos, resistentes y no se rayan fácilmente cuando se utilizan de manera correcta. Son comunes en recipientes de almacenamiento, tablas de corte codificadas por color y utensilios auxiliares. Sin embargo, deben ser reemplazados cuando presenten grietas, manchas persistentes o deformaciones por calor.
 
@@ -500,28 +501,28 @@
             .row.justify-content-center.mb-3
               .col-4
                 figure
-                  img(src="@/assets/curso/temas/tema4/img38.svg", alt="Icono")
+                  img(src="@/assets/curso/tema4/img38.svg", alt="Icono")
             p.text-center Madera en tablas de picar, cucharas o mangos de cuchillo con grietas, ya que absorbe humedad y restos de comida, convirtiéndose en un reservorio de bacterias.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
               .col-4
                 figure
-                  img(src="@/assets/curso/temas/tema4/img39.svg", alt="Icono")
+                  img(src="@/assets/curso/tema4/img39.svg", alt="Icono")
             p.text-center Aluminio en contacto con alimentos ácidos como limón, tomate o vinagre (frecuentes en ceviches o salsas), debido a que se corroe fácilmente y puede transferir partículas metálicas al alimento.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
               .col-4
                 figure
-                  img(src="@/assets/curso/temas/tema4/img40.svg", alt="Icono")
+                  img(src="@/assets/curso/tema4/img40.svg", alt="Icono")
             p.text-center Cobre sin recubrimiento interno, que puede reaccionar químicamente con ciertos alimentos.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
               .col-4
                 figure
-                  img(src="@/assets/curso/temas/tema4/img41.svg", alt="Icono")
+                  img(src="@/assets/curso/tema4/img41.svg", alt="Icono")
             p.text-center Plásticos rayados, mellados o quebrados, que pierden su superficie lisa y permiten la acumulación de suciedad y microorganismos.
 
     .row.justify-content-center.mb-5
@@ -531,32 +532,32 @@
             p.mb-0 Además del material, es indispensable evaluar el diseño higiénico de los equipos. Un equipo bien diseñado se reconoce porque carece de ángulos muertos, grietas, soldaduras rugosas o tornillos expuestos donde pueda acumularse suciedad. Las superficies deben ser lisas, continuas y de fácil acceso para la limpieza y desinfección. Los equipos fijos, como hornos, estufas o mesas de trabajo deben instalarse dejando un espacio adecuado con el piso y la pared, permitiendo la limpieza detrás y debajo de ellos, lo cual reduce la presencia de plagas y residuos acumulados.
           .col-auto.col-lg-3
             figure
-              img.d-none.d-lg-flex(src="@/assets/curso/temas/tema4/img42.svg", data-aos="zoom-in")
+              img.d-none.d-lg-flex(src="@/assets/curso/tema4/img42.svg", data-aos="zoom-in")
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
           .col-lg-2.col-md-6.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema4/img43.png", alt="Guía de referencia").mx-auto
+              img(src="@/assets/curso/tema4/img43.png", alt="Guía de referencia").mx-auto
           .col-lg-10
             p.mb-0 Los equipos complejos, como picadoras de carne, licuadoras industriales o batidoras deben poder desmontarse fácilmente mediante herramientas sencillas, con el fin de realizar una limpieza profunda de todas sus partes. Esta característica es fundamental para evitar que restos de alimentos se queden atrapados en zonas internas y se conviertan en focos de contaminación. La imposibilidad de desmontar un equipo constituye una limitación sanitaria importante, incluso si el equipo funciona correctamente desde el punto de vista mecánico.
 
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-12
         .row.justify-content-center
-          .col-md-6.col-lg-6.mb-4.mb-lg-0
-            .tarjeta-c.color-primario.h-100.d-flex.flex-column
+          .col-md-12.col-lg-6.mb-4.mb-lg-0
+            .tarjeta-c.h-100.d-flex.flex-column
               figure
-                img(src="@/assets/curso/temas/tema4/img44.png", alt="Carne a la parrilla")
-              .bg-color-11.p-4.flex-grow-1
+                img(src="@/assets/curso/tema4/img44.png", alt="Carne a la parrilla")
+              .bg-color-97.p-4.flex-grow-1
                 p.mb-0 La capacidad de identificar un diseño higiénico permite señalar riesgos que no siempre son evidentes a simple vista. Por ejemplo, una máquina antigua para hacer empanadas que posee recovecos imposibles de limpiar representa un peligro sanitario, aunque continúe operando adecuadamente. En este sentido, la evaluación de equipos y utensilios no debe centrarse solo en su utilidad, sino en su contribución a la inocuidad alimentaria.
 
-          .col-md-6.col-lg-6.mb-4.mb-lg-0
-            .tarjeta-c.color-primario.h-100.d-flex.flex-column
+          .col-md-12.col-lg-6.mb-4.mb-lg-0
+            .tarjeta-c.h-100.d-flex.flex-column
               figure
-                img(src="@/assets/curso/temas/tema4/img45.png", alt="Procesos térmicos")
-              .bg-color-11.p-4.flex-grow-1
+                img(src="@/assets/curso/tema4/img45.png", alt="Procesos térmicos")
+              .bg-color-97.p-4.flex-grow-1
                 p.mb-0 Finalmente, contar con equipos y utensilios fabricados con materiales aprobados y con diseño sanitario adecuado facilita el cumplimiento de las Buenas Prácticas de Manufactura, reduce los riesgos de contaminación y protege la salud del consumidor. De este modo, la selección y el mantenimiento de estos elementos se convierten en una responsabilidad clave dentro de cualquier establecimiento dedicado a la preparación de alimentos.
     
  

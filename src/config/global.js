@@ -315,52 +315,52 @@ export default {
   referencias: [
     {
       referencia:
-        'Congreso de Colombia. (24 de enero de 1979). Ley 9 de 1979, por la cual se dictan medidas sanitarias. Diario Oficial No. 35308.',
+        '<em>Congreso de Colombia. (24 de enero de 1979). Ley 9 de 1979, por la cual se dictan medidas sanitarias. Diario Oficial No. 35308.</em>',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5248',
     },
     {
       referencia:
-        'FAO & OMS. (1993). Código de Prácticas de Higiene para los Alimentos Precocinados y Cocidos Utilizados en los Servicios de Comidas para Colectividades (CAC/RCP 39-1993). <em>Codex Alimentarius</em>.',
+        '<em>FAO & OMS. (1993). Código de Prácticas de Higiene para los Alimentos Precocinados y Cocidos Utilizados en los Servicios de Comidas para Colectividades (CAC/RCP 39-1993). Codex Alimentarius.</em>',
       link:
         'https://workspace.fao.org/sites/codex/Standards/CAC+RCP+39-1993/CXP_039s.pdf',
     },
     {
       referencia:
-        'FAO & OMS. (2023). Acerca del Codex. <em>Codex Alimentarius</em>.',
+        '<em>FAO & OMS. (2023). Acerca del Codex. Codex Alimentarius.</em>',
       link: 'http://www.fao.org/fao-who-codexalimentarius/about-codex/es/',
     },
     {
       referencia:
-        'Instituto Nacional de Salud. (2018). Guía para la implementación de las Buenas Prácticas de Manufactura (BPM) en establecimientos de alimentos. INS.',
+        '<em>Instituto Nacional de Salud. (2018). Guía para la implementación de las Buenas Prácticas de Manufactura (BPM) en establecimientos de alimentos. INS.</em>',
       link:
         'https://www.ins.gov.co/Direcciones/BuenasPracticasServiciosSalud/GuiaBPM.pdf',
     },
     {
       referencia:
-        'INVIMA. (s.f.). ¿Qué es el INVIMA? Instituto Nacional de Vigilancia de Medicamentos y Alimentos.',
+        '<em>INVIMA. (s.f.). ¿Qué es el INVIMA? Instituto Nacional de Vigilancia de Medicamentos y Alimentos.</em>',
       link: 'https://www.invima.gov.co/que-es-el-invima',
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (s.f.). Norma Técnica Sectorial NTS USNA 001: Servicios de alimentación turística. MinCIT.',
+        '<em>Ministerio de Comercio, Industria y Turismo. (s.f.). Normas Técnicas Sectoriales NTS-USNA. MinCIT.</em>',
       link:
         'https://www.mincit.gov.co/CMSPages/GetFile.aspx?guid=abc123def-456-ghi-789-jklmnopqrstuv',
     },
     {
       referencia:
-        'Ministerio de Salud. (10 de diciembre de 1997). Decreto 3075 de 1997, por el cual se reglamenta parcialmente la Ley 9 de 1979 y se dictan otras disposiciones. Diario Oficial No. 43246.',
+        '<em>Ministerio de Salud. (10 de diciembre de 1997). Decreto 3075 de 1997, por el cual se reglamenta parcialmente la Ley 9 de 1979 y se dictan otras disposiciones. Diario Oficial No. 43246.</em>',
       link:
         'https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%203075%20DE%201997.pdf',
     },
     {
       referencia:
-        'Organización Panamericana de la Salud. (2011). Guía para la aplicación del sistema de HACCP en la industria de alimentos. OPS.',
+        '<em>Organización Panamericana de la Salud. (2011). Guía para la aplicación del sistema de HACCP en la industria de alimentos. OPS.</em>',
       link: 'https://iris.paho.org/handle/10665.2/7695',
     },
     {
       referencia:
-        'SENA. (2020). Manual de Buenas Prácticas de Manufactura para servicios de alimentación. Dirección de Formación Profesional.',
+        '<em>SENA. (2020). Manual de Buenas Prácticas de Manufactura para servicios de alimentación. Dirección de Formación Profesional.</em>',
       link: 'https://repositorio.sena.edu.co/handle/11404/8105',
     },
   ],

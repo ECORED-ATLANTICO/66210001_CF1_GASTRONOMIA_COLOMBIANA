@@ -20,7 +20,7 @@ export default {
       tema: 'Buenas Prácticas de manufactura en la Cocina Colombiana',
       titulo: 'Identifica y marca la diferencia: testeando tu visión en BPM.',
       introduccion:
-        '<b> Objetivo:</b> Evaluar y reforzar la capacidad del aprendiz para identificar conceptos, normas, prácticas correctas e incorrectas, y elementos propios de las Buenas Prácticas de Manufactura, de acuerdo con los contenidos desarrollados en el componente.',
+        '<b> Objetivo:</b> evaluar y reforzar la capacidad del aprendiz para identificar conceptos, normas, prácticas correctas e incorrectas, y elementos propios de las Buenas Prácticas de Manufactura, de acuerdo con los contenidos desarrollados en el componente.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!.',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

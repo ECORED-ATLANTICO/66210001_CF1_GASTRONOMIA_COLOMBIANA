@@ -40,7 +40,7 @@
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 
-            b Figura 7.
+            b Figura 6.
           span Etapas del manejo higiénico de los alimentos
 
         figure.mb-4
@@ -49,7 +49,7 @@
 
         figcaption 
           b Nota: 
-          | SENA, 2026      
+          | SENA, 2026.      
 
     .row.justify-content-center
       .col-md-12.col-lg-10
@@ -82,7 +82,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img08.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p La seguridad de un plato comienza incluso antes de que el alimento entre a la cocina. Identificar una recepción segura implica reconocer que este es uno de los puntos más críticos del proceso, ya que en esta etapa se decide si una materia prima es apta o no para ser utilizada. El personal designado para esta tarea debe contar con capacitación básica en Buenas Prácticas de Manufactura y realizar una inspección tanto sensorial como documental, con el fin de detectar cualquier desviación que represente un riesgo sanitario.
+        p.mb-3 La seguridad de un plato comienza incluso antes de que el alimento entre a la cocina. Identificar una recepción segura implica reconocer que este es uno de los puntos más críticos del proceso, ya que en esta etapa se decide si una materia prima es apta o no para ser utilizada. El personal designado para esta tarea debe contar con capacitación básica en Buenas Prácticas de Manufactura y realizar una inspección tanto sensorial como documental, con el fin de detectar cualquier desviación que represente un riesgo sanitario. <br>
         p.mb-0 En la recepción, se deben evaluar varios criterios fundamentales:
     
     
@@ -95,13 +95,13 @@
           .col-lg-9
             AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-18")
               div(titulo="Temperatura").p-4
-                p Para los productos perecederos es indispensable verificar, mediante el uso de un termómetro limpio y desinfectado, que los alimentos lleguen dentro de los rangos establecidos. Carnes, pollo, pescado fresco y productos lácteos deben recibirse a una temperatura igual o inferior a 4 °C, mientras que los productos congelados, como pulpas de fruta, helados o mariscos, deben estar a –18 °C o menos. Identificar un producto entregado fuera de estos rangos indica ruptura de la cadena de frío y representa un alto riesgo de proliferación bacteriana. Por ejemplo, un camión que entregue pescado para preparar un viudo de capaz a 10 °C debe ser rechazado inmediatamente, aun cuando el producto tenga buena apariencia externa.
+                p para los productos perecederos es indispensable verificar, mediante el uso de un termómetro limpio y desinfectado, que los alimentos lleguen dentro de los rangos establecidos. Carnes, pollo, pescado fresco y productos lácteos deben recibirse a una temperatura igual o inferior a 4 °C, mientras que los productos congelados, como pulpas de fruta, helados o mariscos, deben estar a –18 °C o menos. Identificar un producto entregado fuera de estos rangos indica ruptura de la cadena de frío y representa un alto riesgo de proliferación bacteriana. Por ejemplo, un camión que entregue pescado para preparar un viudo de capaz a 10 °C debe ser rechazado inmediatamente, aun cuando el producto tenga buena apariencia externa.
               div(titulo="Integridad del empaque").p-4
-                p Los envases y empaques deben encontrarse limpios, secos, sin roturas, sin presencia de insectos, sin manchas de humedad ni signos de deterioro. Las latas no deben estar abolladas, oxidadas ni infladas, ya que estos defectos pueden indicar contaminación interna. Un costal de arroz húmedo, una bolsa de harina rota o una lata de leche condensada con abolladuras visibles son señales claras de riesgo que el aprendiz debe identificar para rechazar el producto.
+                p los envases y empaques deben encontrarse limpios, secos, sin roturas, sin presencia de insectos, sin manchas de humedad ni signos de deterioro. Las latas no deben estar abolladas, oxidadas ni infladas, ya que estos defectos pueden indicar contaminación interna. Un costal de arroz húmedo, una bolsa de harina rota o una lata de leche condensada con abolladuras visibles son señales claras de riesgo que el aprendiz debe identificar para rechazar el producto.
               div(titulo="Calidad organoléptica").p-4
-                p La evaluación sensorial permite identificar la frescura del alimento mediante el olor, el color y la textura. Los productos deben presentar olor característico, sin aromas ácidos, rancios o putrefactos; colores naturales, sin manchas verdosas o negruzcas; y una textura firme y adecuada. Por ejemplo, un aguacate destinado a la preparación de una crema que llega con manchas negras, pulpa blanda en exceso y olor fermentado no es apto para consumo humano y debe descartarse.
+                p la evaluación sensorial permite identificar la frescura del alimento mediante el olor, el color y la textura. Los productos deben presentar olor característico, sin aromas ácidos, rancios o putrefactos; colores naturales, sin manchas verdosas o negruzcas; y una textura firme y adecuada. Por ejemplo, un aguacate destinado a la preparación de una crema que llega con manchas negras, pulpa blanda en exceso y olor fermentado no es apto para consumo humano y debe descartarse.
               div(titulo="Documentación y trazabilidad").p-4
-                p Toda materia prima debe ingresar acompañada de su respectiva factura o remisión. En el caso de productos de origen animal, se debe identificar la presencia de certificados sanitarios o registros del INVIMA cuando aplique. Esta documentación permite asegurar el origen legal del alimento y facilita la trazabilidad en caso de presentarse una alerta sanitaria. La ausencia de estos soportes es una señal de incumplimiento de las BPM.
+                p toda materia prima debe ingresar acompañada de su respectiva factura o remisión. En el caso de productos de origen animal, se debe identificar la presencia de certificados sanitarios o registros del INVIMA cuando aplique. Esta documentación permite asegurar el origen legal del alimento y facilita la trazabilidad en caso de presentarse una alerta sanitaria. La ausencia de estos soportes es una señal de incumplimiento de las BPM.
                  
     .bg-full-width.bg-fondo-5.tarjeta.mb-5
       .p-3.p-lg-4.px-lg-2
@@ -202,7 +202,7 @@
               figure
                 img(src="@/assets/curso/tema4/img20.svg", alt="Acompañamiento", style="max-width: 100px;").mx-auto
             .col-lg-10.mb-4.mb-lg-0
-              p.mb-0(data-aos="fade-right") Finalmente, la capacitación continua del personal es una medida preventiva transversal. Las normas solo son efectivas si el manipulador comprende por qué existen. Identificar los peligros invisibles —bacterias, virus y parásitos— ayuda a transformar hábitos. Cuando un trabajador entiende que un simple cuchillo mal lavado puede transmitir Salmonella o E. coli a una ensalada, el cumplimiento deja de ser una obligación externa y se convierte en una responsabilidad personal.
+              p.mb-0(data-aos="fade-right") Finalmente, la capacitación continua del personal es una medida preventiva transversal. Las normas solo son efectivas si el manipulador comprende por qué existen. Identificar los peligros invisibles —bacterias, virus y parásitos— ayuda a transformar hábitos. Cuando un trabajador entiende que un simple cuchillo mal lavado puede transmitir <em>Salmonella</em> o <em>E. coli</em> a una ensalada, el cumplimiento deja de ser una obligación externa y se convierte en una responsabilidad personal.
 
           .row.justify-content-center.align-items-center.p-2
             .col-md-8.col-lg-2.mb-0.mb-lg-0
@@ -227,27 +227,27 @@
                 th Ejemplo de uso incorrecto (y riesgo)
             tbody
               tr
-                td <b>Rojo</b>
+                td <b>Rojo.</b>
                 td Carnes rojas crudas.
                 td Res para asado llanero, cerdo para lechona tolimense, carne molida para picada.
                 td Picar tomate para una ensalada (riesgo de transferir bacterias de la carne a un alimento listo para consumir).
               tr
-                td <b>Amarillo</b>
+                td <b>Amarillo.</b>
                 td Aves crudas.
                 td Pollo para ajiaco santafereño, sudado o frito; pavo para relleno.
                 td Filetear pescado para mojarra frita (riesgo de cruce de patógenos entre especies).
               tr
-                td <b>Azul</b>
+                td <b>Azul.</b>
                 td Pescados y mariscos crudos.
                 td Pescado para viudo de capaz, camarones para cóctel, calamar para apanado.
                 td Cortar queso costeño o quesillo (riesgo de contaminación con patógenos marinos y transferencia de olores).
               tr
-                td <b>Verde</b>
+                td <b>Verde.</b>
                 td Frutas y verduras.
                 td Plátano para patacones, tomate y cebolla para hogao, lechuga para ensalada, frutas para jugos.
                 td Cortar carne asada ya cocinada (riesgo de contaminar el alimento cocido con residuos de tierra o pesticidas de los vegetales).
               tr
-                td <b>Blanco</b>
+                td <b>Blanco.</b>
                 td Alimentos cocidos y listos para consumo.
                 td Arroz blanco, frijoles cocidos, arepas, carnes asadas, quesos curados, embutidos.
                 td Picar cebolla para un sofrito (riesgo de contaminar la superficie con jugos de vegetales crudos).
@@ -337,37 +337,37 @@
             tbody
               tr
                 td <b>Cocción de aves.</b>
-                td 74°C mínimo en la parte más gruesa (Ej.: muslo).
+                td 74 °C mínimo en la parte más gruesa (Ej.: muslo).
                 td Termómetro de cocina de penetración. Insertado en la parte más gruesa sin tocar hueso.
                 td Asegurar que el pollo de un ajiaco o un sudado haya alcanzado esta temperatura en su centro.
               tr
                 td <b>Cocción de carnes rojas.</b>
-                td 63°C (con un reposo de 3 minutos).
+                td 63 °C (con un reposo de 3 minutos).
                 td Termómetro de cocina. El reposo permite que el calor se distribuya y continúe la pasteurización.
                 td Verificar un lomo de cerdo para lechona o un corte de res para asado antes de servirlo.
               tr
                 td <b>Cocción de pescados.</b>
-                td 62°C hasta que la carne se torne opaca y se desmenuce fácilmente.
+                td 62 °C hasta que la carne se torne opaca y se desmenuce fácilmente.
                 td Termómetro de cocina y observación visual/textural.
                 td Cocinar un filete de mojarra o bagre para un viudo o frito.
               tr
-                td <b>Recalentamiento.</b>
-                td &ge;75°C en el centro del alimento. Debe ser rápido (&le;1 hora).
+                td <b>Re-calentamiento.</b>
+                td &ge;75 °C en el centro del alimento. Debe ser rápido (&le;1 hora).
                 td Termómetro de cocina.
                 td Recalentar un sancocho o una cazuela de frijoles que estuvo refrigerado.
               tr
                 td <b>Refrigeración.</b>
-                td &le;4°C en cualquier punto del equipo.
+                td &le;4 °C en cualquier punto del equipo.
                 td Termómetro de nevera o de producto.
                 td Almacenar lácteos, salsas (como hogao), carnes frías y sobrantes.
               tr
                 td <b>Congelación.</b>
-                td &le;-18°C para detener la proliferación microbiana.
+                td &le;-18 °C para detener la proliferación microbiana.
                 td Termómetro de congelador.
                 td Conservar pulpas de frutas (mango, guanábana), carnes y mariscos a largo plazo.
               tr
                 td <b>Zona de peligro.</b>
-                td Entre 4°C y 60°C (Rango de proliferación acelerada)
+                td Entre 4 °C y 60 °C (Rango de proliferación acelerada de bacterias).
                 td Monitoreo con termómetros.
                 td Evitar dejar alimentos perecederos (como una crema de ahuyama o una masa) en la mesada por más de 2 horas.
 
@@ -379,7 +379,7 @@
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center.bg-color-5.p-4.br-10
           .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
-            p.mb-0 Por ejemplo, al preparar un postre de natillas a base de huevo, se debe reconocer que la mezcla necesita alcanzar 71°C para garantizar la eliminación de bacterias peligrosas como Salmonella. Sin este conocimiento, incluso un producto que parezca listo podría representar un riesgo grave para la salud del consumidor. De igual manera, prácticas tradicionales como dejar un gran perol de sancocho caliente sobre la mesada toda la noche para que se enfríe por sí solo se identifican como peligrosas mediante la tabla de temperaturas y tiempos, ya que el alimento permanecería horas en la "zona de peligro" (5°C a 60°C), donde los microorganismos patógenos pueden multiplicarse rápidamente.
+            p.mb-0 Por ejemplo, al preparar un postre de natillas a base de huevo, se debe reconocer que la mezcla necesita alcanzar 71 °C para garantizar la eliminación de bacterias peligrosas como <em>Salmonella</em>. Sin este conocimiento, incluso un producto que parezca listo podría representar un riesgo grave para la salud del consumidor. De igual manera, prácticas tradicionales como dejar un gran perol de sancocho caliente sobre la mesada toda la noche para que se enfríe por sí solo se identifican como peligrosas mediante la tabla de temperaturas y tiempos, ya que el alimento permanecería horas en la "zona de peligro" (5 °C a 60 °C), donde los microorganismos patógenos pueden multiplicarse rápidamente.
           .col-lg-3.col-md-6.order-1.order-lg-2.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema4/img29.png", alt="Consumo seguro").mx-auto
@@ -425,17 +425,17 @@
             .row.justify-content-center.align-items-center
               .col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src="@/assets/curso/tema4/img33.svg", alt="Residuos orgánicos", style="width: 70px").mx-auto
+                  img(src="@/assets/curso/tema4/img33.svg", alt="Residuos orgánicos:", style="width: 70px").mx-auto
               .col-lg-10.mb-0.mb-md-0
-                p Son aquellos de origen biológico y biodegradable. Incluyen restos de comida como cáscaras de yuca y plátano, residuos de frutas y verduras, huesos y espinas de pescado, sobras de preparaciones, así como alimentos vencidos o en mal estado. Debido a su composición, estos residuos se descomponen rápidamente, producen malos olores y se convierten en un foco atractivo para insectos y animales vectores de enfermedades. Por esta razón, requieren un manejo inmediato, recipientes cerrados y una recolección frecuente.
+                p son aquellos de origen biológico y biodegradable. Incluyen restos de comida como cáscaras de yuca y plátano, residuos de frutas y verduras, huesos y espinas de pescado, sobras de preparaciones, así como alimentos vencidos o en mal estado. Debido a su composición, estos residuos se descomponen rápidamente, producen malos olores y se convierten en un foco atractivo para insectos y animales vectores de enfermedades. Por esta razón, requieren un manejo inmediato, recipientes cerrados y una recolección frecuente.
               
           .p-3.p-md-4(titulo="Residuos inorgánicos")
             .row.justify-content-center.align-items-center
               .col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src="@/assets/curso/tema4/img34.svg", alt="Residuos inorgánicos", style="width: 70px").mx-auto
+                  img(src="@/assets/curso/tema4/img34.svg", alt="Residuos inorgánicos:", style="width: 70px").mx-auto
               .col-lg-10.mb-0.mb-md-0
-                p Son materiales que no se degradan fácilmente en el ambiente. Comprenden envases de plástico, latas, botellas de vidrio, empaques de cartón, Tetra Pak, bolsas plásticas, papel film, guantes desechables y otros materiales de un solo uso. Aunque no generan descomposición rápida como los residuos orgánicos, pueden convertirse en fuentes de contaminación física si no se almacenan correctamente y pueden facilitar la acumulación 
+                p son materiales que no se degradan fácilmente en el ambiente. Comprenden envases de plástico, latas, botellas de vidrio, empaques de cartón, Tetra Pak, bolsas plásticas, papel film, guantes desechables y otros materiales de un solo uso. Aunque no generan descomposición rápida como los residuos orgánicos, pueden convertirse en fuentes de contaminación física si no se almacenan correctamente y pueden facilitar la acumulación de suciedad en el área de trabajo.
               
 
     .row.justify-content-center.mb-3

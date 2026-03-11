@@ -38,7 +38,7 @@ export default {
           {
             numero: '1.1',
             titulo:
-              'Importancia de la Normativa Sanitaria en la Gastronomía Profesional',
+              'Importancia de la normativa sanitaria en la gastronomía profesional',
             hash: 't_1_1',
           },
           {
@@ -132,32 +132,37 @@ export default {
         subMenu: [
           {
             numero: '4.1',
-            titulo:
-              'Criterios para la recepción y almacenamiento seguro de materias primas',
+            titulo: 'Procedimiento para el manejo higiénico de alimentos',
             hash: 't_4_1',
           },
           {
             numero: '4.2',
             titulo:
-              'Medidas para prevenir la contaminación cruzada durante la preparación',
+              'Criterios para la recepción y almacenamiento seguro de materias primas',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'Métodos seguros para procesos térmicos',
+            titulo:
+              'Medidas para prevenir la contaminación cruzada durante la preparación',
             hash: 't_4_3',
           },
           {
             numero: '4.4',
-            titulo:
-              'Tipos de residuos sólidos y sus vías de segregación y disposición',
+            titulo: 'Métodos seguros para procesos térmicos',
             hash: 't_4_4',
           },
           {
             numero: '4.5',
             titulo:
-              'Equipos y utensilios: materiales aprobados y características para una fácil limpieza',
+              'Tipos de residuos sólidos y sus vías de segregación y disposición',
             hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo:
+              'Equipos y utensilios: materiales aprobados y características para una fácil limpieza',
+            hash: 't_4_6',
           },
         ],
       },
@@ -227,7 +232,7 @@ export default {
         'Conjunto de principios y prácticas de higiene obligatorios en la manipulación de alimentos para garantizar su inocuidad, reglamentados por el Decreto 3075 de 1997.',
     },
     {
-      termino: 'Cadena de Frio',
+      termino: 'Cadena de frio',
       significado:
         'Sistema de conservación que mantiene los alimentos perecederos a temperaturas seguras desde su producción hasta el consumo.',
     },
@@ -287,7 +292,7 @@ export default {
         'Persona que, por su actividad laboral, entra en contacto directo con los alimentos durante su fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución, venta y servicio.',
     },
     {
-      termino: 'Normativa Sanitaria',
+      termino: 'Normativa sanitaria',
       significado:
         'Conjunto de leyes, decretos y resoluciones que regulan las condiciones de higiene y seguridad en la producción de alimentos.',
     },
@@ -315,53 +320,47 @@ export default {
   referencias: [
     {
       referencia:
-        '<em>Congreso de Colombia. (24 de enero de 1979). Ley 9 de 1979, por la cual se dictan medidas sanitarias. Diario Oficial No. 35308.</em>',
+        'Congreso de Colombia. (24 de enero de 1979). <em>Ley 9 de 1979, por la cual se dictan medidas sanitarias</em>. Diario Oficial No. 35308.',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5248',
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/ley%200009%20de%201979.pdf',
     },
     {
       referencia:
-        '<em>FAO & OMS. (1993). Código de Prácticas de Higiene para los Alimentos Precocinados y Cocidos Utilizados en los Servicios de Comidas para Colectividades (CAC/RCP 39-1993). Codex Alimentarius.</em>',
+        'FAO & OMS. (1993). <em>Código de Prácticas de Higiene para los Alimentos Precocinados y Cocidos Utilizados en los Servicios de Comidas para Colectividades (CAC/RCP 39-1993)</em>. Codex Alimentarius.',
+      link: 'https://www.fao.org/input/download/standards/25/CXP_039s.pdf',
+    },
+    {
+      referencia:
+        'FAO & OMS. (2023). <em>Acerca del Codex</em>. Codex Alimentarius. Recuperado el 10 de febrero de 2026, de http://www.fao.org/fao-who-codexalimentarius/about-codex/es/',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Salud. (2018). <em>Guía para la implementación de las Buenas Prácticas de Manufactura (BPM) en establecimientos de alimentos</em>. INS.',
+    },
+    {
+      referencia:
+        'INVIMA. (s.f.). <em>¿Qué es el INVIMA?</em> Instituto Nacional de Vigilancia de Medicamentos y Alimentos.',
+      link: 'https://www.invima.gov.co/el-instituto',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo. (s.f.). <em>Norma Técnica Sectorial NTS USNA 001: Servicios de alimentación turística</em>. MinCIT.',
       link:
-        'https://workspace.fao.org/sites/codex/Standards/CAC+RCP+39-1993/CXP_039s.pdf',
+        'https://www.mincit.gov.co/getattachment/ac2fdec2-9c13-4c9b-9d45-4d517ccacd1d/Norma-Tecnica-Sectorial-Colombiana-NTS-USNA-001-Pr',
     },
     {
       referencia:
-        '<em>FAO & OMS. (2023). Acerca del Codex. Codex Alimentarius.</em>',
-      link: 'http://www.fao.org/fao-who-codexalimentarius/about-codex/es/',
-    },
-    {
-      referencia:
-        '<em>Instituto Nacional de Salud. (2018). Guía para la implementación de las Buenas Prácticas de Manufactura (BPM) en establecimientos de alimentos. INS.</em>',
-      link:
-        'https://www.ins.gov.co/Direcciones/BuenasPracticasServiciosSalud/GuiaBPM.pdf',
-    },
-    {
-      referencia:
-        '<em>INVIMA. (s.f.). ¿Qué es el INVIMA? Instituto Nacional de Vigilancia de Medicamentos y Alimentos.</em>',
-      link: 'https://www.invima.gov.co/que-es-el-invima',
-    },
-    {
-      referencia:
-        '<em>Ministerio de Comercio, Industria y Turismo. (s.f.). Normas Técnicas Sectoriales NTS-USNA. MinCIT.</em>',
-      link:
-        'https://www.mincit.gov.co/CMSPages/GetFile.aspx?guid=abc123def-456-ghi-789-jklmnopqrstuv',
-    },
-    {
-      referencia:
-        '<em>Ministerio de Salud. (10 de diciembre de 1997). Decreto 3075 de 1997, por el cual se reglamenta parcialmente la Ley 9 de 1979 y se dictan otras disposiciones. Diario Oficial No. 43246.</em>',
+        'Ministerio de Salud. (10 de diciembre de 1997). <em>Decreto 3075 de 1997, por el cual se reglamenta parcialmente la Ley 9 de 1979 y se dictan otras disposiciones</em>. Diario Oficial No. 43246.',
       link:
         'https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%203075%20DE%201997.pdf',
     },
     {
       referencia:
-        '<em>Organización Panamericana de la Salud. (2011). Guía para la aplicación del sistema de HACCP en la industria de alimentos. OPS.</em>',
-      link: 'https://iris.paho.org/handle/10665.2/7695',
+        'Organización Panamericana de la Salud. (2011). <em>Guía para la aplicación del sistema de HACCP en la industria de alimentos</em>. OPS.',
     },
     {
       referencia:
-        '<em>SENA. (2020). Manual de Buenas Prácticas de Manufactura para servicios de alimentación. Dirección de Formación Profesional.</em>',
-      link: 'https://repositorio.sena.edu.co/handle/11404/8105',
+        'SENA. (2020). <em>Manual de Buenas Prácticas de Manufactura para servicios de alimentación</em>. Dirección de Formación Profesional.',
     },
   ],
   creditos: [
@@ -369,14 +368,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de la línea de producción',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -384,9 +384,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yina Paola Castro Zarate',
+          cargo: 'Experta temática',
+          centro: 'Centro de Comercio y Servicios -Regional Atlántico',
+        },
+        {
+          nombre: 'María Fernanda Morales Angulo',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios -Regional Atlántico',
         },
       ],
     },
@@ -394,19 +399,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Álvaro Guillermo Araújo Angarita',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -414,14 +419,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },

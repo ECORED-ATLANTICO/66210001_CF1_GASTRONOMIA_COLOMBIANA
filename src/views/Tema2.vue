@@ -22,12 +22,12 @@
         .titulo-sexto.color-acento-contenido
           h5 
             b Figura 1.
-          span Marco normativo para la inocuidad en Colombia
+          span Identificación de las Buenas Prácticas de Manufacturas 
         figure.mb-0
-          img(src="@/assets/curso/tema2/img02.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-none.d-lg-block.d-md-block
-          img(src="@/assets/curso/tema2/img02m.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-block.d-lg-none.d-md-none
+          img.mb-3(src="@/assets/curso/tema2/img02.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-none.d-lg-block.d-md-block
+          img.mb-3(src="@/assets/curso/tema2/img02m.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-block.d-lg-none.d-md-none
         .bg-color-2.p-3
-          p.mb-0.text-small Nota. Adaptado de la Ley 9 de 1978, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
+          p.mb-0.text-small Nota. SENA, 2026.
 
     
     .row.justify-content-center.mb-0
@@ -135,18 +135,18 @@
               img(src="@/assets/curso/tema2/img11.png", data-aos="zoom-in")
           .col-lg-9
             AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-18")
-              div(titulo="Restaurantes y fondas").p-4
-                p Que van desde establecimientos de alta cocina en ciudades principales hasta fondas de carretera que ofrecen platos tradicionales como sancocho o bandeja paisa. En estos lugares, el control de la higiene personal, la separación de alimentos crudos y cocidos y la correcta cocción son factores determinantes para prevenir la contaminación.
-              div(titulo="Panaderías y pastelerías").p-4
-                p Donde se manipulan harinas, huevos, lácteos y rellenos que requieren controles estrictos de higiene, temperatura y almacenamiento, debido a la facilidad con la que estos productos pueden contaminarse si no se conservan adecuadamente.
-              div(titulo="Juguerías, cafeterías y puestos de comida rápida").p-4
-                p En los que el manejo del agua potable, la limpieza permanente de utensilios y la refrigeración adecuada de frutas, lácteos y bebidas son aspectos críticos para garantizar la inocuidad.
-              div(titulo="Cocinas institucionales").p-4
-                p Donde se preparan grandes volúmenes de alimentos destinados a poblaciones vulnerables. En estos espacios, el cumplimiento de las BPM adquiere una importancia aún mayor, ya que cualquier falla puede afectar a un número significativo de personas.
-              div(titulo="Plazas de mercado y puestos callejeros").p-4
-                p Cuya implementación de las BPM representa un reto considerable debido a las condiciones ambientales, el acceso limitado a servicios básicos y la exposición constante al polvo, los insectos y la manipulación directa por parte del público. Aun así, estos establecimientos también están sujetos al cumplimiento de la normativa sanitaria.
-              div(titulo="Servicios de <em>catering</em> y <em>food trucks</em>").p-4
-                p Que deben garantizar la inocuidad durante el transporte, la conservación y la distribución de los alimentos, controlando especialmente la temperatura y el tiempo de exposición de los productos preparados.
+              div(titulo="Restaurantes y fondas:").p-4
+                p que van desde establecimientos de alta cocina en ciudades principales hasta fondas de carretera que ofrecen platos tradicionales como sancocho o bandeja paisa. En estos lugares, el control de la higiene personal, la separación de alimentos crudos y cocidos y la correcta cocción son factores determinantes para prevenir la contaminación.
+              div(titulo="Panaderías y pastelerías:").p-4
+                p donde se manipulan harinas, huevos, lácteos y rellenos que requieren controles estrictos de higiene, temperatura y almacenamiento, debido a la facilidad con la que estos productos pueden contaminarse si no se conservan adecuadamente.
+              div(titulo="Juguerías, cafeterías y puestos de comida rápida:").p-4
+                p en los que el manejo del agua potable, la limpieza permanente de utensilios y la refrigeración adecuada de frutas, lácteos y bebidas son aspectos críticos para garantizar la inocuidad.
+              div(titulo="Cocinas institucionales como las de colegios, hospitales, universidades y empresas:").p-4
+                p donde se preparan grandes volúmenes de alimentos destinados a poblaciones vulnerables. En estos espacios, el cumplimiento de las BPM adquiere una importancia aún mayor, ya que cualquier falla puede afectar a un número significativo de personas.
+              div(titulo="Plazas de mercado y puestos callejeros:").p-4
+                p cuya implementación de las BPM representa un reto considerable debido a las condiciones ambientales, el acceso limitado a servicios básicos y la exposición constante al polvo, los insectos y la manipulación directa por parte del público. Aun así, estos establecimientos también están sujetos al cumplimiento de la normativa sanitaria.
+              div(titulo="Servicios de <em>catering</em> y <em>food trucks</em>:").p-4
+                p que deben garantizar la inocuidad durante el transporte, la conservación y la distribución de los alimentos, controlando especialmente la temperatura y el tiempo de exposición de los productos preparados.
             
     .container
       .row.justify-content-center.mb-4
@@ -253,7 +253,7 @@
                 td <b>Biológico.</b>
                 td <i>Salmonella spp., E. coli, Norovirus</i>, Hepatitis A.
                 td Pollo crudo (para ajiaco/sancocho), huevos, leche no pasteurizada, verduras de hoja regadas con agua contaminada (para ensaladas), mariscos crudos (para cóctel), manipulador enfermo.
-                td Cocción adecuada (>74°C para aves), pasteurización, lavado y desinfección de vegetales, lavado riguroso de manos, exclusión de personal enfermo.
+                td Cocción adecuada (> 74°C para aves), pasteurización, lavado y desinfección de vegetales, lavado riguroso de manos, exclusión de personal enfermo.
               tr
                 td <b>Químico.</b>
                 td Residuos de detergentes/ desinfectantes, alérgenos no declarados (gluten, maní, lácteos), toxinas naturales (solanina en papas verdes), plaguicidas en vegetales.
@@ -298,8 +298,8 @@
             b Figura 3.
           span Identificación de los tipos de contaminación
         figure.mb-0
-          img(src="@/assets/curso/tema2/img22.png", alt="Identificación de los tipos de contaminación").d-none.d-lg-block.d-md-block
-          img(src="@/assets/curso/tema2/img22m.png", alt="Identificación de los tipos de contaminación").d-block.d-lg-none.d-md-none
+          img(src="@/assets/curso/tema2/img22.png", alt="En la figura 3 se describen los diferentes tipos de contaminación cruzada: directa o indirecta; contaminación cruzada directa: se presenta cuando existe contacto físico entre un alimento contaminado, generalmente crudo, y un alimento que ya está listo para ser consumido sin necesidad de cocción adicional, por ejemplo cuando los jugos de carne cruda en el refrigerador entran en contacto con arepas, papas u otros alimentos cocidos y los microorganismos se transfieren convirtiéndolos en un riesgo para la salud; contaminación cruzada indirecta: ocurre cuando la transferencia del peligro se realiza a través de un elemento intermediario o “vehículo contaminado”, como utensilios (usar el mismo cuchillo o tenedor para pollo crudo y luego verduras sin lavarlo), superficies (utilizar la misma tabla para alimentos crudos y cocidos sin desinfectarla), manos (tocar dinero, basura o alimentos crudos y después manipular alimentos listos sin lavarse) y equipos (usar la licuadora para diferentes preparaciones sin limpiarla previamente). Nota. SENA, 2026.").d-none.d-lg-block.d-md-block
+          img(src="@/assets/curso/tema2/img22m.png", alt="En la figura 3 se describen los diferentes tipos de contaminación cruzada: directa o indirecta; contaminación cruzada directa: se presenta cuando existe contacto físico entre un alimento contaminado, generalmente crudo, y un alimento que ya está listo para ser consumido sin necesidad de cocción adicional, por ejemplo cuando los jugos de carne cruda en el refrigerador entran en contacto con arepas, papas u otros alimentos cocidos y los microorganismos se transfieren convirtiéndolos en un riesgo para la salud; contaminación cruzada indirecta: ocurre cuando la transferencia del peligro se realiza a través de un elemento intermediario o “vehículo contaminado”, como utensilios (usar el mismo cuchillo o tenedor para pollo crudo y luego verduras sin lavarlo), superficies (utilizar la misma tabla para alimentos crudos y cocidos sin desinfectarla), manos (tocar dinero, basura o alimentos crudos y después manipular alimentos listos sin lavarse) y equipos (usar la licuadora para diferentes preparaciones sin limpiarla previamente). Nota. SENA, 2026.").d-block.d-lg-none.d-md-none
         .bg-color-2.p-3
           p.mb-0.text-small Nota. SENA, 2026.
 
@@ -315,7 +315,7 @@
             figure
               img(src="@/assets/curso/tema2/img23.png", data-aos="zoom-in")
           .col-lg-9
-            p.mb-3(data-aos="fade-left") El Código Internacional del <em>Codex</em> señala de forma enfática en una nota de Punto Crítico de Control (PCC) que "es esencial desinfectar minuciosamente todo el equipo y utensilios utilizados para los alimentos crudos, antes de ser empleados para los alimentos cocinados y precocinados" (FAO & OMS, 1993, Secc. IV). Esta recomendación resalta la importancia de interrumpir las vías de transmisión de los peligros mediante procedimientos estandarizados de limpieza y desinfección.
+            p.mb-3(data-aos="fade-left") El Código Internacional del <em>Codex</em> señala de forma enfática, en una nota de Punto Crítico de Control (PCC), que "es esencial desinfectar minuciosamente todo el equipo y utensilios utilizados para los alimentos crudos, antes de ser empleados para los alimentos cocinados y precocinados" (FAO & OMS, 1993, secc. IV). Esta recomendación resalta la importancia de interrumpir las vías de transmisión de los peligros mediante procedimientos estandarizados de limpieza y desinfección.
 
             .row.justify-content-center.mb-0
               .col-md-12.col-lg-12

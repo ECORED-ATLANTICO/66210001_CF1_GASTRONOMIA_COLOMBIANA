@@ -39,28 +39,28 @@
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema1/img04.svg' alt='', style="width: 100px;").mx-auto
-          h4.text-center Higiene personal de los manipuladores
+          h4.text-center Higiene personal de los manipuladores:
           p.text-center lavado de manos frecuente, uso de uniformes limpios, protección de heridas y control de enfermedades transmisibles.
 
         .tarjeta.bg-fondo-2.p-4
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema1/img05.svg' alt='', style="width: 100px;").mx-auto
-          h4.text-center Limpieza y desinfección de utensilios y superficies
+          h4.text-center Limpieza y desinfección de utensilios y superficies:
           p.text-center garantizar que mesas, tablas de corte, cuchillos y equipos estén libres de contaminantes antes y después de cada uso.
 
         .tarjeta.bg-fondo-2.p-4
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema1/img06.svg' alt='', style="width: 100px;").mx-auto
-          h4.text-center Almacenamiento adecuado de materias primas
+          h4.text-center Almacenamiento adecuado de materias primas:
           p.text-center separación de alimentos crudos y cocidos, control de fechas de vencimiento, conservación a temperaturas seguras y rotación de inventarios.
 
         .tarjeta.bg-fondo-2.p-4
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema1/img07.svg' alt='', style="width: 100px;").mx-auto
-          h4.text-center Control de temperaturas de conservación
+          h4.text-center Control de temperaturas de conservación:
           p.text-center refrigeración y congelación correctas para evitar la proliferación de microorganismos.
 
         .tarjeta.bg-fondo-2.p-4
@@ -170,7 +170,7 @@
         .titulo-sexto.color-acento-contenido
           h5 
             b Tabla 2. 
-            span Comparativa del marco legal sanitario en Colombia
+            span Marco normativo sanitario en Colombia
         .tabla-a.color-acento-contenido
           table
             caption Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
@@ -321,7 +321,7 @@
           
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
-              p.mb-0 La función más visible del INVIMA es la expedición del Registro Sanitario a productos envasados, como embutidos, salsas, conservas, bebidas y agua embotellada, certificando que estos cumplen con los criterios de higiene y seguridad establecidos por la ley.
+              p.mb-0 La función más visible del INVIMA es la expedición del registro sanitario a productos envasados, como embutidos, salsas, conservas, bebidas y agua embotellada, certificando que estos cumplen con los criterios de higiene y seguridad establecidos por la ley.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/img25.png', alt='',  style="width: 500px;").mx-auto
@@ -333,7 +333,7 @@
             figure
               img(src="@/assets/curso/tema1/img26.png", data-aos="zoom-in")
           .col-lg-8
-            p.mb-0(data-aos="fade-right") Por su parte, la vigilancia directa de los establecimientos —restaurantes, panaderías, <em>catering</em> y otros servicios de alimentos— recae sobre las Secretarías de Salud Departamentales, Distritales y Municipales. Estas autoridades locales son responsables de realizar inspecciones sanitarias, verificar la correcta implementación de las Buenas Prácticas de Manufactura (BPM) y los lineamientos del HACCP, otorgar o negar la Licencia Sanitaria de Funcionamiento, y aplicar sanciones en caso de incumplimiento del Decreto 3075 de 1997 y normas complementarias. Esta división de competencias permite que el control sea más cercano al lugar donde se manipulan los alimentos y que la supervisión se adapte a las condiciones locales de cada municipio o distrito.
+            p.mb-0(data-aos="fade-right") Por su parte, la vigilancia directa de los establecimientos —restaurantes, panaderías, <em>catering</em> y otros servicios de alimentos— recae sobre las secretarías de salud departamentales, distritales y municipales. Estas autoridades locales son responsables de realizar inspecciones sanitarias, verificar la correcta implementación de las Buenas Prácticas de Manufactura (BPM) y los lineamientos del HACCP, otorgar o negar la licencia sanitaria de funcionamiento, y aplicar sanciones en caso de incumplimiento del Decreto 3075 de 1997 y normas complementarias. Esta división de competencias permite que el control sea más cercano al lugar donde se manipulan los alimentos y que la supervisión se adapte a las condiciones locales de cada municipio o distrito.
         
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
@@ -342,7 +342,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img27.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Identificar la diferencia entre el rol del INVIMA y el de las autoridades locales es crucial para los profesionales de la gastronomía. Por ejemplo, cuando un inspector visita una cocina en Medellín, representa a la Secretaría de Salud Municipal, no al INVIMA, y sus observaciones y posibles sanciones se fundamentan en normas de alcance local y nacional. Por otro lado, un producto envasado que requiera Registro Sanitario debe tramitarse ante el INVIMA, siguiendo un proceso técnico y administrativo diferente.
+            p.mb-0 Identificar la diferencia entre el rol del INVIMA y el de las autoridades locales es crucial para los profesionales de la gastronomía. Por ejemplo, cuando un inspector visita una cocina en Medellín, representa a la secretaría de salud municipal, no al INVIMA, y sus observaciones y posibles sanciones se fundamentan en normas de alcance local y nacional. Por otro lado, un producto envasado que requiera registro sanitario debe tramitarse ante el INVIMA, siguiendo un proceso técnico y administrativo diferente.
     
     .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-10
@@ -388,7 +388,7 @@
                 .col-12.col-lg-auto.mb-4.mb-lg-2
                   img.d-lg-flex.d-none(src="@/assets/curso/tema1/img32.svg").mx-auto
                 .col-12.col-lg-12
-                  p.mb-3 Colombia, como país miembro del <em>Codex</em>, adopta muchas de estas recomendaciones como base para fortalecer su legislación sanitaria nacional. Aunque el Codex no tiene fuerza de ley en el país, sus principios se incorporan en normas y resoluciones emitidas por entidades como el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA) y el Ministerio de Salud y Protección Social. Por ejemplo, conceptos clave como el Análisis de Peligros y Puntos Críticos de Control (HACCP) y las Buenas Prácticas de Manufactura (BPM) tienen su origen en los lineamientos del <em>Codex</em>, y su implementación en Colombia garantiza un estándar mínimo de inocuidad alimentaria.
+                  p.mb-3 Colombia, como país miembro del <em>Codex</em>, adopta muchas de estas recomendaciones como base para fortalecer su legislación sanitaria nacional. Aunque el <em>Codex</em> no tiene fuerza de ley en el país, sus principios se incorporan en normas y resoluciones emitidas por entidades como el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA) y el Ministerio de Salud y Protección Social. Por ejemplo, conceptos clave como el Análisis de Peligros y Puntos Críticos de Control (HACCP) y las Buenas Prácticas de Manufactura (BPM) tienen su origen en los lineamientos del <em>Codex</em>, y su implementación en Colombia garantiza un estándar mínimo de inocuidad alimentaria.
                   p.mb-0 En la tabla a continuación se describe el papel preponderante del <em>Codex Alimentarius</em> en la normativa sanitaria colombiana:
 
     .row.justify-content-center.mb-4
@@ -399,7 +399,7 @@
             span Rol de <em>Codex Alimentarius</em> en la normativa sanitaria colombiana
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: SENA 2026
+            caption Nota: SENA 2026.
             thead
               tr
                 th Aspecto
@@ -413,16 +413,16 @@
                 td Proteger la salud del consumidor y garantizar prácticas justas en el comercio internacional. Incluye límites de contaminantes, aditivos, lineamientos de higiene, etiquetado, procesamiento y almacenamiento de alimentos.
               tr
                 td <b>Relación con Colombia.</b>
-                td Aunque el Codex no tiene fuerza legal directa en el país, Colombia adopta gran parte de sus lineamientos para fortalecer su legislación sanitaria. Estos se incorporan en la normatividad emitida por el Ministerio de Salud y Protección Social y por el INVIMA.
+                td Aunque el <em>Codex</em> no tiene fuerza legal directa en el país, Colombia adopta gran parte de sus lineamientos para fortalecer su legislación sanitaria. Estos se incorporan en la normatividad emitida por el Ministerio de Salud y Protección Social y por el INVIMA.
               tr
                 td <b>Lineamientos derivados aplicados a Colombia.</b>
-                td Principios clave como las Buenas Prácticas de Manufactura (BPM) y el sistema HACCP tienen su origen en el Codex, y su adopción garantiza un estándar mínimo de inocuidad en la producción y manipulación de alimentos.
+                td Principios clave como las Buenas Prácticas de Manufactura (BPM) y el sistema HACCP tienen su origen en el <em>Codex</em>, y su adopción garantiza un estándar mínimo de inocuidad en la producción y manipulación de alimentos.
               tr
                 td <b>Impacto en el comercio y la industria.</b>
-                td Cumplir con los estándares del Codex facilita la exportación de alimentos, reduce rechazos en mercados internacionales y asegura prácticas modernas en restaurantes, industrias y cocinas institucionales.
+                td Cumplir con los estándares del <em>Codex</em> facilita la exportación de alimentos, reduce rechazos en mercados internacionales y asegura prácticas modernas en restaurantes, industrias y cocinas institucionales.
               tr
                 td <b>Relevancia para el sector gastronómico colombiano.</b>
-                td La adopción de los principios del Codex permite que la gastronomía nacional se alinee con estándares internacionales, fortalezca la confianza del consumidor y mantenga prácticas actualizadas frente a nuevos avances científicos y tecnológicos.
+                td La adopción de los principios del <em>Codex</em> permite que la gastronomía nacional se alinee con estándares internacionales, fortalezca la confianza del consumidor y mantenga prácticas actualizadas frente a nuevos avances científicos y tecnológicos.
               tr
                 td <b>Importancia estratégica.</b>
                 td El <em>Codex</em> actúa como un puente entre las regulaciones nacionales y el contexto global, fortaleciendo la salud pública, el comercio alimentario y la competitividad del país en el mercado internacional.

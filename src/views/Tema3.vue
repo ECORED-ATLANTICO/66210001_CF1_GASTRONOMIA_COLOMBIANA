@@ -215,8 +215,8 @@
                   figure
                     img(src="@/assets/curso/tema3/img46.svg", alt="Guía de referencia").mx-auto
                 .col-lg-8.tarjeta.p-2.br-tarjeta-lg
-                  h5.text-bold Mojarse las manos con agua potable corriente tibia
-                  p.mb-0 Permite que la suciedad superficial y los residuos iniciales se desprendan, facilitando la acción del jabón.
+                  h5.text-bold Mojarse las manos con agua potable corriente tibia:
+                  p.mb-0 permite que la suciedad superficial y los residuos iniciales se desprendan, facilitando la acción del jabón.
 
             .col-md-12.mb-3
               .row.justify-content-center.align-items-center.tarjeta.br-tarjeta-md
@@ -224,7 +224,7 @@
                   figure
                     img(src="@/assets/curso/tema3/img47.svg", alt="Guía de referencia").mx-auto
                 .col-lg-8.tarjeta.p-2.br-tarjeta-lg
-                  h5.text-bold Aplicar jabón líquido antibacterial
+                  h5.text-bold Aplicar jabón líquido antibacterial:
                   p.mb-0 el jabón rompe la capa de grasa y elimina microorganismos adheridos a la piel; los jabones antibacteriales refuerzan la eliminación de bacterias patógenas comunes en la cocina.
 
             .col-md-12.mb-3
@@ -233,7 +233,7 @@
                   figure
                     img(src="@/assets/curso/tema3/img48.svg", alt="Guía de referencia").mx-auto
                 .col-lg-8.tarjeta.p-2.br-tarjeta-lg
-                  h5.text-bold Frotar vigorosamente todas las superficies de las manos durante mínimo 20 segundos
+                  h5.text-bold Frotar vigorosamente todas las superficies de las manos durante mínimo 20 segundos:
                   p.mb-0 incluyendo palmas, dorso, entre los dedos, bajo las uñas y muñecas, asegurando que ninguna zona quede sin higienizaEsta es la fase más crítica, ya que estudios muestran que gran parte de los patógenos sobreviven en espacios de difícil acceso si no se frota correctamente.
 
             .col-md-12.mb-3
@@ -242,7 +242,7 @@
                   figure
                     img(src="@/assets/curso/tema3/img49.svg", alt="Guía de referencia").mx-auto
                 .col-lg-8.tarjeta.p-2.br-tarjeta-lg
-                  h5.text-bold Enjuagar completamente con agua corriente
+                  h5.text-bold Enjuagar completamente con agua corriente:
                   p.mb-0 elimina tanto el jabón como los microorganismos desprendidos, evitando que queden residuos que puedan contaminar los alimentos.
 
             .col-md-12.mb-3
@@ -251,7 +251,7 @@
                   figure
                     img(src="@/assets/curso/tema3/img50.svg", alt="Guía de referencia").mx-auto
                 .col-lg-8.tarjeta.p-2.br-tarjeta-lg
-                  h5.text-bold Secarse con toallas de papel desechables
+                  h5.text-bold Secarse con toallas de papel desechables:
                   p.mb-0 el secado con toallas desechables evita la recontaminación; nunca se deben usar el delantal, la ropa o trapos reutilizables, ya que estos son reservorios de bacterias y pueden transferir contaminantes nuevamente a las manos limpias. 
 
 

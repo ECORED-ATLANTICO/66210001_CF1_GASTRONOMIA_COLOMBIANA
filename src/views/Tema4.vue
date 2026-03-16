@@ -214,7 +214,8 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 6.
+          h5 
+            b Tabla 6.
           span Sistema de código de colores para utensilios
         .tabla-a.color-acento-contenido
           table
@@ -323,7 +324,8 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 7.
+          h5 
+            b Tabla 7.
           span Métodos seguros para procesos térmicos
         .tabla-a.color-acento-contenido
           table
@@ -499,28 +501,28 @@
         SlyderF(columnas="col-lg-6 col-xl-4")
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
-              .col-4
+              .col-6.col-md-6.col-lg-8.col-xl-6
                 figure
                   img(src="@/assets/curso/tema4/img38.svg", alt="Icono")
             p.text-center Madera en tablas de picar, cucharas o mangos de cuchillo con grietas, ya que absorbe humedad y restos de comida, convirtiéndose en un reservorio de bacterias.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
-              .col-4
+              .col-6.col-md-6.col-lg-8.col-xl-6
                 figure
                   img(src="@/assets/curso/tema4/img39.svg", alt="Icono")
             p.text-center Aluminio en contacto con alimentos ácidos como limón, tomate o vinagre (frecuentes en ceviches o salsas), debido a que se corroe fácilmente y puede transferir partículas metálicas al alimento.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
-              .col-4
+              .col-6.col-md-6.col-lg-8.col-xl-6
                 figure
                   img(src="@/assets/curso/tema4/img40.svg", alt="Icono")
             p.text-center Cobre sin recubrimiento interno, que puede reaccionar químicamente con ciertos alimentos.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
-              .col-4
+              .col-6.col-md-6.col-lg-8.col-xl-6
                 figure
                   img(src="@/assets/curso/tema4/img41.svg", alt="Icono")
             p.text-center Plásticos rayados, mellados o quebrados, que pierden su superficie lisa y permiten la acumulación de suciedad y microorganismos.

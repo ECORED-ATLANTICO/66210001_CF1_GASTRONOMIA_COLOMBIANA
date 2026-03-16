@@ -158,7 +158,8 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 5.
+          h5 
+            b Tabla 5.
           span Protocolo de lavado de manos: 5 momentos obligatorios
         .tabla-a.color-acento-contenido
           table

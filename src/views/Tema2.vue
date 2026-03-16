@@ -237,7 +237,8 @@
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 4.
+          h5 
+            b Tabla 4.
           span Clasificación de peligros biológicos, químicos y físicos
         .tabla-a.color-acento-contenido
           table

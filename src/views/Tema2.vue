@@ -19,17 +19,19 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
-        .titulo-sexto.color-acento-contenido
-          h5 
-            b Figura 1.
-          span Identificación de las Buenas Prácticas de Manufacturas 
-        figure.mb-0
-          img.mb-3(src="@/assets/curso/tema2/img02.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-none.d-lg-block.d-md-block
-          img.mb-3(src="@/assets/curso/tema2/img02m.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-block.d-lg-none.d-md-none
-        .bg-color-2.p-3
-          p.mb-0.text-small Nota. SENA, 2026.
+        .row.justify-content-center.align-items-center
+          .col-auto.titulo-sexto.color-acento-contenido
+            h5 
+              b Figura 1.
+            span Identificación de las Buenas Prácticas de Manufacturas 
+          .col-12.col-md-12.col-lg-12
+            figure.mb-0
+              img.mb-3(src="@/assets/curso/tema2/img02.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-none.d-lg-block.d-md-block
+              img.mb-3(src="@/assets/curso/tema2/img02m.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-block.d-lg-none.d-md-none
+              figcaption
+                b Nota.  
+                | SENA, 2026.
 
-    
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
@@ -75,15 +77,18 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
-        .titulo-sexto.color-acento-contenido
-          h5 
-            b Figura 2.
-          span Pilares básicos de las Buenas Prácticas de Manufactura (BPM)
-        figure.mb-0
-          img(src="@/assets/curso/tema2/img07.svg", alt="Higiene personal. Abarca aspectos como el estado de salud, el lavado correcto de manos, el uso adecuado del uniforme y los hábitos de aseo personal. Este pilar reconoce que el manipulador es una de las principales fuentes potenciales de contaminación y, por tanto, requiere control permanente. Higiene del ambiente y las instalaciones. Identifica al adecuado diseño y mantenimiento de la cocina, incluyendo la limpieza y desinfección de sus áreas, así como condiciones seguras de ventilación, iluminación y agua potable. Un ambiente limpio y ordenado disminuye el riesgo de microorganismos y plagas. Higiene de los equipos y utensilios. Garantiza que las herramientas utilizadas en la preparación de los alimentos no se conviertan en fuentes de contaminación. Esto implica seleccionar materiales adecuados, aplicar rutinas de limpieza y desinfección, y verificar que los equipos se encuentren en buen estado de funcionamiento. Higiene de los procesos. Dimensiona que los procedimientos correctos para recibir, almacenar, preparar, cocinar y servir los alimentos. Incluye el control de temperaturas, la correcta rotulación de productos, la separación entre alimentos crudos y cocidos, y la aplicación de métodos seguros de cocción y conservación.").d-none.d-lg-block.d-md-block
-          img(src="@/assets/curso/tema2/img07m.svg", alt="Higiene personal. Abarca aspectos como el estado de salud, el lavado correcto de manos, el uso adecuado del uniforme y los hábitos de aseo personal. Este pilar reconoce que el manipulador es una de las principales fuentes potenciales de contaminación y, por tanto, requiere control permanente. Higiene del ambiente y las instalaciones. Identifica al adecuado diseño y mantenimiento de la cocina, incluyendo la limpieza y desinfección de sus áreas, así como condiciones seguras de ventilación, iluminación y agua potable. Un ambiente limpio y ordenado disminuye el riesgo de microorganismos y plagas. Higiene de los equipos y utensilios. Garantiza que las herramientas utilizadas en la preparación de los alimentos no se conviertan en fuentes de contaminación. Esto implica seleccionar materiales adecuados, aplicar rutinas de limpieza y desinfección, y verificar que los equipos se encuentren en buen estado de funcionamiento. Higiene de los procesos. Dimensiona que los procedimientos correctos para recibir, almacenar, preparar, cocinar y servir los alimentos. Incluye el control de temperaturas, la correcta rotulación de productos, la separación entre alimentos crudos y cocidos, y la aplicación de métodos seguros de cocción y conservación.").d-block.d-lg-none.d-md-none
-        .bg-color-2.p-3
-          p.mb-0.text-small Nota. SENA, 2026.
+        .row.justify-content-center.align-items-center.p-0
+          .col-auto.titulo-sexto.color-acento-contenido
+            h5 
+              b Figura 2.
+            span Pilares básicos de las Buenas Prácticas de Manufactura (BPM)
+          .col-12.col-md-12.col-lg-12
+            figure.mb-0
+              img(src="@/assets/curso/tema2/img07.svg", alt="Higiene personal. Abarca aspectos como el estado de salud, el lavado correcto de manos, el uso adecuado del uniforme y los hábitos de aseo personal. Este pilar reconoce que el manipulador es una de las principales fuentes potenciales de contaminación y, por tanto, requiere control permanente. Higiene del ambiente y las instalaciones. Identifica al adecuado diseño y mantenimiento de la cocina, incluyendo la limpieza y desinfección de sus áreas, así como condiciones seguras de ventilación, iluminación y agua potable. Un ambiente limpio y ordenado disminuye el riesgo de microorganismos y plagas. Higiene de los equipos y utensilios. Garantiza que las herramientas utilizadas en la preparación de los alimentos no se conviertan en fuentes de contaminación. Esto implica seleccionar materiales adecuados, aplicar rutinas de limpieza y desinfección, y verificar que los equipos se encuentren en buen estado de funcionamiento. Higiene de los procesos. Dimensiona que los procedimientos correctos para recibir, almacenar, preparar, cocinar y servir los alimentos. Incluye el control de temperaturas, la correcta rotulación de productos, la separación entre alimentos crudos y cocidos, y la aplicación de métodos seguros de cocción y conservación.").d-none.d-lg-block.d-md-block
+              img(src="@/assets/curso/tema2/img07m.svg", alt="Higiene personal. Abarca aspectos como el estado de salud, el lavado correcto de manos, el uso adecuado del uniforme y los hábitos de aseo personal. Este pilar reconoce que el manipulador es una de las principales fuentes potenciales de contaminación y, por tanto, requiere control permanente. Higiene del ambiente y las instalaciones. Identifica al adecuado diseño y mantenimiento de la cocina, incluyendo la limpieza y desinfección de sus áreas, así como condiciones seguras de ventilación, iluminación y agua potable. Un ambiente limpio y ordenado disminuye el riesgo de microorganismos y plagas. Higiene de los equipos y utensilios. Garantiza que las herramientas utilizadas en la preparación de los alimentos no se conviertan en fuentes de contaminación. Esto implica seleccionar materiales adecuados, aplicar rutinas de limpieza y desinfección, y verificar que los equipos se encuentren en buen estado de funcionamiento. Higiene de los procesos. Dimensiona que los procedimientos correctos para recibir, almacenar, preparar, cocinar y servir los alimentos. Incluye el control de temperaturas, la correcta rotulación de productos, la separación entre alimentos crudos y cocidos, y la aplicación de métodos seguros de cocción y conservación.").d-block.d-lg-none.d-md-none
+              figcaption
+                b Nota. 
+                | SENA, 2026.
 
    
     .row.justify-content-center.mb-5
@@ -294,15 +299,18 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
-        .titulo-sexto.color-acento-contenido
-          h5 
-            b Figura 3.
-          span Identificación de los tipos de contaminación
-        figure.mb-0
-          img(src="@/assets/curso/tema2/img22.png", alt="En la figura 3 se describen los diferentes tipos de contaminación cruzada: directa o indirecta; contaminación cruzada directa: se presenta cuando existe contacto físico entre un alimento contaminado, generalmente crudo, y un alimento que ya está listo para ser consumido sin necesidad de cocción adicional, por ejemplo cuando los jugos de carne cruda en el refrigerador entran en contacto con arepas, papas u otros alimentos cocidos y los microorganismos se transfieren convirtiéndolos en un riesgo para la salud; contaminación cruzada indirecta: ocurre cuando la transferencia del peligro se realiza a través de un elemento intermediario o “vehículo contaminado”, como utensilios (usar el mismo cuchillo o tenedor para pollo crudo y luego verduras sin lavarlo), superficies (utilizar la misma tabla para alimentos crudos y cocidos sin desinfectarla), manos (tocar dinero, basura o alimentos crudos y después manipular alimentos listos sin lavarse) y equipos (usar la licuadora para diferentes preparaciones sin limpiarla previamente). Nota. SENA, 2026.").d-none.d-lg-block.d-md-block
-          img(src="@/assets/curso/tema2/img22m.png", alt="En la figura 3 se describen los diferentes tipos de contaminación cruzada: directa o indirecta; contaminación cruzada directa: se presenta cuando existe contacto físico entre un alimento contaminado, generalmente crudo, y un alimento que ya está listo para ser consumido sin necesidad de cocción adicional, por ejemplo cuando los jugos de carne cruda en el refrigerador entran en contacto con arepas, papas u otros alimentos cocidos y los microorganismos se transfieren convirtiéndolos en un riesgo para la salud; contaminación cruzada indirecta: ocurre cuando la transferencia del peligro se realiza a través de un elemento intermediario o “vehículo contaminado”, como utensilios (usar el mismo cuchillo o tenedor para pollo crudo y luego verduras sin lavarlo), superficies (utilizar la misma tabla para alimentos crudos y cocidos sin desinfectarla), manos (tocar dinero, basura o alimentos crudos y después manipular alimentos listos sin lavarse) y equipos (usar la licuadora para diferentes preparaciones sin limpiarla previamente). Nota. SENA, 2026.").d-block.d-lg-none.d-md-none
-        .bg-color-2.p-3
-          p.mb-0.text-small Nota. SENA, 2026.
+        .row.justify-content-center.align-items-center
+          .col-auto.titulo-sexto.color-acento-contenido
+            h5 
+              b Figura 3.
+            span Identificación de los tipos de contaminación
+          .col-12.col-md-12.col-lg-12
+            figure.mb-0
+              img(src="@/assets/curso/tema2/img22.png", alt="En la figura 3 se describen los diferentes tipos de contaminación cruzada: directa o indirecta; contaminación cruzada directa: se presenta cuando existe contacto físico entre un alimento contaminado, generalmente crudo, y un alimento que ya está listo para ser consumido sin necesidad de cocción adicional, por ejemplo cuando los jugos de carne cruda en el refrigerador entran en contacto con arepas, papas u otros alimentos cocidos y los microorganismos se transfieren convirtiéndolos en un riesgo para la salud; contaminación cruzada indirecta: ocurre cuando la transferencia del peligro se realiza a través de un elemento intermediario o “vehículo contaminado”, como utensilios (usar el mismo cuchillo o tenedor para pollo crudo y luego verduras sin lavarlo), superficies (utilizar la misma tabla para alimentos crudos y cocidos sin desinfectarla), manos (tocar dinero, basura o alimentos crudos y después manipular alimentos listos sin lavarse) y equipos (usar la licuadora para diferentes preparaciones sin limpiarla previamente). Nota. SENA, 2026.").d-none.d-lg-block.d-md-block
+              img(src="@/assets/curso/tema2/img22m.png", alt="En la figura 3 se describen los diferentes tipos de contaminación cruzada: directa o indirecta; contaminación cruzada directa: se presenta cuando existe contacto físico entre un alimento contaminado, generalmente crudo, y un alimento que ya está listo para ser consumido sin necesidad de cocción adicional, por ejemplo cuando los jugos de carne cruda en el refrigerador entran en contacto con arepas, papas u otros alimentos cocidos y los microorganismos se transfieren convirtiéndolos en un riesgo para la salud; contaminación cruzada indirecta: ocurre cuando la transferencia del peligro se realiza a través de un elemento intermediario o “vehículo contaminado”, como utensilios (usar el mismo cuchillo o tenedor para pollo crudo y luego verduras sin lavarlo), superficies (utilizar la misma tabla para alimentos crudos y cocidos sin desinfectarla), manos (tocar dinero, basura o alimentos crudos y después manipular alimentos listos sin lavarse) y equipos (usar la licuadora para diferentes preparaciones sin limpiarla previamente). Nota. SENA, 2026.").d-block.d-lg-none.d-md-none
+              figcaption
+                b Nota. 
+                | SENA, 2026.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10

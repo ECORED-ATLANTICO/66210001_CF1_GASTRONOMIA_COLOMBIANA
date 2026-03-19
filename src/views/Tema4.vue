@@ -38,18 +38,18 @@
    
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
-        .titulo-sexto.color-acento-contenido
-          h5 
-            b Figura 6.
-          span Etapas del manejo higiénico de los alimentos
-
-        figure.mb-4
-          img(src='@/assets/curso/tema4/img03.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
-          img(src='@/assets/curso/tema4/img04.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
-
-        figcaption 
-          b Nota: 
-          | SENA, 2026.      
+        .row.justify-content-center.align-items-center
+          .col-auto.titulo-sexto.color-acento-contenido
+            h5 
+              b Figura 6.
+            span Etapas del manejo higiénico de los alimentos
+          .col-12.col-md-12.col-lg-12
+            figure.mb-4
+              img(src='@/assets/curso/tema4/img03.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
+              img(src='@/assets/curso/tema4/img04.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
+              figcaption 
+                b Nota.
+                | SENA, 2026.      
 
     .row.justify-content-center
       .col-md-12.col-lg-10
@@ -94,13 +94,13 @@
               img(src="@/assets/curso/tema4/img09.png", data-aos="zoom-in")
           .col-lg-9
             AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-18")
-              div(titulo="Temperatura").p-4
+              div(titulo="Temperatura:").p-4
                 p para los productos perecederos es indispensable verificar, mediante el uso de un termómetro limpio y desinfectado, que los alimentos lleguen dentro de los rangos establecidos. Carnes, pollo, pescado fresco y productos lácteos deben recibirse a una temperatura igual o inferior a 4 °C, mientras que los productos congelados, como pulpas de fruta, helados o mariscos, deben estar a –18 °C o menos. Identificar un producto entregado fuera de estos rangos indica ruptura de la cadena de frío y representa un alto riesgo de proliferación bacteriana. Por ejemplo, un camión que entregue pescado para preparar un viudo de capaz a 10 °C debe ser rechazado inmediatamente, aun cuando el producto tenga buena apariencia externa.
-              div(titulo="Integridad del empaque").p-4
+              div(titulo="Integridad del empaque:").p-4
                 p los envases y empaques deben encontrarse limpios, secos, sin roturas, sin presencia de insectos, sin manchas de humedad ni signos de deterioro. Las latas no deben estar abolladas, oxidadas ni infladas, ya que estos defectos pueden indicar contaminación interna. Un costal de arroz húmedo, una bolsa de harina rota o una lata de leche condensada con abolladuras visibles son señales claras de riesgo que el aprendiz debe identificar para rechazar el producto.
-              div(titulo="Calidad organoléptica").p-4
+              div(titulo="Calidad organoléptica:").p-4
                 p la evaluación sensorial permite identificar la frescura del alimento mediante el olor, el color y la textura. Los productos deben presentar olor característico, sin aromas ácidos, rancios o putrefactos; colores naturales, sin manchas verdosas o negruzcas; y una textura firme y adecuada. Por ejemplo, un aguacate destinado a la preparación de una crema que llega con manchas negras, pulpa blanda en exceso y olor fermentado no es apto para consumo humano y debe descartarse.
-              div(titulo="Documentación y trazabilidad").p-4
+              div(titulo="Documentación y trazabilidad:").p-4
                 p toda materia prima debe ingresar acompañada de su respectiva factura o remisión. En el caso de productos de origen animal, se debe identificar la presencia de certificados sanitarios o registros del INVIMA cuando aplique. Esta documentación permite asegurar el origen legal del alimento y facilita la trazabilidad en caso de presentarse una alerta sanitaria. La ausencia de estos soportes es una señal de incumplimiento de las BPM.
                  
     .bg-full-width.bg-fondo-5.tarjeta.mb-5
@@ -423,7 +423,7 @@
     .row.justify-content-center.align-items-center.mb-3.mb-lg-5
       .col-md-12.col-lg-12
         TabsC.color-primario(data-aos="zoom-in")
-          .p-3.p-md-4(titulo="Residuos orgánicos")
+          .p-3.p-md-4(titulo="Residuos orgánicos:")
             .row.justify-content-center.align-items-center
               .col-lg-2.mb-3.mb-lg-0
                 figure
@@ -431,7 +431,7 @@
               .col-lg-10.mb-0.mb-md-0
                 p son aquellos de origen biológico y biodegradable. Incluyen restos de comida como cáscaras de yuca y plátano, residuos de frutas y verduras, huesos y espinas de pescado, sobras de preparaciones, así como alimentos vencidos o en mal estado. Debido a su composición, estos residuos se descomponen rápidamente, producen malos olores y se convierten en un foco atractivo para insectos y animales vectores de enfermedades. Por esta razón, requieren un manejo inmediato, recipientes cerrados y una recolección frecuente.
               
-          .p-3.p-md-4(titulo="Residuos inorgánicos")
+          .p-3.p-md-4(titulo="Residuos inorgánicos:")
             .row.justify-content-center.align-items-center
               .col-lg-2.mb-3.mb-lg-0
                 figure

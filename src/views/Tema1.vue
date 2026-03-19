@@ -67,7 +67,7 @@
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema1/img08.svg' alt='', style="width: 100px;").mx-auto
-          h4.text-center Trazabilidad de los productos
+          h4.text-center Trazabilidad de los productos:
           p.text-center registro y seguimiento de los alimentos desde su origen hasta el consumidor final, asegurando que cualquier irregularidad pueda ser identificada y corregida rápidamente.
 
     .row.justify-content-center
@@ -399,7 +399,7 @@
             span Rol de <em>Codex Alimentarius</em> en la normativa sanitaria colombiana
         .tabla-a.color-acento-contenido
           table
-            caption Nota: SENA 2026.
+            caption Nota. SENA, 2026.
             thead
               tr
                 th Aspecto

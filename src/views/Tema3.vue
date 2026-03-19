@@ -21,17 +21,18 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10(data-aos="zoom-in-down")
-        .titulo-sexto.mb-4.color-acento-contenido
-          h5 
-            b Figura 4. 
+        .row.justify-content-center.align-items-center
+          .col-auto.titulo-sexto.color-acento-contenido
+            h5 
+              b Figura 4. 
             span Buenas practivas de un chef
-        figure.mb-4
-          img.d-none.d-lg-block.d-md-block(src='@/assets/curso/tema3/img04.png', alt='En la figura 4 se enuncian las prácticas recomendadas y no recomendadas para un chef; prácticas recomendadas: mantener adecuada higiene personal (baño diario), mantener uñas cortas, limpias y sin esmalte, llevar el cabello completamente recogido, lavarse y desinfectarse las manos frecuentemente, usar uniforme limpio y en buen estado, utilizar calzado cerrado y antideslizante, usar ropa y calzado exclusivos para la cocina y realizar controles médicos periódicos; prácticas no permitidas: usar joyas (anillos, pulseras, piercing, relojes, aretes largos), fumar, comer o masticar chicle durante la preparación, toser o estornudar sobre los alimentos, tocarse el cabello, rostro o uniforme mientras manipula alimentos, presentarse a laborar en estado de enfermedad y usar maquillaje excesivo. Nota. SENA, 2026.').mx-auto
-          img.d-lg-none.d-md-none(src='@/assets/curso/tema3/img05.png', alt='En la figura 4 se enuncian las prácticas recomendadas y no recomendadas para un chef; prácticas recomendadas: mantener adecuada higiene personal (baño diario), mantener uñas cortas, limpias y sin esmalte, llevar el cabello completamente recogido, lavarse y desinfectarse las manos frecuentemente, usar uniforme limpio y en buen estado, utilizar calzado cerrado y antideslizante, usar ropa y calzado exclusivos para la cocina y realizar controles médicos periódicos; prácticas no permitidas: usar joyas (anillos, pulseras, piercing, relojes, aretes largos), fumar, comer o masticar chicle durante la preparación, toser o estornudar sobre los alimentos, tocarse el cabello, rostro o uniforme mientras manipula alimentos, presentarse a laborar en estado de enfermedad y usar maquillaje excesivo. Nota. SENA, 2026.').mx-auto
-
-        figcaption 
-          b Nota: 
-          | SENA, 2026.      
+          .col-12.col-md-12.col-lg-12
+            figure.mb-4
+              img.d-none.d-lg-block.d-md-block(src='@/assets/curso/tema3/img04.png', alt='En la figura 4 se enuncian las prácticas recomendadas y no recomendadas para un chef; prácticas recomendadas: mantener adecuada higiene personal (baño diario), mantener uñas cortas, limpias y sin esmalte, llevar el cabello completamente recogido, lavarse y desinfectarse las manos frecuentemente, usar uniforme limpio y en buen estado, utilizar calzado cerrado y antideslizante, usar ropa y calzado exclusivos para la cocina y realizar controles médicos periódicos; prácticas no permitidas: usar joyas (anillos, pulseras, piercing, relojes, aretes largos), fumar, comer o masticar chicle durante la preparación, toser o estornudar sobre los alimentos, tocarse el cabello, rostro o uniforme mientras manipula alimentos, presentarse a laborar en estado de enfermedad y usar maquillaje excesivo. Nota. SENA, 2026.').mx-auto
+              img.d-lg-none.d-md-none(src='@/assets/curso/tema3/img05.png', alt='En la figura 4 se enuncian las prácticas recomendadas y no recomendadas para un chef; prácticas recomendadas: mantener adecuada higiene personal (baño diario), mantener uñas cortas, limpias y sin esmalte, llevar el cabello completamente recogido, lavarse y desinfectarse las manos frecuentemente, usar uniforme limpio y en buen estado, utilizar calzado cerrado y antideslizante, usar ropa y calzado exclusivos para la cocina y realizar controles médicos periódicos; prácticas no permitidas: usar joyas (anillos, pulseras, piercing, relojes, aretes largos), fumar, comer o masticar chicle durante la preparación, toser o estornudar sobre los alimentos, tocarse el cabello, rostro o uniforme mientras manipula alimentos, presentarse a laborar en estado de enfermedad y usar maquillaje excesivo. Nota. SENA, 2026.').mx-auto
+              figcaption 
+                b Nota.
+                | SENA, 2026.
 
    
     .row.justify-content-center.mb-5
@@ -302,17 +303,18 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10(data-aos="zoom-in-down")
-        .titulo-sexto.mb-4.color-acento-contenido
-          h5 
-            b Figura 5. 
+        .row.justify-content-center.align-items-center
+          .col-auto.titulo-sexto.color-acento-contenido
+            h5 
+              b Figura 5. 
             span Conductas no permitidas en la cocina
-        figure.mb-4
-          img(src='@/assets/curso/tema3/img31.png', alt='Fumar, comer o masticar chicle y escupir. Secarse el sudor con las manos o el delantal (debe usarse un pañuelo desechable). Estornudar o toser sin cubrirse con el antebrazo (nunca con las manos).  Guardar objetos personales (llaves, celulares, cigarrillos) en los bolsillos del uniforme que dan hacia los alimentos.  Usar anillos (excepto alianza lisa), relojes, pulseras o aretes largos está prohibido; ya que acumulan sociedad y pueden desprenderse, convirtiéndose en un riesgo físico.  Probar alimentos directamente con el dedo o con un utensilio que luego se vuelve a introducir en la olla (se debe usar una cuchara limpia para probar y lego desecharla o lavarla).').mx-auto.d-none.d-lg-block.d-md-block
-          img(src='@/assets/curso/tema3/img32.svg', alt='Fumar, comer o masticar chicle y escupir. Secarse el sudor con las manos o el delantal (debe usarse un pañuelo desechable). Estornudar o toser sin cubrirse con el antebrazo (nunca con las manos).  Guardar objetos personales (llaves, celulares, cigarrillos) en los bolsillos del uniforme que dan hacia los alimentos.  Usar anillos (excepto alianza lisa), relojes, pulseras o aretes largos está prohibido; ya que acumulan sociedad y pueden desprenderse, convirtiéndose en un riesgo físico.  Probar alimentos directamente con el dedo o con un utensilio que luego se vuelve a introducir en la olla (se debe usar una cuchara limpia para probar y lego desecharla o lavarla).').mx-auto.d-block.d-lg-none.d-md-none
-
-        figcaption 
-          b Nota: 
-          | SENA, 2026.      
+          .col-12.col-md-12.col-lg-12
+            figure.mb-4
+              img(src='@/assets/curso/tema3/img31.png', alt='Fumar, comer o masticar chicle y escupir. Secarse el sudor con las manos o el delantal (debe usarse un pañuelo desechable). Estornudar o toser sin cubrirse con el antebrazo (nunca con las manos).  Guardar objetos personales (llaves, celulares, cigarrillos) en los bolsillos del uniforme que dan hacia los alimentos.  Usar anillos (excepto alianza lisa), relojes, pulseras o aretes largos está prohibido; ya que acumulan sociedad y pueden desprenderse, convirtiéndose en un riesgo físico.  Probar alimentos directamente con el dedo o con un utensilio que luego se vuelve a introducir en la olla (se debe usar una cuchara limpia para probar y lego desecharla o lavarla).').mx-auto.d-none.d-lg-block.d-md-block
+              img(src='@/assets/curso/tema3/img32.svg', alt='Fumar, comer o masticar chicle y escupir. Secarse el sudor con las manos o el delantal (debe usarse un pañuelo desechable). Estornudar o toser sin cubrirse con el antebrazo (nunca con las manos).  Guardar objetos personales (llaves, celulares, cigarrillos) en los bolsillos del uniforme que dan hacia los alimentos.  Usar anillos (excepto alianza lisa), relojes, pulseras o aretes largos está prohibido; ya que acumulan sociedad y pueden desprenderse, convirtiéndose en un riesgo físico.  Probar alimentos directamente con el dedo o con un utensilio que luego se vuelve a introducir en la olla (se debe usar una cuchara limpia para probar y lego desecharla o lavarla).').mx-auto.d-block.d-lg-none.d-md-none
+              figcaption 
+                b Nota.
+                | SENA, 2026.      
 
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10

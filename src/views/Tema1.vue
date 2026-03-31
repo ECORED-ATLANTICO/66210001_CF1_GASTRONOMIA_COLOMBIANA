@@ -60,15 +60,15 @@
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema1/img07.svg' alt='', style="width: 100px;").mx-auto
-          h4.text-center Control de temperaturas de conservación:
-          p.text-center refrigeración y congelación correctas para evitar la proliferación de microorganismos.
+          h4.text-center Control de temperaturas de conservación
+          p.text-center Refrigeración y congelación correctas para evitar la proliferación de microorganismos.
 
         .tarjeta.bg-fondo-2.p-4
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema1/img08.svg' alt='', style="width: 100px;").mx-auto
-          h4.text-center Trazabilidad de los productos:
-          p.text-center registro y seguimiento de los alimentos desde su origen hasta el consumidor final, asegurando que cualquier irregularidad pueda ser identificada y corregida rápidamente.
+          h4.text-center Trazabilidad de los productos
+          p.text-center Registro y seguimiento de los alimentos desde su origen hasta el consumidor final, asegurando que cualquier irregularidad pueda ser identificada y corregida rápidamente.
 
     .row.justify-content-center
       .col-md-12.col-lg-10

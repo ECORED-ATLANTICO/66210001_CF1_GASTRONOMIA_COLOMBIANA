@@ -39,13 +39,13 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-auto.titulo-sexto.color-acento-contenido
+          .col-12.titulo-sexto.color-acento-contenido
             h5 
               b Figura 6.
             span Etapas del manejo higiénico de los alimentos
           .col-12.col-md-12.col-lg-12
             figure.mb-4
-              img(src='@/assets/curso/tema4/img03.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
+              img(src='@/assets/curso/tema4/img03.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
               img(src='@/assets/curso/tema4/img04.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
               figcaption 
                 p Nota. SENA, 2026.      

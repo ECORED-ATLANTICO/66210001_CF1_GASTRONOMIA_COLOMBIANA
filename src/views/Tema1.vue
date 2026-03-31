@@ -39,22 +39,22 @@
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema1/img04.svg' alt='', style="width: 100px;").mx-auto
-          h4.text-center Higiene personal de los manipuladores:
-          p.text-center lavado de manos frecuente, uso de uniformes limpios, protección de heridas y control de enfermedades transmisibles.
+          h4.text-center Higiene personal de los manipuladores
+          p.text-center Lavado de manos frecuente, uso de uniformes limpios, protección de heridas y control de enfermedades transmisibles.
 
         .tarjeta.bg-fondo-2.p-4
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema1/img05.svg' alt='', style="width: 100px;").mx-auto
-          h4.text-center Limpieza y desinfección de utensilios y superficies:
-          p.text-center garantizar que mesas, tablas de corte, cuchillos y equipos estén libres de contaminantes antes y después de cada uso.
+          h4.text-center Limpieza y desinfección de utensilios y superficies
+          p.text-center Garantizar que mesas, tablas de corte, cuchillos y equipos estén libres de contaminantes antes y después de cada uso.
 
         .tarjeta.bg-fondo-2.p-4
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema1/img06.svg' alt='', style="width: 100px;").mx-auto
-          h4.text-center Almacenamiento adecuado de materias primas:
-          p.text-center separación de alimentos crudos y cocidos, control de fechas de vencimiento, conservación a temperaturas seguras y rotación de inventarios.
+          h4.text-center Almacenamiento adecuado de materias primas
+          p.text-center Separación de alimentos crudos y cocidos, control de fechas de vencimiento, conservación a temperaturas seguras y rotación de inventarios.
 
         .tarjeta.bg-fondo-2.p-4
           .row.justify-content-center.mb-3
@@ -89,7 +89,8 @@
             span Marco normativo para la inocuidad en Colombia
         .tabla-a.color-acento-contenido
           table
-            caption Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
+            caption 
+              p Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
             thead
               tr
                 th Elementos claves
@@ -102,10 +103,10 @@
                 td Fundamento del sistema sanitario colombiano.
                 td Ley 9 de 1979.
                 td(rowspan="3")
-                  ul.lista-ul.lista-ul--circle
-                    li Planificación del menú.
-                    li Selección de proveedores.
-                    li Manipulación y almacenamiento.
+                  ul.lista-ul
+                    li.lista-ul__vineta Planificación del menú.
+                    li.lista-ul__vineta Selección de proveedores.
+                    li.lista-ul__vineta Manipulación y almacenamiento.
               tr
                 td Regulación sanitaria.
                 td Condiciones higiénico-sanitarias para establecimientos.
@@ -126,7 +127,7 @@
               .col-12.col-lg-auto.mb-4.mb-lg-2
                 img.d-lg-flex.d-none(src="@/assets/curso/tema1/img11.svg").mx-auto
               .col-12.col-lg-12
-                p.mb-0 A manera de ejemplo se puede referenciar el caso genérico de un restaurante de mariscos en la costa Caribe. Este no solo se distingue por la frescura de sus pescados y mariscos, sino porque los consumidores confían en que se respetan los estándares de higiene necesarios para manipular productos altamente perecederos y susceptibles a contaminación biológica, como bacterias del género Salmonella o Vibrio. Otro ejemplo se observa en la industria de alimentos procesados, donde el control de temperaturas, la limpieza de líneas de producción, la capacitación del personal y la implementación de sistemas de trazabilidad garantizan que los productos que llegan al consumidor cumplan con los criterios de inocuidad, reduciendo riesgos de intoxicación y fortaleciendo la confianza en la marca.
+                p.mb-0 A manera de ejemplo se puede referenciar el caso genérico de un restaurante de mariscos en la costa Caribe. Este no solo se distingue por la frescura de sus pescados y mariscos, sino porque los consumidores confían en que se respetan los estándares de higiene necesarios para manipular productos altamente perecederos y susceptibles a contaminación biológica, como bacterias del género <em>Salmonella</em> o <em>Vibrio</em>. Otro ejemplo se observa en la industria de alimentos procesados, donde el control de temperaturas, la limpieza de líneas de producción, la capacitación del personal y la implementación de sistemas de trazabilidad garantizan que los productos que llegan al consumidor cumplan con los criterios de inocuidad, reduciendo riesgos de intoxicación y fortaleciendo la confianza en la marca.
 
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10
@@ -173,7 +174,8 @@
             span Marco normativo sanitario en Colombia
         .tabla-a.color-acento-contenido
           table
-            caption Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
+            caption 
+              p Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
             thead
               tr
                 th Aspecto
@@ -399,7 +401,8 @@
             span Rol de <em>Codex Alimentarius</em> en la normativa sanitaria colombiana
         .tabla-a.color-acento-contenido
           table
-            caption Nota. SENA, 2026.
+            caption 
+              p Nota. SENA, 2026.
             thead
               tr
                 th Aspecto
@@ -434,7 +437,7 @@
             figure
               img(src="@/assets/curso/tema1/img33.png", data-aos="zoom-in")
           .col-lg-10.order-1.order-md-2.order-lg-2
-            p.mb-0(data-aos="fade-right") El <em>Codex Alimentarius</em> se convierte en un aliado estratégico para Colombia, no solo como referente técnico, sino como un puente que conecta la producción nacional con los estándares internacionales de inocuidad. Su adopción facilita la exportación de alimentos, fortalece la modernización de los procesos gastronómicos e industriales y asegura que las prácticas aplicadas en los establecimientos cumplan criterios globales de calidad y seguridad. Además, promueve la actualización constante de la normativa local frente a los avances científicos y tecnológicos, incrementando la competitividad del país y reforzando la confianza del consumidor. En este sentido, el Codex no es únicamente un conjunto de normas: es una herramienta clave que orienta el comercio seguro, protege la salud pública y posiciona a Colombia dentro de un marco internacional de excelencia en inocuidad alimentaria.
+            p.mb-0(data-aos="fade-right") El <em>Codex Alimentarius</em> se convierte en un aliado estratégico para Colombia, no solo como referente técnico, sino como un puente que conecta la producción nacional con los estándares internacionales de inocuidad. Su adopción facilita la exportación de alimentos, fortalece la modernización de los procesos gastronómicos e industriales y asegura que las prácticas aplicadas en los establecimientos cumplan criterios globales de calidad y seguridad. Además, promueve la actualización constante de la normativa local frente a los avances científicos y tecnológicos, incrementando la competitividad del país y reforzando la confianza del consumidor. En este sentido, el <em>Codex</em> no es únicamente un conjunto de normas: es una herramienta clave que orienta el comercio seguro, protege la salud pública y posiciona a Colombia dentro de un marco internacional de excelencia en inocuidad alimentaria.
 
 </template>
 

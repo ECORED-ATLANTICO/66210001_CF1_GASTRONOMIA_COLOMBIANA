@@ -1,1 +1,1 @@
-module.exports = 'Buenas Prácticas de Manufactura en la Cocina Colombiana'
+module.exports = 'Buenas Prácticas de Manufactura en la cocina colombiana'

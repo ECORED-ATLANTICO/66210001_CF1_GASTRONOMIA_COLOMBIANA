@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Buenas Prácticas de manufactura en la Cocina Colombiana',
+    Name: 'Buenas Prácticas de Manufactura en la cocina colombiana',
     Description:
       'Este componente formativo tiene como objetivo fundamental que el aprendiz identifique los elementos constitutivos del sistema de Buenas Prácticas de Manufactura (BPM) en el contexto de la normativa sanitaria colombiana, enmarcado en escenarios reales de la cocina y la gastronomía colombiana, sentando las bases cognitivas para un desempeño posterior conforme a la norma.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -331,7 +331,8 @@ export default {
     },
     {
       referencia:
-        'FAO & OMS. (2023). <em>Acerca del Codex</em>. Codex Alimentarius. Recuperado el 10 de febrero de 2026, de http://www.fao.org/fao-who-codexalimentarius/about-codex/es/',
+        'FAO & OMS. (2023). <em>Acerca del Codex. Codex Alimentarius</em>.',
+      link: 'http://www.fao.org/fao-who-codexalimentarius/about-codex/es/',
     },
     {
       referencia:

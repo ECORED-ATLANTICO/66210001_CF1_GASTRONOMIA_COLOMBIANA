@@ -22,7 +22,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10(data-aos="zoom-in-down")
         .row.justify-content-center.align-items-center
-          .col-auto.titulo-sexto.color-acento-contenido
+          .col-12.titulo-sexto.color-acento-contenido
             h5 
               b Figura 4. 
             span Buenas practivas de un chef
@@ -31,48 +31,47 @@
               img.d-none.d-lg-block.d-md-block(src='@/assets/curso/tema3/img04.png', alt='En la figura 4 se enuncian las prácticas recomendadas y no recomendadas para un chef; prácticas recomendadas: mantener adecuada higiene personal (baño diario), mantener uñas cortas, limpias y sin esmalte, llevar el cabello completamente recogido, lavarse y desinfectarse las manos frecuentemente, usar uniforme limpio y en buen estado, utilizar calzado cerrado y antideslizante, usar ropa y calzado exclusivos para la cocina y realizar controles médicos periódicos; prácticas no permitidas: usar joyas (anillos, pulseras, piercing, relojes, aretes largos), fumar, comer o masticar chicle durante la preparación, toser o estornudar sobre los alimentos, tocarse el cabello, rostro o uniforme mientras manipula alimentos, presentarse a laborar en estado de enfermedad y usar maquillaje excesivo. Nota. SENA, 2026.').mx-auto
               img.d-lg-none.d-md-none(src='@/assets/curso/tema3/img05.png', alt='En la figura 4 se enuncian las prácticas recomendadas y no recomendadas para un chef; prácticas recomendadas: mantener adecuada higiene personal (baño diario), mantener uñas cortas, limpias y sin esmalte, llevar el cabello completamente recogido, lavarse y desinfectarse las manos frecuentemente, usar uniforme limpio y en buen estado, utilizar calzado cerrado y antideslizante, usar ropa y calzado exclusivos para la cocina y realizar controles médicos periódicos; prácticas no permitidas: usar joyas (anillos, pulseras, piercing, relojes, aretes largos), fumar, comer o masticar chicle durante la preparación, toser o estornudar sobre los alimentos, tocarse el cabello, rostro o uniforme mientras manipula alimentos, presentarse a laborar en estado de enfermedad y usar maquillaje excesivo. Nota. SENA, 2026.').mx-auto
               figcaption 
-                b Nota.
-                | SENA, 2026.
+                p Nota. SENA, 2026.
 
    
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         TabsA.color-primario
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Higiene personal:")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Higiene personal")
             .row.justify-content-center.align-items-center
               .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/tema3/img06.svg", data-aos="zoom-in", style="max-width: 100px;").mx-auto
               .col-lg-9.order-lg-2
-                p.mb-0 el manipulador debe mantener higiene estricta durante toda la jornada. Esto implica lavado frecuente y correcto de manos, uñas cortas y limpias, cabello recogido y cubierto, y evitar joyas o accesorios que puedan contaminar los alimentos.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Uso del uniforme:")
+                p.mb-0 El manipulador debe mantener higiene estricta durante toda la jornada. Esto implica lavado frecuente y correcto de manos, uñas cortas y limpias, cabello recogido y cubierto, y evitar joyas o accesorios que puedan contaminar los alimentos.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Uso del uniforme")
             .row.justify-content-center
               .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/tema3/img07.svg", data-aos="zoom-in", style="max-width: 100px;").mx-auto
               .col-lg-9.order-lg-2
-                p.mb-0 el uniforme es una barrera de protección entre el manipulador y los alimentos. Debe estar limpio, en buen estado y usarse solo en el área de trabajo. Incluye bata o chaqueta, pantalón, gorro, tapabocas cuando sea necesario y calzado cerrado. No debe utilizarse fuera del establecimiento para evitar transportar microorganismos.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Estado de salud:")
+                p.mb-0 El uniforme es una barrera de protección entre el manipulador y los alimentos. Debe estar limpio, en buen estado y usarse solo en el área de trabajo. Incluye bata o chaqueta, pantalón, gorro, tapabocas cuando sea necesario y calzado cerrado. No debe utilizarse fuera del establecimiento para evitar transportar microorganismos.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Estado de salud")
             .row.justify-content-center.align-items-center
               .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/tema3/img08.svg", data-aos="zoom-in", style="max-width: 100px;").mx-auto
               .col-lg-9.order-lg-2
-                p.mb-0 el manipulador debe estar en óptimas condiciones y no trabajar si presenta enfermedades gastrointestinales, infecciones respiratorias con fiebre o lesiones visibles. Debe reportar cualquier síntoma que represente riesgo para el consumidor.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Conductas prohibidas:")
+                p.mb-0 El manipulador debe estar en óptimas condiciones y no trabajar si presenta enfermedades gastrointestinales, infecciones respiratorias con fiebre o lesiones visibles. Debe reportar cualquier síntoma que represente riesgo para el consumidor.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Conductas prohibidas")
             .row.justify-content-center.align-items-center
               .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/tema3/img09.svg", data-aos="zoom-in", style="max-width: 100px;").mx-auto
               .col-lg-9.order-lg-2
-                p.mb-0 en el área de preparación no se debe comer, fumar, mascar chicle, toser o estornudar sobre los alimentos, hablar en exceso ni usar el celular, ya que aumenta el riesgo de contaminación.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Responsabilidad y cultura sanitaria:")
+                p.mb-0 En el área de preparación no se debe comer, fumar, mascar chicle, toser o estornudar sobre los alimentos, hablar en exceso ni usar el celular, ya que aumenta el riesgo de contaminación.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Responsabilidad y cultura sanitaria")
             .row.justify-content-center.align-items-center
               .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/tema3/img10.svg", data-aos="zoom-in", style="max-width: 100px;").mx-auto
               .col-lg-9.order-lg-2
-                p.mb-0 la higiene no es solo una norma, sino una práctica de prevención y responsabilidad social. Su cumplimiento protege al consumidor, al establecimiento y al trabajador, y se fortalece mediante capacitación y supervisión continua.
+                p.mb-0 La higiene no es solo una norma, sino una práctica de prevención y responsabilidad social. Su cumplimiento protege al consumidor, al establecimiento y al trabajador, y se fortalece mediante capacitación y supervisión continua.
 
     .row.justify-content-center
       .col-md-12.col-lg-10
@@ -131,7 +130,7 @@
               .col-6.col-md-6.col-lg-8.col-xl-6
                 figure
                   img(src="@/assets/curso/tema3/img16.svg", alt="Icono")
-            p.mb-0.text-center <b>Condiciones que inhabilitan</b>: se incluyen trastornos gastrointestinales como diarrea y vómito, infecciones respiratorias con fiebre, lesiones cutáneas infectadas y el estado de portador de microorganismos patógenos como Salmonella typhi, ya que pueden facilitar la contaminación de los alimentos.
+            p.mb-0.text-center <b>Condiciones que inhabilitan</b>: se incluyen trastornos gastrointestinales como diarrea y vómito, infecciones respiratorias con fiebre, lesiones cutáneas infectadas y el estado de portador de microorganismos patógenos como <em>Salmonella typhi</em>, ya que pueden facilitar la contaminación de los alimentos.
           
           .tarjeta.bg-fondo-2.p-4
             .row.justify-content-center.mb-3
@@ -164,7 +163,8 @@
           span Protocolo de lavado de manos: 5 momentos obligatorios
         .tabla-a.color-acento-contenido
           table
-            caption Nota. Adaptado del <em>Codex Alimentarius</em>.
+            caption 
+              p Nota. Adaptado del <em>Codex Alimentarius</em>.
             thead
               tr
                 th Momento
@@ -217,8 +217,8 @@
                   figure
                     img(src="@/assets/curso/tema3/img46.svg", alt="Guía de referencia").mx-auto
                 .col-lg-8.tarjeta.p-2.br-tarjeta-lg
-                  h5.text-bold Mojarse las manos con agua potable corriente tibia:
-                  p.mb-0 permite que la suciedad superficial y los residuos iniciales se desprendan, facilitando la acción del jabón.
+                  h5.text-bold Mojarse las manos con agua potable corriente tibia
+                  p.mb-0 Permite que la suciedad superficial y los residuos iniciales se desprendan, facilitando la acción del jabón.
 
             .col-md-12.mb-3
               .row.justify-content-center.align-items-center.tarjeta.br-tarjeta-md
@@ -226,8 +226,8 @@
                   figure
                     img(src="@/assets/curso/tema3/img47.svg", alt="Guía de referencia").mx-auto
                 .col-lg-8.tarjeta.p-2.br-tarjeta-lg
-                  h5.text-bold Aplicar jabón líquido antibacterial:
-                  p.mb-0 el jabón rompe la capa de grasa y elimina microorganismos adheridos a la piel; los jabones antibacteriales refuerzan la eliminación de bacterias patógenas comunes en la cocina.
+                  h5.text-bold Aplicar jabón líquido antibacterial
+                  p.mb-0 El jabón rompe la capa de grasa y elimina microorganismos adheridos a la piel; los jabones antibacteriales refuerzan la eliminación de bacterias patógenas comunes en la cocina.
 
             .col-md-12.mb-3
               .row.justify-content-center.align-items-center.tarjeta.br-tarjeta-md
@@ -235,8 +235,8 @@
                   figure
                     img(src="@/assets/curso/tema3/img48.svg", alt="Guía de referencia").mx-auto
                 .col-lg-8.tarjeta.p-2.br-tarjeta-lg
-                  h5.text-bold Frotar vigorosamente todas las superficies de las manos durante mínimo 20 segundos:
-                  p.mb-0 incluyendo palmas, dorso, entre los dedos, bajo las uñas y muñecas, asegurando que ninguna zona quede sin higienizaEsta es la fase más crítica, ya que estudios muestran que gran parte de los patógenos sobreviven en espacios de difícil acceso si no se frota correctamente.
+                  h5.text-bold Frotar vigorosamente todas las superficies de las manos durante mínimo 20 segundos
+                  p.mb-0 Incluyendo palmas, dorso, entre los dedos, bajo las uñas y muñecas, asegurando que ninguna zona quede sin higienizaEsta es la fase más crítica, ya que estudios muestran que gran parte de los patógenos sobreviven en espacios de difícil acceso si no se frota correctamente.
 
             .col-md-12.mb-3
               .row.justify-content-center.align-items-center.tarjeta.br-tarjeta-md
@@ -244,8 +244,8 @@
                   figure
                     img(src="@/assets/curso/tema3/img49.svg", alt="Guía de referencia").mx-auto
                 .col-lg-8.tarjeta.p-2.br-tarjeta-lg
-                  h5.text-bold Enjuagar completamente con agua corriente:
-                  p.mb-0 elimina tanto el jabón como los microorganismos desprendidos, evitando que queden residuos que puedan contaminar los alimentos.
+                  h5.text-bold Enjuagar completamente con agua corriente
+                  p.mb-0 Elimina tanto el jabón como los microorganismos desprendidos, evitando que queden residuos que puedan contaminar los alimentos.
 
             .col-md-12.mb-3
               .row.justify-content-center.align-items-center.tarjeta.br-tarjeta-md
@@ -253,8 +253,8 @@
                   figure
                     img(src="@/assets/curso/tema3/img50.svg", alt="Guía de referencia").mx-auto
                 .col-lg-8.tarjeta.p-2.br-tarjeta-lg
-                  h5.text-bold Secarse con toallas de papel desechables:
-                  p.mb-0 el secado con toallas desechables evita la recontaminación; nunca se deben usar el delantal, la ropa o trapos reutilizables, ya que estos son reservorios de bacterias y pueden transferir contaminantes nuevamente a las manos limpias. 
+                  h5.text-bold Secarse con toallas de papel desechables
+                  p.mb-0 El secado con toallas desechables evita la recontaminación; nunca se deben usar el delantal, la ropa o trapos reutilizables, ya que estos son reservorios de bacterias y pueden transferir contaminantes nuevamente a las manos limpias. 
 
 
     .container
@@ -304,7 +304,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10(data-aos="zoom-in-down")
         .row.justify-content-center.align-items-center
-          .col-auto.titulo-sexto.color-acento-contenido
+          .col-12.titulo-sexto.color-acento-contenido
             h5 
               b Figura 5. 
             span Conductas no permitidas en la cocina
@@ -313,8 +313,7 @@
               img(src='@/assets/curso/tema3/img31.png', alt='Fumar, comer o masticar chicle y escupir. Secarse el sudor con las manos o el delantal (debe usarse un pañuelo desechable). Estornudar o toser sin cubrirse con el antebrazo (nunca con las manos).  Guardar objetos personales (llaves, celulares, cigarrillos) en los bolsillos del uniforme que dan hacia los alimentos.  Usar anillos (excepto alianza lisa), relojes, pulseras o aretes largos está prohibido; ya que acumulan sociedad y pueden desprenderse, convirtiéndose en un riesgo físico.  Probar alimentos directamente con el dedo o con un utensilio que luego se vuelve a introducir en la olla (se debe usar una cuchara limpia para probar y lego desecharla o lavarla).').mx-auto.d-none.d-lg-block.d-md-block
               img(src='@/assets/curso/tema3/img32.svg', alt='Fumar, comer o masticar chicle y escupir. Secarse el sudor con las manos o el delantal (debe usarse un pañuelo desechable). Estornudar o toser sin cubrirse con el antebrazo (nunca con las manos).  Guardar objetos personales (llaves, celulares, cigarrillos) en los bolsillos del uniforme que dan hacia los alimentos.  Usar anillos (excepto alianza lisa), relojes, pulseras o aretes largos está prohibido; ya que acumulan sociedad y pueden desprenderse, convirtiéndose en un riesgo físico.  Probar alimentos directamente con el dedo o con un utensilio que luego se vuelve a introducir en la olla (se debe usar una cuchara limpia para probar y lego desecharla o lavarla).').mx-auto.d-block.d-lg-none.d-md-none
               figcaption 
-                b Nota.
-                | SENA, 2026.      
+                p Nota. SENA, 2026.      
 
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
@@ -350,7 +349,7 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h4 Acompañamiento constante:
-              p.mb-0 todo visitante debe ser anunciado y acompañado en todo momento por un miembro del personal responsable. Esto evita desplazamientos innecesarios dentro de la cocina y garantiza que se respeten las zonas de acceso restringido. Además, permite que el personal supervise que se cumplan las normas de inocuidad durante la estancia del visitante.
+              p.mb-0 Todo visitante debe ser anunciado y acompañado en todo momento por un miembro del personal responsable. Esto evita desplazamientos innecesarios dentro de la cocina y garantiza que se respeten las zonas de acceso restringido. Además, permite que el personal supervise que se cumplan las normas de inocuidad durante la estancia del visitante.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/img42.png", alt="Acompañamiento", style="width: 500px;").mx-auto
@@ -358,7 +357,7 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h4 Lavado de manos:
-              p.mb-0 el visitante debe lavarse las manos siguiendo el mismo procedimiento exigido al personal manipulador, aplicando los cinco momentos de lavado y asegurando que la carga microbiana que pueda portar desde el exterior sea minimizada antes de entrar al área productiva.
+              p.mb-0 El visitante debe lavarse las manos siguiendo el mismo procedimiento exigido al personal manipulador, aplicando los cinco momentos de lavado y asegurando que la carga microbiana que pueda portar desde el exterior sea minimizada antes de entrar al área productiva.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/img35.png", alt="Lavado de manos", style="width: 500px;").mx-auto
@@ -366,7 +365,7 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h4 Conductas prohibidas:
-              p.mb-0 en el área de preparación no se debe comer, fumar, mascar chicle, toser o estornudar sobre los alimentos, hablar en exceso ni usar el celular, ya que aumenta el riesgo de contaminación.
+              p.mb-0 En el área de preparación no se debe comer, fumar, mascar chicle, toser o estornudar sobre los alimentos, hablar en exceso ni usar el celular, ya que aumenta el riesgo de contaminación.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/img37.png", alt="Conductas prohibidas", style="width: 500px;").mx-auto
@@ -374,7 +373,7 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h4 Responsabilidad y cultura sanitaria:
-              p.mb-0 la higiene no es solo una norma, sino una práctica de prevención y responsabilidad social. Su cumplimiento protege al consumidor, al establecimiento y al trabajador, y se fortalece mediante capacitación y supervisión continua.
+              p.mb-0 La higiene no es solo una norma, sino una práctica de prevención y responsabilidad social. Su cumplimiento protege al consumidor, al establecimiento y al trabajador, y se fortalece mediante capacitación y supervisión continua.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/img36.png", alt="Responsabilidad", style="width: 500px;").mx-auto
@@ -382,7 +381,7 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h4 Uso de vestimenta de protección:
-              p.mb-0 es obligatorio vestir un sobre-uniforme limpio, como bata sanitaria, cofia o gorro, y, en algunos casos, tapabocas y cubre calzado, dependiendo del tipo de actividad que realizará. Esta vestimenta funciona como barrera física, separando la ropa de calle del ambiente de producción de alimentos.
+              p.mb-0 Es obligatorio vestir un sobre-uniforme limpio, como bata sanitaria, cofia o gorro, y, en algunos casos, tapabocas y cubre calzado, dependiendo del tipo de actividad que realizará. Esta vestimenta funciona como barrera física, separando la ropa de calle del ambiente de producción de alimentos.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/img38.png", alt="Uso de vestimenta de protección", style="width: 500px;").mx-auto
@@ -390,7 +389,7 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h4 Restricción de contacto:
-              p.mb-0 los visitantes deben evitar tocar superficies, equipos o alimentos, salvo cuando sea estrictamente necesario para realizar su función, como un técnico de mantenimiento que intervenga una máquina. Incluso en estos casos, se deben extremar las medidas de limpieza y desinfección posteriores a la intervención.
+              p.mb-0 Los visitantes deben evitar tocar superficies, equipos o alimentos, salvo cuando sea estrictamente necesario para realizar su función, como un técnico de mantenimiento que intervenga una máquina. Incluso en estos casos, se deben extremar las medidas de limpieza y desinfección posteriores a la intervención.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/img39.png", alt="Restricción de contacto", style="width: 500px;").mx-auto

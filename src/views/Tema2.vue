@@ -20,7 +20,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-auto.titulo-sexto.color-acento-contenido
+          .col-12.titulo-sexto.color-acento-contenido
             h5 
               b Figura 1.
             span Identificación de las Buenas Prácticas de Manufacturas 
@@ -29,8 +29,7 @@
               img.mb-3(src="@/assets/curso/tema2/img02.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-none.d-lg-block.d-md-block
               img.mb-3(src="@/assets/curso/tema2/img02m.svg", alt="La figura 1 ilustra la identificación de buenas prácticas de manufactura teniendo en cuenta aspectos como la definición, los peligros invisibles y el enfoque preventivo.").d-block.d-lg-none.d-md-none
               figcaption
-                b Nota.  
-                | SENA, 2026.
+                p Nota. SENA, 2026.
 
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
@@ -78,7 +77,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center.p-0
-          .col-auto.titulo-sexto.color-acento-contenido
+          .col-12.titulo-sexto.color-acento-contenido
             h5 
               b Figura 2.
             span Pilares básicos de las Buenas Prácticas de Manufactura (BPM)
@@ -87,8 +86,7 @@
               img(src="@/assets/curso/tema2/img07.svg", alt="Higiene personal. Abarca aspectos como el estado de salud, el lavado correcto de manos, el uso adecuado del uniforme y los hábitos de aseo personal. Este pilar reconoce que el manipulador es una de las principales fuentes potenciales de contaminación y, por tanto, requiere control permanente. Higiene del ambiente y las instalaciones. Identifica al adecuado diseño y mantenimiento de la cocina, incluyendo la limpieza y desinfección de sus áreas, así como condiciones seguras de ventilación, iluminación y agua potable. Un ambiente limpio y ordenado disminuye el riesgo de microorganismos y plagas. Higiene de los equipos y utensilios. Garantiza que las herramientas utilizadas en la preparación de los alimentos no se conviertan en fuentes de contaminación. Esto implica seleccionar materiales adecuados, aplicar rutinas de limpieza y desinfección, y verificar que los equipos se encuentren en buen estado de funcionamiento. Higiene de los procesos. Dimensiona que los procedimientos correctos para recibir, almacenar, preparar, cocinar y servir los alimentos. Incluye el control de temperaturas, la correcta rotulación de productos, la separación entre alimentos crudos y cocidos, y la aplicación de métodos seguros de cocción y conservación.").d-none.d-lg-block.d-md-block
               img(src="@/assets/curso/tema2/img07m.svg", alt="Higiene personal. Abarca aspectos como el estado de salud, el lavado correcto de manos, el uso adecuado del uniforme y los hábitos de aseo personal. Este pilar reconoce que el manipulador es una de las principales fuentes potenciales de contaminación y, por tanto, requiere control permanente. Higiene del ambiente y las instalaciones. Identifica al adecuado diseño y mantenimiento de la cocina, incluyendo la limpieza y desinfección de sus áreas, así como condiciones seguras de ventilación, iluminación y agua potable. Un ambiente limpio y ordenado disminuye el riesgo de microorganismos y plagas. Higiene de los equipos y utensilios. Garantiza que las herramientas utilizadas en la preparación de los alimentos no se conviertan en fuentes de contaminación. Esto implica seleccionar materiales adecuados, aplicar rutinas de limpieza y desinfección, y verificar que los equipos se encuentren en buen estado de funcionamiento. Higiene de los procesos. Dimensiona que los procedimientos correctos para recibir, almacenar, preparar, cocinar y servir los alimentos. Incluye el control de temperaturas, la correcta rotulación de productos, la separación entre alimentos crudos y cocidos, y la aplicación de métodos seguros de cocción y conservación.").d-block.d-lg-none.d-md-none
               figcaption
-                b Nota. 
-                | SENA, 2026.
+                p Nota. SENA, 2026.
 
    
     .row.justify-content-center.mb-5
@@ -140,18 +138,18 @@
               img(src="@/assets/curso/tema2/img11.png", data-aos="zoom-in")
           .col-lg-9
             AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-18")
-              div(titulo="Restaurantes y fondas:").p-4
-                p que van desde establecimientos de alta cocina en ciudades principales hasta fondas de carretera que ofrecen platos tradicionales como sancocho o bandeja paisa. En estos lugares, el control de la higiene personal, la separación de alimentos crudos y cocidos y la correcta cocción son factores determinantes para prevenir la contaminación.
-              div(titulo="Panaderías y pastelerías:").p-4
-                p donde se manipulan harinas, huevos, lácteos y rellenos que requieren controles estrictos de higiene, temperatura y almacenamiento, debido a la facilidad con la que estos productos pueden contaminarse si no se conservan adecuadamente.
-              div(titulo="Juguerías, cafeterías y puestos de comida rápida:").p-4
-                p en los que el manejo del agua potable, la limpieza permanente de utensilios y la refrigeración adecuada de frutas, lácteos y bebidas son aspectos críticos para garantizar la inocuidad.
-              div(titulo="Cocinas institucionales como las de colegios, hospitales, universidades y empresas:").p-4
-                p donde se preparan grandes volúmenes de alimentos destinados a poblaciones vulnerables. En estos espacios, el cumplimiento de las BPM adquiere una importancia aún mayor, ya que cualquier falla puede afectar a un número significativo de personas.
-              div(titulo="Plazas de mercado y puestos callejeros:").p-4
-                p cuya implementación de las BPM representa un reto considerable debido a las condiciones ambientales, el acceso limitado a servicios básicos y la exposición constante al polvo, los insectos y la manipulación directa por parte del público. Aun así, estos establecimientos también están sujetos al cumplimiento de la normativa sanitaria.
-              div(titulo="Servicios de <em>catering</em> y <em>food trucks</em>:").p-4
-                p que deben garantizar la inocuidad durante el transporte, la conservación y la distribución de los alimentos, controlando especialmente la temperatura y el tiempo de exposición de los productos preparados.
+              div(titulo="Restaurantes y fondas").p-4
+                p Que van desde establecimientos de alta cocina en ciudades principales hasta fondas de carretera que ofrecen platos tradicionales como sancocho o bandeja paisa. En estos lugares, el control de la higiene personal, la separación de alimentos crudos y cocidos y la correcta cocción son factores determinantes para prevenir la contaminación.
+              div(titulo="Panaderías y pastelerías").p-4
+                p Donde se manipulan harinas, huevos, lácteos y rellenos que requieren controles estrictos de higiene, temperatura y almacenamiento, debido a la facilidad con la que estos productos pueden contaminarse si no se conservan adecuadamente.
+              div(titulo="Juguerías, cafeterías y puestos de comida rápida").p-4
+                p En los que el manejo del agua potable, la limpieza permanente de utensilios y la refrigeración adecuada de frutas, lácteos y bebidas son aspectos críticos para garantizar la inocuidad.
+              div(titulo="Cocinas institucionales como las de colegios, hospitales, universidades y empresas").p-4
+                p Donde se preparan grandes volúmenes de alimentos destinados a poblaciones vulnerables. En estos espacios, el cumplimiento de las BPM adquiere una importancia aún mayor, ya que cualquier falla puede afectar a un número significativo de personas.
+              div(titulo="Plazas de mercado y puestos callejeros").p-4
+                p Cuya implementación de las BPM representa un reto considerable debido a las condiciones ambientales, el acceso limitado a servicios básicos y la exposición constante al polvo, los insectos y la manipulación directa por parte del público. Aun así, estos establecimientos también están sujetos al cumplimiento de la normativa sanitaria.
+              div(titulo="Servicios de <em>catering</em> y <em>food trucks</em>").p-4
+                p Que deben garantizar la inocuidad durante el transporte, la conservación y la distribución de los alimentos, controlando especialmente la temperatura y el tiempo de exposición de los productos preparados.
             
     .container
       .row.justify-content-center.mb-4
@@ -247,7 +245,8 @@
           span Clasificación de peligros biológicos, químicos y físicos
         .tabla-a.color-acento-contenido
           table
-            caption Nota. Adaptado de Código Internacional Recomendado de Prácticas – Principios Generales de Higiene de los Alimentos (CAC/RCP 39-1993), por la <em>Codex Alimentarius</em> (1993), y del Decreto 3075 (1997).
+            caption 
+              p Nota. Adaptado de Código Internacional Recomendado de Prácticas – Principios Generales de Higiene de los Alimentos (CAC/RCP 39-1993), por la <em>Codex Alimentarius</em> (1993), y del Decreto 3075 (1997).
             thead
               tr
                 th Tipo de peligro
@@ -259,7 +258,7 @@
                 td <b>Biológico.</b>
                 td <i>Salmonella spp., E. coli, Norovirus</i>, Hepatitis A.
                 td Pollo crudo (para ajiaco/sancocho), huevos, leche no pasteurizada, verduras de hoja regadas con agua contaminada (para ensaladas), mariscos crudos (para cóctel), manipulador enfermo.
-                td Cocción adecuada (> 74°C para aves), pasteurización, lavado y desinfección de vegetales, lavado riguroso de manos, exclusión de personal enfermo.
+                td Cocción adecuada (> 74 °C para aves), pasteurización, lavado y desinfección de vegetales, lavado riguroso de manos, exclusión de personal enfermo.
               tr
                 td <b>Químico.</b>
                 td Residuos de detergentes/ desinfectantes, alérgenos no declarados (gluten, maní, lácteos), toxinas naturales (solanina en papas verdes), plaguicidas en vegetales.
@@ -300,7 +299,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
         .row.justify-content-center.align-items-center
-          .col-auto.titulo-sexto.color-acento-contenido
+          .col-12.titulo-sexto.color-acento-contenido
             h5 
               b Figura 3.
             span Identificación de los tipos de contaminación
@@ -309,8 +308,7 @@
               img(src="@/assets/curso/tema2/img22.png", alt="En la figura 3 se describen los diferentes tipos de contaminación cruzada: directa o indirecta; contaminación cruzada directa: se presenta cuando existe contacto físico entre un alimento contaminado, generalmente crudo, y un alimento que ya está listo para ser consumido sin necesidad de cocción adicional, por ejemplo cuando los jugos de carne cruda en el refrigerador entran en contacto con arepas, papas u otros alimentos cocidos y los microorganismos se transfieren convirtiéndolos en un riesgo para la salud; contaminación cruzada indirecta: ocurre cuando la transferencia del peligro se realiza a través de un elemento intermediario o “vehículo contaminado”, como utensilios (usar el mismo cuchillo o tenedor para pollo crudo y luego verduras sin lavarlo), superficies (utilizar la misma tabla para alimentos crudos y cocidos sin desinfectarla), manos (tocar dinero, basura o alimentos crudos y después manipular alimentos listos sin lavarse) y equipos (usar la licuadora para diferentes preparaciones sin limpiarla previamente). Nota. SENA, 2026.").d-none.d-lg-block.d-md-block
               img(src="@/assets/curso/tema2/img22m.png", alt="En la figura 3 se describen los diferentes tipos de contaminación cruzada: directa o indirecta; contaminación cruzada directa: se presenta cuando existe contacto físico entre un alimento contaminado, generalmente crudo, y un alimento que ya está listo para ser consumido sin necesidad de cocción adicional, por ejemplo cuando los jugos de carne cruda en el refrigerador entran en contacto con arepas, papas u otros alimentos cocidos y los microorganismos se transfieren convirtiéndolos en un riesgo para la salud; contaminación cruzada indirecta: ocurre cuando la transferencia del peligro se realiza a través de un elemento intermediario o “vehículo contaminado”, como utensilios (usar el mismo cuchillo o tenedor para pollo crudo y luego verduras sin lavarlo), superficies (utilizar la misma tabla para alimentos crudos y cocidos sin desinfectarla), manos (tocar dinero, basura o alimentos crudos y después manipular alimentos listos sin lavarse) y equipos (usar la licuadora para diferentes preparaciones sin limpiarla previamente). Nota. SENA, 2026.").d-block.d-lg-none.d-md-none
               figcaption
-                b Nota. 
-                | SENA, 2026.
+                p Nota. SENA, 2026.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10

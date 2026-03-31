@@ -22,7 +22,7 @@ export default {
       introduccion:
         '<b> Objetivo:</b> evaluar y reforzar la capacidad del aprendiz para identificar conceptos, normas, prácticas correctas e incorrectas, y elementos propios de las Buenas Prácticas de Manufactura, de acuerdo con los contenidos desarrollados en el componente.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
@@ -44,7 +44,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. El Decreto 3075 de 1997, reglamentario de la Ley 9 de 1979, es la norma que especifica las condiciones sanitarias y de Buenas Prácticas de Manufactura que deben cumplir los establecimientos de alimentos',
+            'Correcto. El Decreto 3075 de 1997, reglamentario de la Ley 9 de 1979, es la norma que especifica las condiciones sanitarias y de Buenas Prácticas de Manufactura que deben cumplir los establecimientos de alimentos.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -350,7 +350,7 @@ export default {
         {
           id: 15,
           texto:
-            'La limpieza y la desinfección son procesos diferentes; la limpieza remueve la suciedad y la desinfección reduce los microorganismos',
+            'La limpieza y la desinfección son procesos diferentes; la limpieza remueve la suciedad y la desinfección reduce los microorganismos.',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [

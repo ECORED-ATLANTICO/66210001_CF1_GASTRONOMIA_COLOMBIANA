@@ -258,7 +258,7 @@ export default {
         {
           id: 11,
           texto:
-            'La temperatura interna segura para cocinar pollo y asegurar la destrucción de patógenos es de 74°C.',
+            'La temperatura interna segura para cocinar pollo y asegurar la destrucción de patógenos es de 74 °C.',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
@@ -419,7 +419,7 @@ export default {
         {
           id: 18,
           texto:
-            'Es obligatorio que los manipuladores de alimentos usen guantes de látex en todo momento durante la preparación de alimentos',
+            'Es obligatorio que los manipuladores de alimentos usen guantes de látex en todo momento durante la preparación de alimentos.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

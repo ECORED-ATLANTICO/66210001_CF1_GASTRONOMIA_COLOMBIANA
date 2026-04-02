@@ -90,7 +90,7 @@
         .tabla-a.color-acento-contenido
           table
             caption 
-              p Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
+              p Nota. Adaptado de la Ley 9 de (1979), Decreto 3075 de (1997) y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
             thead
               tr
                 th Elementos claves
@@ -175,7 +175,7 @@
         .tabla-a.color-acento-contenido
           table
             caption 
-              p Nota. Adaptado de la Ley 9 de 1979, Decreto 3075 de 1997 y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
+              p Nota. Adaptado de la Ley 9 de (1979), Decreto 3075 de (1997) y lineamientos del <em>Codex Alimentarius</em> sobre BPM y HACCP.
             thead
               tr
                 th Aspecto

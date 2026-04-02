@@ -48,7 +48,7 @@
               img(src='@/assets/curso/tema4/img03.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
               img(src='@/assets/curso/tema4/img04.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
               figcaption 
-                p Nota. SENA, 2026.      
+                p Nota. SENA, (2026).      
 
     .row.justify-content-center
       .col-md-12.col-lg-10

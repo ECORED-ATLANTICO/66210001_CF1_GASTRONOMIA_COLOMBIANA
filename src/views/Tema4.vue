@@ -21,7 +21,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-10
         #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.1. Procedimientos para el manejo higiénico de los alimentos
+          h2 4.1 Procedimientos para el manejo higiénico de los alimentos
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10.mb-3
@@ -74,7 +74,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-10
         #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.2. Criterios para la recepción y almacenamiento seguro de materias primas
+          h2 4.2 Criterios para la recepción y almacenamiento seguro de materias primas
 
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-secundario.p-3.p-sm-4.p-md-5.mb-4.mb-lg-5
       .bloque-texto-g__img(
@@ -137,7 +137,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-10
         #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.3. Medidas para prevenir la contaminación cruzada durante la preparación
+          h2 4.3 Medidas para prevenir la contaminación cruzada durante la preparación
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
@@ -268,7 +268,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-10
         #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.4. Métodos seguros para procesos térmicos
+          h2 4.4 Métodos seguros para procesos térmicos
 
 
     .container
@@ -409,7 +409,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-12
         #t_4_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.5. Tipos de residuos sólidos y sus vías de segregación y disposición
+          h2 4.5 Tipos de residuos sólidos y sus vías de segregación y disposición
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
@@ -471,7 +471,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-12
         #t_4_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.6. Equipos y utensilios: materiales aprobados y características
+          h2 4.6 Equipos y utensilios: materiales aprobados y características
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12

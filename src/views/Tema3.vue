@@ -83,7 +83,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-10
         #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 3.1. Identificación del perfil del manipulador
+          h2 3.1 Identificación del perfil del manipulador
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
@@ -144,7 +144,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-12
         #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 3.2. Prácticas de higiene personal
+          h2 3.2 Prácticas de higiene personal
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
@@ -295,7 +295,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-10
         #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 3.3. Conductas prohibidas en zonas de manipulación de alimentos
+          h2 3.3 Conductas prohibidas en zonas de manipulación de alimentos
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
@@ -330,7 +330,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-10
         #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 3.4. Protocolos básicos para el control de visitantes
+          h2 3.4 Protocolos básicos para el control de visitantes
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10

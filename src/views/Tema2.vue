@@ -47,7 +47,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-12
         #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.1. Concepto, objetivos y principios de las Buenas Prácticas de Manufactura
+          h2 2.1 Concepto, objetivos y principios de las Buenas Prácticas de Manufactura
 
     .row.justify-content-center
       .col-md-12.col-lg-12
@@ -113,7 +113,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-10
         #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.2. Aplicación de las BPM en diferentes establecimientos de alimentos
+          h2 2.2 Aplicación de las BPM en diferentes establecimientos de alimentos
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
@@ -195,7 +195,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-10
         #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.3. Clasificación de peligros, biológicos, químicos y físicos
+          h2 2.3 Clasificación de peligros, biológicos, químicos y físicos
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10.mb-4
@@ -275,7 +275,7 @@
     .row.justify-content-center
       .col-md-12.col-lg-12
         #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.4. Concepto de contaminación cruzada y sus vías
+          h2 2.4 Concepto de contaminación cruzada y sus vías
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12

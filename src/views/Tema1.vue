@@ -344,7 +344,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img27.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Identificar la diferencia entre el rol del INVIMA y el de las autoridades locales es crucial para los profesionales de la gastronomía. Por ejemplo, cuando un inspector visita una cocina en Medellín, representa a la secretaría de salud municipal, no al INVIMA, y sus observaciones y posibles sanciones se fundamentan en normas de alcance local y nacional. Por otro lado, un producto envasado que requiera registro sanitario debe tramitarse ante el INVIMA, siguiendo un proceso técnico y administrativo diferente.
+            p.mb-0 Identificar la diferencia entre el rol del INVIMA y el de las autoridades locales es crucial para los profesionales de la gastronomía. Por ejemplo, cuando un inspector visita una cocina en Medellín, representa a la Secretaría de Salud Municipal, no al INVIMA, y sus observaciones y posibles sanciones se fundamentan en normas de alcance local y nacional. Por otro lado, un producto envasado que requiera registro sanitario debe tramitarse ante el INVIMA, siguiendo un proceso técnico y administrativo diferente.
     
     .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-10

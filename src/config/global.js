@@ -322,7 +322,7 @@ export default {
       referencia:
         'Congreso de Colombia. (24 de enero de 1979). <em>Ley 9 de 1979, por la cual se dictan medidas sanitarias</em>. Diario Oficial No. 35308.',
       link:
-        'https://www.minsalud.gov.co/Normatividad_Nuevo/ley%200009%20de%201979.pdf',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1177',
     },
     {
       referencia:
@@ -353,7 +353,7 @@ export default {
       referencia:
         'Ministerio de Salud. (10 de diciembre de 1997). <em>Decreto 3075 de 1997, por el cual se reglamenta parcialmente la Ley 9 de 1979 y se dictan otras disposiciones</em>. Diario Oficial No. 43246.',
       link:
-        'https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%203075%20DE%201997.pdf',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3337',
     },
     {
       referencia:
@@ -372,12 +372,12 @@ export default {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
             'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
-          cargo: 'Responsable de la línea de producción',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },

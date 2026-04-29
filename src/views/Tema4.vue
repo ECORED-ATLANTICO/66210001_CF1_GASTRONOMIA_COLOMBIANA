@@ -45,10 +45,10 @@
             span Etapas del manejo higiénico de los alimentos
           .col-12.col-md-12.col-lg-12
             figure.mb-4
-              img(src='@/assets/curso/tema4/img03.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-none.d-lg-block.d-md-block
-              img(src='@/assets/curso/tema4/img04.svg', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto.d-block.d-lg-none.d-md-none
+              img(src='@/assets/curso/tema4/img03.svg', alt='El manejo higiénico comienza con la recepción de las materias primas. En la recepción se verifica el estado de los alimentos, empaques, fechas y transporte; luego, en el almacenamiento, se clasifican los productos, se mantiene la cadena de frío y se aplica el principio PEPS. Posteriormente, durante la preparación y cocción, se deben aplicar práctica seguras como el lavado frecuente de manos, el uso de utensilios diferenciados para alimentos crudos y cocidos, y la cocción completa de carnes, aves y pescados. En la etapa de servicio, el alimento debe protegerse del ambiente, de superficie sucias y de la manipulación sin higiene para evitar su contaminación. Finalmente, la disposición de residuos cierra el ciclo sanitario, evitando la acumulación de desechos que puedan atraer plagas o generar focos de contaminación.').mx-auto.d-none.d-lg-block.d-md-block
+              img(src='@/assets/curso/tema4/img04.svg', alt='El manejo higiénico comienza con la recepción de las materias primas. En la recepción se verifica el estado de los alimentos, empaques, fechas y transporte; luego, en el almacenamiento, se clasifican los productos, se mantiene la cadena de frío y se aplica el principio PEPS. Posteriormente, durante la preparación y cocción, se deben aplicar práctica seguras como el lavado frecuente de manos, el uso de utensilios diferenciados para alimentos crudos y cocidos, y la cocción completa de carnes, aves y pescados. En la etapa de servicio, el alimento debe protegerse del ambiente, de superficie sucias y de la manipulación sin higiene para evitar su contaminación. Finalmente, la disposición de residuos cierra el ciclo sanitario, evitando la acumulación de desechos que puedan atraer plagas o generar focos de contaminación.').mx-auto.d-block.d-lg-none.d-md-none
               figcaption 
-                p Nota. SENA, (2026).      
+                p.mb-0 Nota. SENA, (2026).      
 
     .row.justify-content-center
       .col-md-12.col-lg-10

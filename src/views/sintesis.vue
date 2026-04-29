@@ -18,7 +18,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Este componente formativo Buenas Prácticas de Manufactura en la cocina colombiana proporciona las bases conceptuales y normativas para que el aprendiz desarrolle la capacidad de identificar los elementos clave de las BPM en el ámbito gastronómico nacional. Su recorrido formativo inicia con el marco legal colombiano y la clasificación de peligros, se adentra en los requisitos del personal manipulador y finaliza con los procedimientos para el manejo higiénico de los alimentos, y conforma un sistema de conocimiento integral. Su apropiación es el cimiento sobre el cual se construye la aplicación práctica de la norma para garantizar la inocuidad como pilar fundamental de la gastronomía profesional.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
